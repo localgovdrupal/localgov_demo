@@ -9,3 +9,13 @@ dependencies:
   - localgov_services:localgov_services_landing
   - localgov_services:localgov_services_page
   - localgov_services:localgov_services_sublanding
+
+default_content:
+  node:
+    - c1d9f01d-c368-4db3-a4ec-c882d217781b
+    - 1c9e5aaf-5ff8-4f96-9c6b-5d8626069a42
+    - 57b46ceb-20d3-45cc-9f9b-2bf2a6561c78
+  taxonomy_term:
+    - acfb5e02-f92b-4822-9f09-d5802314dd52
+    - df8a65ea-700c-4820-b12b-c81ccac0dd6c
+    - 97c27765-27bb-4036-9dd5-abd4d85673d0
