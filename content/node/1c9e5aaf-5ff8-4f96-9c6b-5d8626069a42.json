@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localgov.lndo.site\/node\/1\/service-sub-landing-test\/service-page?_format=hal_json"
+            "href": "http:\/\/localgov.lndo.site\/service-sub-landing-test\/service-page?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_page"
@@ -95,7 +95,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "feab3dd4-d26f-4de9-81dd-2987d4680ae0"
+                        "value": "466cce62-4574-4e42-8b63-a268843707b3"
                     }
                 ]
             }
@@ -112,7 +112,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "feab3dd4-d26f-4de9-81dd-2987d4680ae0"
+                        "value": "466cce62-4574-4e42-8b63-a268843707b3"
                     }
                 ],
                 "lang": "en"
@@ -287,8 +287,8 @@
     ],
     "path": [
         {
-            "alias": "\/node\/1\/service-sub-landing-test\/service-page",
-            "pid": 1,
+            "alias": "\/service-sub-landing-test\/service-page",
+            "pid": 4,
             "langcode": "en",
             "lang": "en"
         }

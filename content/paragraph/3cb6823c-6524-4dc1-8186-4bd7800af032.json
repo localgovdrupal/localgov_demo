@@ -1,0 +1,117 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/topic_list_builder"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/topic_list_builder\/topic_list_term": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/topic\/garden-waste?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3cb6823c-6524-4dc1-8186-4bd7800af032"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 2
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "topic_list_builder"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-05T13:31:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "3"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_topics"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "topic_list_header": [
+        {
+            "value": "Test page",
+            "lang": "en"
+        }
+    ],
+    "topic_list_links": [
+        {
+            "uri": "entity:node\/2",
+            "title": "Test service page",
+            "options": []
+        },
+        {
+            "uri": "https:\/\/exmaple.com\/",
+            "title": "Example external link",
+            "options": []
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/topic_list_builder\/topic_list_term": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/topic\/garden-waste?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/topic"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acfb5e02-f92b-4822-9f09-d5802314dd52"
+                    }
+                ]
+            }
+        ]
+    }
+}
