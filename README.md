@@ -1,2 +1,4 @@
-# localgov_demo
-Demo LocalGovDrupal content for demonstrating the profile and to help with development.
+# LocalGovDrupal demonstration module
+
+Example content for demonstrating the LocalGovDrupal distribution and to help
+with development.
