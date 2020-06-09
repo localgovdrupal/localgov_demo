@@ -8,23 +8,23 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/topic_list_builder\/topic_list_term": [
             {
-                "href": "http:\/\/localgov.lndo.site\/topic\/garden-waste?_format=hal_json"
+                "href": "http:\/\/localgov.lndo.site\/topic\/parks-and-gardens?_format=hal_json"
             }
         ]
     },
     "id": [
         {
-            "value": 1
+            "value": 2
         }
     ],
     "uuid": [
         {
-            "value": "3cb6823c-6524-4dc1-8186-4bd7800af032"
+            "value": "dedb1506-bf23-4364-a189-ac2b4112e08e"
         }
     ],
     "revision_id": [
         {
-            "value": 9
+            "value": 7
         }
     ],
     "langcode": [
@@ -46,14 +46,14 @@
     ],
     "created": [
         {
-            "value": "2020-06-05T13:31:24+00:00",
+            "value": "2020-06-09T16:31:17+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "3"
+            "value": "6"
         }
     ],
     "parent_type": [
@@ -77,9 +77,15 @@
             "lang": "en"
         }
     ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
     "topic_list_header": [
         {
-            "value": "Test page",
+            "value": "Child pages",
             "lang": "en"
         }
     ],
@@ -100,7 +106,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/topic\/garden-waste?_format=hal_json"
+                        "href": "http:\/\/localgov.lndo.site\/topic\/parks-and-gardens?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/topic"
@@ -108,7 +114,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "acfb5e02-f92b-4822-9f09-d5802314dd52"
+                        "value": "df8a65ea-700c-4820-b12b-c81ccac0dd6c"
                     }
                 ]
             }

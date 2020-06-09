@@ -1,0 +1,204 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localgov.lndo.site\/test-service\/another-service-landing-page?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_sublanding"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_sublanding\/revision_uid": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_sublanding\/uid": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_sublanding\/field_topics": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_sublanding\/localgov_services_parent": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/test-service?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "57297753-c989-4358-8133-d5a8ba197544"
+        }
+    ],
+    "vid": [
+        {
+            "value": 23
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "localgov_services_sublanding"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-06-09T16:44:57+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_sublanding\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8e73cbc3-1b23-4934-9803-cce4d786129e"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_sublanding\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8e73cbc3-1b23-4934-9803-cce4d786129e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_sublanding\/field_topics": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/topic_list_builder"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dedb1506-bf23-4364-a189-ac2b4112e08e"
+                    }
+                ],
+                "target_revision_id": "7"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_sublanding\/localgov_services_parent": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/test-service?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_landing"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c1d9f01d-c368-4db3-a4ec-c882d217781b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Another service landing page",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-09T16:30:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-09T16:44:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/test-service\/another-service-landing-page",
+            "pid": 5,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": " Quisque eu odio odio. Nullam eleifend varius neque. Sed posuere purus quis neque porttitor interdum molestie sed tellus. Praesent sed dolor sed turpis tincidunt fringilla at in metus. Morbi porta tortor ac felis placerat, nec sodales justo tincidunt. Nullam magna sem, ultrices a facilisis a, accumsan in purus. Fusce egestas tellus a odio porta, quis cursus nisl tempor. Aenean tincidunt lorem et neque tristique, eget ornare tellus accumsan. Vivamus sed tincidunt mi.\r\n\r\nAenean ut porta mi. Nulla laoreet semper erat, et scelerisque orci facilisis nec. In nec risus eu sapien lacinia porttitor a eget nunc. Etiam maximus enim nec imperdiet hendrerit. Vivamus finibus massa risus, in vulputate massa placerat quis. Suspendisse neque sem, dapibus eget tempor a, commodo fringilla orci. Praesent ut luctus purus. Maecenas at neque at orci tincidunt lacinia. Aliquam sit amet luctus orci. Cras quis turpis quis urna imperdiet interdum ac aliquet ligula. Sed sagittis commodo velit, a gravida neque rutrum sit amet.\r\n\r\nVestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar. Etiam vitae quam sit amet ligula eleifend congue. Quisque sit amet ipsum non erat auctor interdum. Aenean vel sapien nisl. Quisque efficitur aliquet tristique. Sed sodales arcu porta, finibus justo vel, posuere nunc. Etiam iaculis sem sit amet dictum sodales. Maecenas vitae egestas ex. Quisque rhoncus et massa eget pretium. ",
+            "format": "plain_text",
+            "processed": "<p>Quisque eu odio odio. Nullam eleifend varius neque. Sed posuere purus quis neque porttitor interdum molestie sed tellus. Praesent sed dolor sed turpis tincidunt fringilla at in metus. Morbi porta tortor ac felis placerat, nec sodales justo tincidunt. Nullam magna sem, ultrices a facilisis a, accumsan in purus. Fusce egestas tellus a odio porta, quis cursus nisl tempor. Aenean tincidunt lorem et neque tristique, eget ornare tellus accumsan. Vivamus sed tincidunt mi.<\/p>\n<p>Aenean ut porta mi. Nulla laoreet semper erat, et scelerisque orci facilisis nec. In nec risus eu sapien lacinia porttitor a eget nunc. Etiam maximus enim nec imperdiet hendrerit. Vivamus finibus massa risus, in vulputate massa placerat quis. Suspendisse neque sem, dapibus eget tempor a, commodo fringilla orci. Praesent ut luctus purus. Maecenas at neque at orci tincidunt lacinia. Aliquam sit amet luctus orci. Cras quis turpis quis urna imperdiet interdum ac aliquet ligula. Sed sagittis commodo velit, a gravida neque rutrum sit amet.<\/p>\n<p>Vestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar. Etiam vitae quam sit amet ligula eleifend congue. Quisque sit amet ipsum non erat auctor interdum. Aenean vel sapien nisl. Quisque efficitur aliquet tristique. Sed sodales arcu porta, finibus justo vel, posuere nunc. Etiam iaculis sem sit amet dictum sodales. Maecenas vitae egestas ex. Quisque rhoncus et massa eget pretium.<\/p>\n",
+            "summary": "Morbi porta tortor ac felis placerat, nec sodales justo tincidunt. Nullam magna sem, ultrices a facilisis a, accumsan in purus. Fusce egestas tellus a odio porta, quis cursus nisl tempor. ",
+            "lang": "en"
+        }
+    ]
+}

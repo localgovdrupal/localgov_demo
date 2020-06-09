@@ -8,15 +8,20 @@ dependencies:
   - default_content:default_content
   - localgov_services:localgov_services_landing
   - localgov_services:localgov_services_page
+  - localgov_services:localgov_services_status
   - localgov_services:localgov_services_sublanding
 
 default_content:
   node:
     - c1d9f01d-c368-4db3-a4ec-c882d217781b
-    - 1c9e5aaf-5ff8-4f96-9c6b-5d8626069a42
     - 57b46ceb-20d3-45cc-9f9b-2bf2a6561c78
+    - 1c9e5aaf-5ff8-4f96-9c6b-5d8626069a42
+    - 0f29853b-19d5-4379-809f-ff9adbecb98a
+    - ad1ccdcc-6094-4b76-b5c7-fabca435f3b0
+    - 57297753-c989-4358-8133-d5a8ba197544
   paragraph:
     - 3cb6823c-6524-4dc1-8186-4bd7800af032
+    - dedb1506-bf23-4364-a189-ac2b4112e08e
   taxonomy_term:
     - acfb5e02-f92b-4822-9f09-d5802314dd52
     - df8a65ea-700c-4820-b12b-c81ccac0dd6c
