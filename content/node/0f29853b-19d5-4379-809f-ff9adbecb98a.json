@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localgov.lndo.site\/node\/4?_format=hal_json"
+            "href": "http:\/\/localgov.lndo.site\/test-service\/test-service-has-some-problems?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_status"
@@ -36,7 +36,7 @@
     ],
     "vid": [
         {
-            "value": 15
+            "value": 40
         }
     ],
     "langcode": [
@@ -52,7 +52,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2020-06-09T15:45:41+00:00",
+            "value": "2020-06-11T13:40:56+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -69,7 +69,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "8e73cbc3-1b23-4934-9803-cce4d786129e"
+                        "value": "ccb002c2-f601-4744-8bbf-b22ec8a54412"
                     }
                 ]
             }
@@ -86,7 +86,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "8e73cbc3-1b23-4934-9803-cce4d786129e"
+                        "value": "ccb002c2-f601-4744-8bbf-b22ec8a54412"
                     }
                 ],
                 "lang": "en"
@@ -132,7 +132,7 @@
     ],
     "changed": [
         {
-            "value": "2020-06-09T15:45:41+00:00",
+            "value": "2020-06-11T13:40:56+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -155,16 +155,10 @@
             "lang": "en"
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "en"
-        }
-    ],
     "path": [
         {
-            "alias": null,
-            "pid": null,
+            "alias": "\/test-service\/test-service-has-some-problems",
+            "pid": 9,
             "langcode": "en",
             "lang": "en"
         }
@@ -174,7 +168,7 @@
             "value": "Vestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar. Etiam vitae quam sit amet ligula eleifend congue. Quisque sit amet ipsum non erat auctor interdum. Aenean vel sapien nisl. Quisque efficitur aliquet tristique. Sed sodales arcu porta, finibus justo vel, posuere nunc. Etiam iaculis sem sit amet dictum sodales. Maecenas vitae egestas ex. Quisque rhoncus et massa eget pretium. ",
             "format": "plain_text",
             "processed": "<p>Vestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar. Etiam vitae quam sit amet ligula eleifend congue. Quisque sit amet ipsum non erat auctor interdum. Aenean vel sapien nisl. Quisque efficitur aliquet tristique. Sed sodales arcu porta, finibus justo vel, posuere nunc. Etiam iaculis sem sit amet dictum sodales. Maecenas vitae egestas ex. Quisque rhoncus et massa eget pretium.<\/p>\n",
-            "summary": "",
+            "summary": "Vestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar.",
             "lang": "en"
         }
     ],

@@ -5,12 +5,7 @@
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/topic_list_builder"
-        },
-        "http:\/\/drupal.org\/rest\/relation\/paragraph\/topic_list_builder\/topic_list_term": [
-            {
-                "href": "http:\/\/localgov.lndo.site\/topic\/garden-waste?_format=hal_json"
-            }
-        ]
+        }
     },
     "id": [
         {
@@ -24,7 +19,7 @@
     ],
     "revision_id": [
         {
-            "value": 9
+            "value": 14
         }
     ],
     "langcode": [
@@ -77,9 +72,15 @@
             "lang": "en"
         }
     ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
     "topic_list_header": [
         {
-            "value": "Test page",
+            "value": "Test listing header",
             "lang": "en"
         }
     ],
@@ -94,24 +95,5 @@
             "title": "Example external link",
             "options": []
         }
-    ],
-    "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/paragraph\/topic_list_builder\/topic_list_term": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/localgov.lndo.site\/topic\/garden-waste?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/topic"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "acfb5e02-f92b-4822-9f09-d5802314dd52"
-                    }
-                ]
-            }
-        ]
-    }
+    ]
 }

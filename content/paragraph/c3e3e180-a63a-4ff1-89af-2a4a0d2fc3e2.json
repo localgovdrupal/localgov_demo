@@ -8,23 +8,23 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/topic_list_builder\/topic_list_term": [
             {
-                "href": "http:\/\/localgov.lndo.site\/topic\/parks-and-gardens?_format=hal_json"
+                "href": "http:\/\/localgov.lndo.site\/topic\/garden-waste?_format=hal_json"
             }
         ]
     },
     "id": [
         {
-            "value": 2
+            "value": 3
         }
     ],
     "uuid": [
         {
-            "value": "dedb1506-bf23-4364-a189-ac2b4112e08e"
+            "value": "c3e3e180-a63a-4ff1-89af-2a4a0d2fc3e2"
         }
     ],
     "revision_id": [
         {
-            "value": 11
+            "value": 15
         }
     ],
     "langcode": [
@@ -46,14 +46,14 @@
     ],
     "created": [
         {
-            "value": "2020-06-09T16:31:17+00:00",
+            "value": "2020-06-11T14:52:40+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "6"
+            "value": "3"
         }
     ],
     "parent_type": [
@@ -77,21 +77,10 @@
             "lang": "en"
         }
     ],
-    "topic_list_header": [
-        {
-            "value": "Child pages",
-            "lang": "en"
-        }
-    ],
     "topic_list_links": [
         {
-            "uri": "entity:node\/2",
-            "title": "Test service page",
-            "options": []
-        },
-        {
-            "uri": "https:\/\/example.com\/",
-            "title": "Example external link",
+            "uri": "entity:node\/5",
+            "title": "",
             "options": []
         }
     ],
@@ -100,7 +89,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/topic\/parks-and-gardens?_format=hal_json"
+                        "href": "http:\/\/localgov.lndo.site\/topic\/garden-waste?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/topic"
@@ -108,7 +97,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "df8a65ea-700c-4820-b12b-c81ccac0dd6c"
+                        "value": "acfb5e02-f92b-4822-9f09-d5802314dd52"
                     }
                 ]
             }
