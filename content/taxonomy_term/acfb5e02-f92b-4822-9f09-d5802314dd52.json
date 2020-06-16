@@ -1,12 +1,12 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localgov.lndo.site\/topic\/garden-waste?_format=hal_json"
+            "href": "http:\/\/localgov.lndo.site\/localgov_topic\/garden-waste?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/topic"
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/localgov_topic"
         },
-        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/topic\/parent": [
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/localgov_topic\/parent": [
             null
         ]
     },
@@ -33,7 +33,7 @@
     ],
     "vid": [
         {
-            "target_id": "topic"
+            "target_id": "localgov_topic"
         }
     ],
     "revision_created": [
@@ -60,7 +60,7 @@
         }
     ],
     "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/topic\/parent": [
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/localgov_topic\/parent": [
             null
         ]
     },
@@ -85,7 +85,7 @@
     ],
     "path": [
         {
-            "alias": "\/topic\/garden-waste",
+            "alias": "\/localgov_topic\/garden-waste",
             "pid": 1,
             "langcode": "en",
             "lang": "en"

@@ -1,12 +1,12 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localgov.lndo.site\/topic\/parks-and-gardens?_format=hal_json"
+            "href": "http:\/\/localgov.lndo.site\/localgov_topic\/parks-and-gardens?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/topic"
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/localgov_topic"
         },
-        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/topic\/parent": [
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/localgov_topic\/parent": [
             null
         ]
     },
@@ -33,7 +33,7 @@
     ],
     "vid": [
         {
-            "target_id": "topic"
+            "target_id": "localgov_topic"
         }
     ],
     "revision_created": [
@@ -60,7 +60,7 @@
         }
     ],
     "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/topic\/parent": [
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/localgov_topic\/parent": [
             null
         ]
     },
@@ -85,7 +85,7 @@
     ],
     "path": [
         {
-            "alias": "\/topic\/parks-and-gardens",
+            "alias": "\/localgov_topic\/parks-and-gardens",
             "pid": 3,
             "langcode": "en",
             "lang": "en"

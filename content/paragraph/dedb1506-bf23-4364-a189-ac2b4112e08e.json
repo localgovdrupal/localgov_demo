@@ -8,7 +8,7 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/topic_list_builder\/topic_list_term": [
             {
-                "href": "http:\/\/localgov.lndo.site\/topic\/parks-and-gardens?_format=hal_json"
+                "href": "http:\/\/localgov.lndo.site\/localgov_topic\/parks-and-gardens?_format=hal_json"
             }
         ]
     },
@@ -100,10 +100,10 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/topic\/parks-and-gardens?_format=hal_json"
+                        "href": "http:\/\/localgov.lndo.site\/localgov_topic\/parks-and-gardens?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/topic"
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/localgov_topic"
                     }
                 },
                 "uuid": [

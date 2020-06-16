@@ -30,10 +30,10 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/field_popular_topics": [
             {
-                "href": "http:\/\/localgov.lndo.site\/topic\/garden-waste?_format=hal_json"
+                "href": "http:\/\/localgov.lndo.site\/localgov_topic\/garden-waste?_format=hal_json"
             },
             {
-                "href": "http:\/\/localgov.lndo.site\/topic\/parks-and-gardens?_format=hal_json"
+                "href": "http:\/\/localgov.lndo.site\/localgov_topic\/parks-and-gardens?_format=hal_json"
             }
         ]
     },
@@ -156,10 +156,10 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/topic\/garden-waste?_format=hal_json"
+                        "href": "http:\/\/localgov.lndo.site\/localgov_topic\/garden-waste?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/topic"
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/localgov_topic"
                     }
                 },
                 "uuid": [
@@ -171,10 +171,10 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/topic\/parks-and-gardens?_format=hal_json"
+                        "href": "http:\/\/localgov.lndo.site\/localgov_topic\/parks-and-gardens?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/topic"
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/localgov_topic"
                     }
                 },
                 "uuid": [
