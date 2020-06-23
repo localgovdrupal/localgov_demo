@@ -7,10 +7,12 @@ package: LocalGovDrupal
 dependencies:
   - default_content:default_content
   - localgov_core:localgov_media
+  - localgov_guides:localgov_guides
   - localgov_services:localgov_services_landing
   - localgov_services:localgov_services_page
   - localgov_services:localgov_services_status
   - localgov_services:localgov_services_sublanding
+  - localgov_step_by_step:localgov_step_by_step
 
 default_content:
   node:
