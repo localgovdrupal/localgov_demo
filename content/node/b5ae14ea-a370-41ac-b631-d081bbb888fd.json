@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localgov.lndo.site\/test-service\/status\/test-service-has-some-problems?_format=hal_json"
+            "href": "http:\/\/localgov.lndo.site\/births-deaths-marriages-and-citizenship\/status\/registry-office-closed-until-further-notice?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_status"
@@ -19,24 +19,24 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_status\/localgov_services_parent": [
             {
-                "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care?_format=hal_json",
+                "href": "http:\/\/localgov.lndo.site\/births-deaths-marriages-and-citizenship?_format=hal_json",
                 "lang": "en"
             }
         ]
     },
     "nid": [
         {
-            "value": 4
+            "value": 14
         }
     ],
     "uuid": [
         {
-            "value": "0f29853b-19d5-4379-809f-ff9adbecb98a"
+            "value": "b5ae14ea-a370-41ac-b631-d081bbb888fd"
         }
     ],
     "vid": [
         {
-            "value": 40
+            "value": 56
         }
     ],
     "langcode": [
@@ -52,7 +52,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2020-06-11T13:40:56+00:00",
+            "value": "2020-06-23T16:56:44+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -96,7 +96,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care?_format=hal_json"
+                        "href": "http:\/\/localgov.lndo.site\/births-deaths-marriages-and-citizenship?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_landing"
@@ -104,7 +104,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "c1d9f01d-c368-4db3-a4ec-c882d217781b"
+                        "value": "638fe726-4b86-48e5-8d0c-fb24f83bfa5b"
                     }
                 ],
                 "lang": "en"
@@ -119,20 +119,20 @@
     ],
     "title": [
         {
-            "value": "Test service has some problems",
+            "value": "Registry office is closed until further notice",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2020-06-09T15:21:09+00:00",
+            "value": "2020-06-23T16:56:26+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2020-06-11T13:40:56+00:00",
+            "value": "2020-06-23T16:56:44+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -163,18 +163,18 @@
     ],
     "path": [
         {
-            "alias": "\/test-service\/status\/test-service-has-some-problems",
-            "pid": 7,
+            "alias": "\/births-deaths-marriages-and-citizenship\/status\/registry-office-closed-until-further-notice",
+            "pid": 16,
             "langcode": "en",
             "lang": "en"
         }
     ],
     "body": [
         {
-            "value": "Vestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar. Etiam vitae quam sit amet ligula eleifend congue. Quisque sit amet ipsum non erat auctor interdum. Aenean vel sapien nisl. Quisque efficitur aliquet tristique. Sed sodales arcu porta, finibus justo vel, posuere nunc. Etiam iaculis sem sit amet dictum sodales. Maecenas vitae egestas ex. Quisque rhoncus et massa eget pretium. ",
-            "format": "plain_text",
-            "processed": "<p>Vestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar. Etiam vitae quam sit amet ligula eleifend congue. Quisque sit amet ipsum non erat auctor interdum. Aenean vel sapien nisl. Quisque efficitur aliquet tristique. Sed sodales arcu porta, finibus justo vel, posuere nunc. Etiam iaculis sem sit amet dictum sodales. Maecenas vitae egestas ex. Quisque rhoncus et massa eget pretium.<\/p>\n",
-            "summary": "Vestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar.",
+            "value": "<p>All non-essential face to face registration and ceremonial services have been suspended until further notice due to the Coronavirus pandemic, including registering a birth. You will be able to register at a later date.<\/p>\r\n\r\n<p>You will not be penalised for going over the normal 42 day birth registration period if you have been unable to register a birth because of Coronavirus regulations. You can still apply for child benefit or universal credit.<\/p>\r\n",
+            "format": "wysiwyg",
+            "processed": "<p>All non-essential face to face registration and ceremonial services have been suspended until further notice due to the Coronavirus pandemic, including registering a birth. You will be able to register at a later date.<\/p>\n\n<p>You will not be penalised for going over the normal 42 day birth registration period if you have been unable to register a birth because of Coronavirus regulations. You can still apply for child benefit or universal credit.<\/p>",
+            "summary": "All non-essential face to face registration and ceremonial services have been suspended until further notice due to the Coronavirus pandemic.",
             "lang": "en"
         }
     ],

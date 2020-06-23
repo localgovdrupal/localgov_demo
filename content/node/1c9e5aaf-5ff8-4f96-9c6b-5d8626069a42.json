@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localgov.lndo.site\/test-service\/another-service-landing-page\/service-page?_format=hal_json"
+            "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/another-service-landing-page\/service-page?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_page"
@@ -17,17 +17,17 @@
                 "lang": "en"
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/localgov_services_parent": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/another-service-landing-page?_format=hal_json"
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/localgov_topic_classified": [
             {
                 "href": "http:\/\/localgov.lndo.site\/localgov_topic\/garden-waste?_format=hal_json"
             },
             {
                 "href": "http:\/\/localgov.lndo.site\/localgov_topic\/parks-and-gardens?_format=hal_json"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/localgov_services_parent": [
-            {
-                "href": "http:\/\/localgov.lndo.site\/test-service\/another-service-landing-page?_format=hal_json"
             }
         ]
     },
@@ -43,7 +43,7 @@
     ],
     "vid": [
         {
-            "value": 31
+            "value": 46
         }
     ],
     "langcode": [
@@ -59,7 +59,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2020-06-11T09:45:26+00:00",
+            "value": "2020-06-23T16:48:28+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -76,7 +76,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "ccb002c2-f601-4744-8bbf-b22ec8a54412"
+                        "value": "ea473b4b-15d5-485e-b98e-b2721164bbe8"
                     }
                 ]
             }
@@ -93,10 +93,27 @@
                 },
                 "uuid": [
                     {
-                        "value": "ccb002c2-f601-4744-8bbf-b22ec8a54412"
+                        "value": "ea473b4b-15d5-485e-b98e-b2721164bbe8"
                     }
                 ],
                 "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/localgov_services_parent": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/another-service-landing-page?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_sublanding"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "57297753-c989-4358-8133-d5a8ba197544"
+                    }
+                ]
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/localgov_topic_classified": [
@@ -130,23 +147,6 @@
                     }
                 ]
             }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/localgov_services_parent": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/localgov.lndo.site\/test-service\/another-service-landing-page?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_sublanding"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "57297753-c989-4358-8133-d5a8ba197544"
-                    }
-                ]
-            }
         ]
     },
     "status": [
@@ -170,7 +170,7 @@
     ],
     "changed": [
         {
-            "value": "2020-06-11T09:45:26+00:00",
+            "value": "2020-06-23T16:48:28+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -193,16 +193,10 @@
             "lang": "en"
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "en"
-        }
-    ],
     "path": [
         {
-            "alias": "\/test-service\/another-service-landing-page\/service-page",
-            "pid": 6,
+            "alias": "\/adult-health-and-social-care\/another-service-landing-page\/service-page",
+            "pid": 5,
             "langcode": "en",
             "lang": "en"
         }
@@ -226,7 +220,7 @@
         },
         {
             "uri": "http:\/\/example.com",
-            "title": "Example externla link",
+            "title": "Example external link",
             "options": {
                 "type": "basic"
             },

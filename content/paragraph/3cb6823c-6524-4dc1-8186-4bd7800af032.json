@@ -19,7 +19,7 @@
     ],
     "revision_id": [
         {
-            "value": 14
+            "value": 21
         }
     ],
     "langcode": [
@@ -78,21 +78,25 @@
             "lang": "en"
         }
     ],
-    "topic_list_header": [
-        {
-            "value": "Test listing header",
-            "lang": "en"
-        }
-    ],
     "topic_list_links": [
         {
-            "uri": "entity:node\/2",
-            "title": "Test service page",
+            "uri": "entity:node\/7",
+            "title": "",
             "options": []
         },
         {
-            "uri": "https:\/\/example.com\/",
-            "title": "Example external link",
+            "uri": "entity:node\/8",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "entity:node\/9",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "entity:node\/10",
+            "title": "",
             "options": []
         }
     ]

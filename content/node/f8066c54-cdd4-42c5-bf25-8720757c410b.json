@@ -1,42 +1,41 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localgov.lndo.site\/test-service\/status\/test-service-has-some-problems?_format=hal_json"
+            "href": "http:\/\/localgov.lndo.site\/births-deaths-marriages-and-citizenship\/registering-birth?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_status"
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_page"
         },
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_status\/revision_uid": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/revision_uid": [
             {
                 "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_status\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/uid": [
             {
                 "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_status\/localgov_services_parent": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/localgov_services_parent": [
             {
-                "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care?_format=hal_json",
-                "lang": "en"
+                "href": "http:\/\/localgov.lndo.site\/births-deaths-marriages-and-citizenship?_format=hal_json"
             }
         ]
     },
     "nid": [
         {
-            "value": 4
+            "value": 13
         }
     ],
     "uuid": [
         {
-            "value": "0f29853b-19d5-4379-809f-ff9adbecb98a"
+            "value": "f8066c54-cdd4-42c5-bf25-8720757c410b"
         }
     ],
     "vid": [
         {
-            "value": 40
+            "value": 55
         }
     ],
     "langcode": [
@@ -47,17 +46,17 @@
     ],
     "type": [
         {
-            "target_id": "localgov_services_status"
+            "target_id": "localgov_services_page"
         }
     ],
     "revision_timestamp": [
         {
-            "value": "2020-06-11T13:40:56+00:00",
+            "value": "2020-06-23T16:56:16+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_status\/revision_uid": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/revision_uid": [
             {
                 "_links": {
                     "self": {
@@ -74,7 +73,7 @@
                 ]
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_status\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/uid": [
             {
                 "_links": {
                     "self": {
@@ -92,11 +91,11 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_status\/localgov_services_parent": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/localgov_services_parent": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care?_format=hal_json"
+                        "href": "http:\/\/localgov.lndo.site\/births-deaths-marriages-and-citizenship?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_landing"
@@ -104,10 +103,9 @@
                 },
                 "uuid": [
                     {
-                        "value": "c1d9f01d-c368-4db3-a4ec-c882d217781b"
+                        "value": "638fe726-4b86-48e5-8d0c-fb24f83bfa5b"
                     }
-                ],
-                "lang": "en"
+                ]
             }
         ]
     },
@@ -119,20 +117,20 @@
     ],
     "title": [
         {
-            "value": "Test service has some problems",
+            "value": "Registering a birth",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2020-06-09T15:21:09+00:00",
+            "value": "2020-06-23T16:55:54+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2020-06-11T13:40:56+00:00",
+            "value": "2020-06-23T16:56:16+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -163,34 +161,28 @@
     ],
     "path": [
         {
-            "alias": "\/test-service\/status\/test-service-has-some-problems",
-            "pid": 7,
+            "alias": "\/births-deaths-marriages-and-citizenship\/registering-birth",
+            "pid": 15,
             "langcode": "en",
             "lang": "en"
         }
     ],
     "body": [
         {
-            "value": "Vestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar. Etiam vitae quam sit amet ligula eleifend congue. Quisque sit amet ipsum non erat auctor interdum. Aenean vel sapien nisl. Quisque efficitur aliquet tristique. Sed sodales arcu porta, finibus justo vel, posuere nunc. Etiam iaculis sem sit amet dictum sodales. Maecenas vitae egestas ex. Quisque rhoncus et massa eget pretium. ",
-            "format": "plain_text",
-            "processed": "<p>Vestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar. Etiam vitae quam sit amet ligula eleifend congue. Quisque sit amet ipsum non erat auctor interdum. Aenean vel sapien nisl. Quisque efficitur aliquet tristique. Sed sodales arcu porta, finibus justo vel, posuere nunc. Etiam iaculis sem sit amet dictum sodales. Maecenas vitae egestas ex. Quisque rhoncus et massa eget pretium.<\/p>\n",
-            "summary": "Vestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar.",
-            "lang": "en"
+            "value": "<p>All non-essential face to face registration and ceremonial services have been suspended until further notice due to the Coronavirus pandemic, including registering a birth. You will be able to register at a later date.<\/p>\r\n\r\n<p>You will not be penalised for going over the normal 42 day birth registration period if you have been unable to register a birth because of Coronavirus regulations. You can still apply for child benefit or universal credit.<\/p>\r\n",
+            "format": "wysiwyg",
+            "processed": "<p>All non-essential face to face registration and ceremonial services have been suspended until further notice due to the Coronavirus pandemic, including registering a birth. You will be able to register at a later date.<\/p>\n\n<p>You will not be penalised for going over the normal 42 day birth registration period if you have been unable to register a birth because of Coronavirus regulations. You can still apply for child benefit or universal credit.<\/p>",
+            "summary": "You cannot register a birth at the moment because of Coronavirus."
         }
     ],
-    "field_service_status": [
-        {
-            "value": "0-severe-impact"
-        }
-    ],
-    "field_service_status_on_landing": [
+    "field_hide_related_topics": [
         {
             "value": true
         }
     ],
-    "field_service_status_on_list": [
+    "field_override_related_links": [
         {
-            "value": true
+            "value": false
         }
     ]
 }
