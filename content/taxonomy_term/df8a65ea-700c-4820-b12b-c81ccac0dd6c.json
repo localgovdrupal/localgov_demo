@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localgov.lndo.site\/localgov_topic\/parks-and-gardens?_format=hal_json"
+            "href": "http:\/\/default\/localgov_topic\/parks-and-gardens?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/localgov_topic"
@@ -86,7 +86,7 @@
     "path": [
         {
             "alias": "\/localgov_topic\/parks-and-gardens",
-            "pid": 3,
+            "pid": 5,
             "langcode": "en",
             "lang": "en"
         }

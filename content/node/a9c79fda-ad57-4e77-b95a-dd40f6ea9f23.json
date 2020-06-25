@@ -1,25 +1,25 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/support-your-home\/home-monitoring-and-personal-alarms?_format=hal_json"
+            "href": "http:\/\/default\/adult-health-and-social-care\/support-your-home\/home-monitoring-and-personal-alarms?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_page"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/revision_uid": [
             {
-                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/uid": [
             {
-                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json",
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/localgov_services_parent": [
             {
-                "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/support-your-home?_format=hal_json"
+                "href": "http:\/\/default\/adult-health-and-social-care\/support-your-home?_format=hal_json"
             }
         ]
     },
@@ -35,7 +35,7 @@
     ],
     "vid": [
         {
-            "value": 50
+            "value": 69
         }
     ],
     "langcode": [
@@ -51,7 +51,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2020-06-23T16:53:10+00:00",
+            "value": "2020-06-23T19:07:31+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -60,7 +60,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -68,7 +68,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "ea473b4b-15d5-485e-b98e-b2721164bbe8"
+                        "value": "585f4f21-931c-475e-810e-488ee71fdf67"
                     }
                 ]
             }
@@ -77,7 +77,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -85,7 +85,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "ea473b4b-15d5-485e-b98e-b2721164bbe8"
+                        "value": "585f4f21-931c-475e-810e-488ee71fdf67"
                     }
                 ],
                 "lang": "en"
@@ -95,7 +95,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/support-your-home?_format=hal_json"
+                        "href": "http:\/\/default\/adult-health-and-social-care\/support-your-home?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_sublanding"
@@ -130,7 +130,7 @@
     ],
     "changed": [
         {
-            "value": "2020-06-23T16:53:10+00:00",
+            "value": "2020-06-23T19:07:31+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -162,16 +162,16 @@
     "path": [
         {
             "alias": "\/adult-health-and-social-care\/support-your-home\/home-monitoring-and-personal-alarms",
-            "pid": 10,
+            "pid": 12,
             "langcode": "en",
             "lang": "en"
         }
     ],
     "body": [
         {
-            "value": "<p>Home monitoring and personal alarms<br \/>\r\nHow to get telecare monitoring and alarm systems to have in your home or carry with you.<\/p>\r\n\r\n<p>Telecare services will let people know if you have an accident or problem in your home. Croydon Council's telecare service is called Carelineplus. We offer it to a wide range of people, such as:<\/p>\r\n\r\n<p>older people<br \/>\r\ndisabled people<br \/>\r\npeople who are at risk of falls or injuries at home<br \/>\r\nTypes of telecare equipment<br \/>\r\nWe offer different kinds of equipment depending on your needs, and will tailor them to suit you.<\/p>\r\n\r\n<p>Our basic telecare package is a unit with a button that can be worn as a pendant or on a wrist strap. Pressing the button will call the response centre and you can to speak to them through the unit.<\/p>\r\n\r\n<p>If you need a little more support at home or you're unable to press a button, we have a range of telecare equipment that may help.<\/p>\r\n\r\n<p>Our equipment is designed to prompt and assist you with your everyday activities, and will alert us when you need help. Equipment includes:<\/p>\r\n\r\n<p>fall sensors<br \/>\r\nwandering systems<br \/>\r\nGPS devices<br \/>\r\nbed, chair, and floor sensors<br \/>\r\nepilepsy sensors<br \/>\r\nResponse centre<br \/>\r\nCarelineplus's response centre is open 24 hours a day, 7 days a week, and can send someone out to check on you at home. If they receive an alert, they will:<\/p>\r\n\r\n<p>check the monitors<br \/>\r\ntry to contact you<br \/>\r\nsend someone to your property if they can\u2019t get a response<br \/>\r\ncontact emergency services, your family, or support workers if needed<br \/>\r\nBenefits<br \/>\r\nhelp and support when you need it<br \/>\r\nlow cost monitoring and response services<br \/>\r\nhelps you stay independent<br \/>\r\nreassurance for family and friends<br \/>\r\nfree maintenance and repairs<br \/>\r\nHow to get a monitor<br \/>\r\nTo talk to us about Carelineplus, please call 0208 654 7166.<\/p>\r\n\r\n<p>To book an installation or a demo, please fill out our online form.<\/p>\r\n\r\n<p>Cost of Carelineplus<br \/>\r\nDownload the list of charges<\/p>\r\n\r\n<p>You may be able to get all or some of your costs covered. To find out you will need to apply for a financial assessment.<\/p>\r\n\r\n<p>YourCare<br \/>\r\nTelecare equipment is also available to buy from shops, including YourCare in Croydon.<\/p>\r\n\r\n<p>The showroom is at:<\/p>\r\n\r\n<p>Croydon Living Independently Centre<br \/>\r\n3 Imperial Way<br \/>\r\nCR0 4RR<\/p>\r\n",
+            "value": "<p>&nbsp;<\/p>\r\n\r\n<p>Telecare services will let people know if you have an accident or problem in your home. Croydon Council's telecare service is called Carelineplus. We offer it to a wide range of people, such as:<\/p>\r\n\r\n<ul>\r\n\t<li>older people<\/li>\r\n\t<li>disabled people<\/li>\r\n\t<li>people who are at risk of falls or injuries at home<\/li>\r\n<\/ul>\r\n\r\n<h2>Types of telecare equipment<\/h2>\r\n\r\n<p>We offer different kinds of equipment depending on your needs, and will tailor them to suit you.<\/p>\r\n\r\n<p>Our basic telecare package is a unit with a button that can be worn as a pendant or on a wrist strap. Pressing the button will call the response centre and you can to speak to them through the unit.<\/p>\r\n\r\n<p>If you need a little more support at home or you're unable to press a button, we have a range of telecare equipment that may help.<\/p>\r\n\r\n<p>Our equipment is designed to prompt and assist you with your everyday activities, and will alert us when you need help. Equipment includes:<\/p>\r\n\r\n<ul>\r\n\t<li>fall sensors<\/li>\r\n\t<li>wandering systems<\/li>\r\n\t<li>GPS devices<\/li>\r\n\t<li>bed, chair, and floor sensors<\/li>\r\n\t<li>epilepsy sensors<\/li>\r\n<\/ul>\r\n\r\n<h2>Response centre<\/h2>\r\n\r\n<p>Carelineplus's response centre is open 24 hours a day, 7 days a week, and can send someone out to check on you at home. If they receive an alert, they will:<\/p>\r\n\r\n<ul>\r\n\t<li>check the monitors<\/li>\r\n\t<li>try to contact you<\/li>\r\n\t<li>send someone to your property if they can\u2019t get a response<\/li>\r\n\t<li>contact emergency services, your family, or support workers if needed<\/li>\r\n<\/ul>\r\n\r\n<h2>Benefits<\/h2>\r\n\r\n<ul>\r\n\t<li>help and support when you need it<\/li>\r\n\t<li>low cost monitoring and response services<\/li>\r\n\t<li>helps you stay independent<\/li>\r\n\t<li>reassurance for family and friends<\/li>\r\n\t<li>free maintenance and repairs<\/li>\r\n<\/ul>\r\n\r\n<h2>How to get a monitor<\/h2>\r\n\r\n<p>To talk to us about Carelineplus, please call 0208 654 7166.<\/p>\r\n\r\n<p>To book an installation or a demo, please <a href=\"http:\/\/secure.croydon.gov.uk\/eforms\/ufsmain;jsessionid=7403A694119F81B07D8287289447FBA9?formid=EXT_HO_CC_TELECARE&amp;ebz=1_1568378951175&amp;ebd=0&amp;ebp=20&amp;ebz=1_1568378951175\">fill out our online form<\/a>.<\/p>\r\n\r\n<h3>Cost of Carelineplus<\/h3>\r\n\r\n<p><a href=\"https:\/\/lbc-app-w-corpwebsite-p.azurewebsites.net\/sites\/default\/files\/2020-04\/CARELINE%20CHARGES%20FORM%2006%20April%202020.doc\">Download the list of charges<\/a><\/p>\r\n\r\n<p>You may be able to get all or some of your costs covered. To find out you will need to apply for a financial assessment.<\/p>\r\n\r\n<h2>YourCare<\/h2>\r\n\r\n<p>Telecare equipment is also available to buy from shops, including <a href=\"https:\/\/www.yourcare.org.uk\/\">YourCare in Croydon<\/a>.<\/p>\r\n\r\n<p>The showroom is at:<\/p>\r\n\r\n<p>Croydon Living Independently Centre<br \/>\r\n3 Imperial Way<br \/>\r\nCR0 4RR<\/p>\r\n",
             "format": "wysiwyg",
-            "processed": "<p>Home monitoring and personal alarms\nHow to get telecare monitoring and alarm systems to have in your home or carry with you.<\/p>\n\n<p>Telecare services will let people know if you have an accident or problem in your home. Croydon Council's telecare service is called Carelineplus. We offer it to a wide range of people, such as:<\/p>\n\n<p>older people\ndisabled people\npeople who are at risk of falls or injuries at home\nTypes of telecare equipment\nWe offer different kinds of equipment depending on your needs, and will tailor them to suit you.<\/p>\n\n<p>Our basic telecare package is a unit with a button that can be worn as a pendant or on a wrist strap. Pressing the button will call the response centre and you can to speak to them through the unit.<\/p>\n\n<p>If you need a little more support at home or you're unable to press a button, we have a range of telecare equipment that may help.<\/p>\n\n<p>Our equipment is designed to prompt and assist you with your everyday activities, and will alert us when you need help. Equipment includes:<\/p>\n\n<p>fall sensors\nwandering systems\nGPS devices\nbed, chair, and floor sensors\nepilepsy sensors\nResponse centre\nCarelineplus's response centre is open 24 hours a day, 7 days a week, and can send someone out to check on you at home. If they receive an alert, they will:<\/p>\n\n<p>check the monitors\ntry to contact you\nsend someone to your property if they can\u2019t get a response\ncontact emergency services, your family, or support workers if needed\nBenefits\nhelp and support when you need it\nlow cost monitoring and response services\nhelps you stay independent\nreassurance for family and friends\nfree maintenance and repairs\nHow to get a monitor\nTo talk to us about Carelineplus, please call 0208 654 7166.<\/p>\n\n<p>To book an installation or a demo, please fill out our online form.<\/p>\n\n<p>Cost of Carelineplus\nDownload the list of charges<\/p>\n\n<p>You may be able to get all or some of your costs covered. To find out you will need to apply for a financial assessment.<\/p>\n\n<p>YourCare\nTelecare equipment is also available to buy from shops, including YourCare in Croydon.<\/p>\n\n<p>The showroom is at:<\/p>\n\n<p>Croydon Living Independently Centre\n3 Imperial Way\nCR0 4RR<\/p>",
+            "processed": "<p>\u00a0<\/p>\n\n<p>Telecare services will let people know if you have an accident or problem in your home. Croydon Council's telecare service is called Carelineplus. We offer it to a wide range of people, such as:<\/p>\n\n<ul><li>older people<\/li>\n\t<li>disabled people<\/li>\n\t<li>people who are at risk of falls or injuries at home<\/li>\n<\/ul><h2>Types of telecare equipment<\/h2>\n\n<p>We offer different kinds of equipment depending on your needs, and will tailor them to suit you.<\/p>\n\n<p>Our basic telecare package is a unit with a button that can be worn as a pendant or on a wrist strap. Pressing the button will call the response centre and you can to speak to them through the unit.<\/p>\n\n<p>If you need a little more support at home or you're unable to press a button, we have a range of telecare equipment that may help.<\/p>\n\n<p>Our equipment is designed to prompt and assist you with your everyday activities, and will alert us when you need help. Equipment includes:<\/p>\n\n<ul><li>fall sensors<\/li>\n\t<li>wandering systems<\/li>\n\t<li>GPS devices<\/li>\n\t<li>bed, chair, and floor sensors<\/li>\n\t<li>epilepsy sensors<\/li>\n<\/ul><h2>Response centre<\/h2>\n\n<p>Carelineplus's response centre is open 24 hours a day, 7 days a week, and can send someone out to check on you at home. If they receive an alert, they will:<\/p>\n\n<ul><li>check the monitors<\/li>\n\t<li>try to contact you<\/li>\n\t<li>send someone to your property if they can\u2019t get a response<\/li>\n\t<li>contact emergency services, your family, or support workers if needed<\/li>\n<\/ul><h2>Benefits<\/h2>\n\n<ul><li>help and support when you need it<\/li>\n\t<li>low cost monitoring and response services<\/li>\n\t<li>helps you stay independent<\/li>\n\t<li>reassurance for family and friends<\/li>\n\t<li>free maintenance and repairs<\/li>\n<\/ul><h2>How to get a monitor<\/h2>\n\n<p>To talk to us about Carelineplus, please call 0208 654 7166.<\/p>\n\n<p>To book an installation or a demo, please <a href=\"http:\/\/secure.croydon.gov.uk\/eforms\/ufsmain;jsessionid=7403A694119F81B07D8287289447FBA9?formid=EXT_HO_CC_TELECARE&amp;ebz=1_1568378951175&amp;ebd=0&amp;ebp=20&amp;ebz=1_1568378951175\">fill out our online form<\/a>.<\/p>\n\n<h3>Cost of Carelineplus<\/h3>\n\n<p><a href=\"https:\/\/lbc-app-w-corpwebsite-p.azurewebsites.net\/sites\/default\/files\/2020-04\/CARELINE%20CHARGES%20FORM%2006%20April%202020.doc\">Download the list of charges<\/a><\/p>\n\n<p>You may be able to get all or some of your costs covered. To find out you will need to apply for a financial assessment.<\/p>\n\n<h2>YourCare<\/h2>\n\n<p>Telecare equipment is also available to buy from shops, including <a href=\"https:\/\/www.yourcare.org.uk\/\">YourCare in Croydon<\/a>.<\/p>\n\n<p>The showroom is at:<\/p>\n\n<p>Croydon Living Independently Centre\n3 Imperial Way\nCR0 4RR<\/p>",
             "summary": "How to get telecare monitoring and alarm systems to have in your home or carry with you."
         }
     ],

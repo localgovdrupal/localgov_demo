@@ -1,25 +1,25 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/support-your-home\/care-home?_format=hal_json"
+            "href": "http:\/\/default\/adult-health-and-social-care\/support-your-home\/care-home?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_page"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/revision_uid": [
             {
-                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/uid": [
             {
-                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json",
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_page\/localgov_services_parent": [
             {
-                "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/support-your-home?_format=hal_json"
+                "href": "http:\/\/default\/adult-health-and-social-care\/support-your-home?_format=hal_json"
             }
         ]
     },
@@ -35,7 +35,7 @@
     ],
     "vid": [
         {
-            "value": 52
+            "value": 68
         }
     ],
     "langcode": [
@@ -51,7 +51,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2020-06-23T16:54:23+00:00",
+            "value": "2020-06-23T19:04:38+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -60,7 +60,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -68,7 +68,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "ea473b4b-15d5-485e-b98e-b2721164bbe8"
+                        "value": "585f4f21-931c-475e-810e-488ee71fdf67"
                     }
                 ]
             }
@@ -77,7 +77,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -85,7 +85,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "ea473b4b-15d5-485e-b98e-b2721164bbe8"
+                        "value": "585f4f21-931c-475e-810e-488ee71fdf67"
                     }
                 ],
                 "lang": "en"
@@ -95,7 +95,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/support-your-home?_format=hal_json"
+                        "href": "http:\/\/default\/adult-health-and-social-care\/support-your-home?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_services_sublanding"
@@ -130,7 +130,7 @@
     ],
     "changed": [
         {
-            "value": "2020-06-23T16:54:23+00:00",
+            "value": "2020-06-23T19:04:38+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -162,16 +162,16 @@
     "path": [
         {
             "alias": "\/adult-health-and-social-care\/support-your-home\/care-home",
-            "pid": 12,
+            "pid": 14,
             "langcode": "en",
             "lang": "en"
         }
     ],
     "body": [
         {
-            "value": "<p>You may need help at home because of disability, illness, injury, or simply because you are getting older. Home care is provided so you can be as independent as possible. In most cases, people want to stay in their own home, and this service aims to help you do just that. We can provide help with practical tasks such as cooking, washing and getting dressed.<\/p>\r\n\r\n<p>Home care providers<br \/>\r\nOur contracted home care providers have shown that they can meet Croydon's quality standards, and are monitored and reviewed regularly. Our standards mean they will:<\/p>\r\n\r\n<p>always listen to what you have to say, especially concerning your preferences about how and when your care is to be given<br \/>\r\nmake every effort to arrange for your care to be given by the same person(s), but it can help if there is some flexibility in this arrangement<br \/>\r\nprovide care at times that suit you<br \/>\r\nmake sure that the people who care for you are polite, courteous, punctual and well trained<br \/>\r\nWe will not stop or change your home care without discussing it with you.<\/p>\r\n\r\n<p>If you find that you need more care than your carer is able to give, please let us know and we will review your care plan. You can contact us by email or phone:<\/p>\r\n\r\n<p>CroydonAdultSupport@croydon.gov.uk<br \/>\r\n020 8726 6500<br \/>\r\nStopping care<br \/>\r\nPlease give us at least 2 weeks' notice to stop your care.<\/p>\r\n\r\n<p>You can stop your care for up to 6 weeks (such as if you go on holiday) and start it again. If you\u2019re going away, you can usually rearrange your care time with your provider.<\/p>\r\n\r\n<p>If you stop care for longer than 6 weeks, you will normally have to reapply in order to start it again.<\/p>\r\n\r\n<p>Changing your carer<br \/>\r\nIf you are unhappy with the service in any way, you should first talk to your home care provider. If the problem continues, you can make a complaint to brokerage@croydon.gov.uk.<\/p>\r\n\r\n<p>Talk to your provider if:<\/p>\r\n\r\n<p>the home carer is always late or consistently leaves early<br \/>\r\nthe carer keeps changing<br \/>\r\nthe carer often fails to turn up and doesn't let you know<br \/>\r\nthe carer does not treat you with respect<br \/>\r\nthe carer handles you badly or roughly<br \/>\r\nyou are suspicious about the carer's honesty<br \/>\r\nHow to get support<\/p>\r\n\r\n<p>You can follow our step-by-step process for getting support. This will take you through:<\/p>\r\n\r\n<p>telling us about your situation and choosing the support you need<br \/>\r\nany costs that may come with the support, and how to pay them<br \/>\r\nPaying for private care<br \/>\r\nYou can also pay for your private care. If you choose private care, we recommend that you look at your provider's brochure and check:<\/p>\r\n\r\n<p>they have a statement of purpose<br \/>\r\nthey are approved by Croydon council Social Services<br \/>\r\nthey are a member of the United Kingdom Home Care Association<br \/>\r\nthey are registered with the Commission for Social Care Inspection<br \/>\r\nhow much they charge<br \/>\r\nhow you pay<br \/>\r\nyou can see a copy of the contract to read first<br \/>\r\nthe care workers are fully insured for professional, public and employer's liability<br \/>\r\ncare staff are appropriately trained and vetted, with references<br \/>\r\nthe organisation has a complaints procedure and an emergency contact number<br \/>\r\nIf you pay for private care in addition to council care<br \/>\r\nTell your financial assessment officer so that we can consider it when we calculate how much you can afford to pay.<\/p>\r\n",
+            "value": "<p>You may need help at home because of disability, illness, injury, or simply because you are getting older. Home care is provided so you can be as independent as possible. In most cases, people want to stay in their own home, and this service aims to help you do just that. We can provide help with practical tasks such as cooking, washing and getting dressed.<\/p>\r\n\r\n<h2>Home care providers<\/h2>\r\n\r\n<p>Our contracted home care providers have shown that they can meet Croydon's quality standards, and are monitored and reviewed regularly. Our standards mean they will:<\/p>\r\n\r\n<ul>\r\n\t<li>always listen to what you have to say, especially concerning your preferences about how and when your care is to be given<\/li>\r\n\t<li>make every effort to arrange for your care to be given by the same person(s), but it can help if there is some flexibility in this arrangement<\/li>\r\n\t<li>provide care at times that suit you<\/li>\r\n\t<li>make sure that the people who care for you are polite, courteous, punctual and well trained<\/li>\r\n<\/ul>\r\n\r\n<p>We will not stop or change your home care without discussing it with you.<\/p>\r\n\r\n<p>If you find that you need more care than your carer is able to give, please let us know and we will review your care plan. You can contact us by email or phone:<\/p>\r\n\r\n<ul>\r\n\t<li><a href=\"CroydonAdultSupport@croydon.gov.uk\">CroydonAdultSupport@croydon.gov.uk<\/a><\/li>\r\n\t<li>020 8726 6500<\/li>\r\n<\/ul>\r\n\r\n<h2><br \/>\r\nStopping care<\/h2>\r\n\r\n<p>Please give us at least 2 weeks' notice to stop your care.<\/p>\r\n\r\n<p>You can stop your care for up to 6 weeks (such as if you go on holiday) and start it again. If you\u2019re going away, you can usually rearrange your care time with your provider.<\/p>\r\n\r\n<p>If you stop care for longer than 6 weeks, you will normally have to reapply in order to start it again.<\/p>\r\n\r\n<h2>Changing your carer<\/h2>\r\n\r\n<p>If you are unhappy with the service in any way, you should first talk to your home care provider. If the problem continues, you can make a complaint to <a href=\"brokerage@croydon.gov.uk\">brokerage@croydon.gov.uk<\/a>.<\/p>\r\n\r\n<p>Talk to your provider if:<\/p>\r\n\r\n<ul>\r\n\t<li>the home carer is always late or consistently leaves early<\/li>\r\n\t<li>the carer keeps changing<\/li>\r\n\t<li>the carer often fails to turn up and doesn't let you know<\/li>\r\n\t<li>the carer does not treat you with respect<\/li>\r\n\t<li>the carer handles you badly or roughly<\/li>\r\n\t<li>you are suspicious about the carer's honesty<\/li>\r\n<\/ul>\r\n\r\n<h2>How to get support<\/h2>\r\n\r\n<p>You can follow our step-by-step process for getting support. This will take you through:<\/p>\r\n\r\n<p>telling us about your situation and choosing the support you need<br \/>\r\nany costs that may come with the support, and how to pay them<\/p>\r\n\r\n<h2><br \/>\r\nPaying for private care<\/h2>\r\n\r\n<p>You can also pay for your private care. If you choose private care, we recommend that you look at your provider's brochure and check:<\/p>\r\n\r\n<ul>\r\n\t<li>they have a statement of purpose<\/li>\r\n\t<li>they are approved by Croydon council Social Services<\/li>\r\n\t<li>they are a member of the United Kingdom Home Care Association<\/li>\r\n\t<li>they are registered with the Commission for Social Care Inspection<\/li>\r\n\t<li>how much they charge<\/li>\r\n\t<li>how you pay<\/li>\r\n\t<li>you can see a copy of the contract to read first<\/li>\r\n\t<li>the care workers are fully insured for professional, public and employer's liability<\/li>\r\n\t<li>care staff are appropriately trained and vetted, with references<\/li>\r\n\t<li>the organisation has a complaints procedure and an emergency contact number<\/li>\r\n<\/ul>\r\n\r\n<h2><br \/>\r\nIf you pay for private care in addition to council care<\/h2>\r\n\r\n<p>Tell your <a href=\"https:\/\/new.croydon.gov.uk\/adult-health-and-social-care\/paying-adult-social-care\/financial-assessment\">financial assessment officer<\/a> so that we can consider it when we calculate how much you can afford to pay.<\/p>\r\n",
             "format": "wysiwyg",
-            "processed": "<p>You may need help at home because of disability, illness, injury, or simply because you are getting older. Home care is provided so you can be as independent as possible. In most cases, people want to stay in their own home, and this service aims to help you do just that. We can provide help with practical tasks such as cooking, washing and getting dressed.<\/p>\n\n<p>Home care providers\nOur contracted home care providers have shown that they can meet Croydon's quality standards, and are monitored and reviewed regularly. Our standards mean they will:<\/p>\n\n<p>always listen to what you have to say, especially concerning your preferences about how and when your care is to be given\nmake every effort to arrange for your care to be given by the same person(s), but it can help if there is some flexibility in this arrangement\nprovide care at times that suit you\nmake sure that the people who care for you are polite, courteous, punctual and well trained\nWe will not stop or change your home care without discussing it with you.<\/p>\n\n<p>If you find that you need more care than your carer is able to give, please let us know and we will review your care plan. You can contact us by email or phone:<\/p>\n\n<p>CroydonAdultSupport@croydon.gov.uk\n020 8726 6500\nStopping care\nPlease give us at least 2 weeks' notice to stop your care.<\/p>\n\n<p>You can stop your care for up to 6 weeks (such as if you go on holiday) and start it again. If you\u2019re going away, you can usually rearrange your care time with your provider.<\/p>\n\n<p>If you stop care for longer than 6 weeks, you will normally have to reapply in order to start it again.<\/p>\n\n<p>Changing your carer\nIf you are unhappy with the service in any way, you should first talk to your home care provider. If the problem continues, you can make a complaint to brokerage@croydon.gov.uk.<\/p>\n\n<p>Talk to your provider if:<\/p>\n\n<p>the home carer is always late or consistently leaves early\nthe carer keeps changing\nthe carer often fails to turn up and doesn't let you know\nthe carer does not treat you with respect\nthe carer handles you badly or roughly\nyou are suspicious about the carer's honesty\nHow to get support<\/p>\n\n<p>You can follow our step-by-step process for getting support. This will take you through:<\/p>\n\n<p>telling us about your situation and choosing the support you need\nany costs that may come with the support, and how to pay them\nPaying for private care\nYou can also pay for your private care. If you choose private care, we recommend that you look at your provider's brochure and check:<\/p>\n\n<p>they have a statement of purpose\nthey are approved by Croydon council Social Services\nthey are a member of the United Kingdom Home Care Association\nthey are registered with the Commission for Social Care Inspection\nhow much they charge\nhow you pay\nyou can see a copy of the contract to read first\nthe care workers are fully insured for professional, public and employer's liability\ncare staff are appropriately trained and vetted, with references\nthe organisation has a complaints procedure and an emergency contact number\nIf you pay for private care in addition to council care\nTell your financial assessment officer so that we can consider it when we calculate how much you can afford to pay.<\/p>",
+            "processed": "<p>You may need help at home because of disability, illness, injury, or simply because you are getting older. Home care is provided so you can be as independent as possible. In most cases, people want to stay in their own home, and this service aims to help you do just that. We can provide help with practical tasks such as cooking, washing and getting dressed.<\/p>\n\n<h2>Home care providers<\/h2>\n\n<p>Our contracted home care providers have shown that they can meet Croydon's quality standards, and are monitored and reviewed regularly. Our standards mean they will:<\/p>\n\n<ul><li>always listen to what you have to say, especially concerning your preferences about how and when your care is to be given<\/li>\n\t<li>make every effort to arrange for your care to be given by the same person(s), but it can help if there is some flexibility in this arrangement<\/li>\n\t<li>provide care at times that suit you<\/li>\n\t<li>make sure that the people who care for you are polite, courteous, punctual and well trained<\/li>\n<\/ul><p>We will not stop or change your home care without discussing it with you.<\/p>\n\n<p>If you find that you need more care than your carer is able to give, please let us know and we will review your care plan. You can contact us by email or phone:<\/p>\n\n<ul><li><a href=\"CroydonAdultSupport@croydon.gov.uk\">CroydonAdultSupport@croydon.gov.uk<\/a><\/li>\n\t<li>020 8726 6500<\/li>\n<\/ul><h2>\nStopping care<\/h2>\n\n<p>Please give us at least 2 weeks' notice to stop your care.<\/p>\n\n<p>You can stop your care for up to 6 weeks (such as if you go on holiday) and start it again. If you\u2019re going away, you can usually rearrange your care time with your provider.<\/p>\n\n<p>If you stop care for longer than 6 weeks, you will normally have to reapply in order to start it again.<\/p>\n\n<h2>Changing your carer<\/h2>\n\n<p>If you are unhappy with the service in any way, you should first talk to your home care provider. If the problem continues, you can make a complaint to <a href=\"brokerage@croydon.gov.uk\">brokerage@croydon.gov.uk<\/a>.<\/p>\n\n<p>Talk to your provider if:<\/p>\n\n<ul><li>the home carer is always late or consistently leaves early<\/li>\n\t<li>the carer keeps changing<\/li>\n\t<li>the carer often fails to turn up and doesn't let you know<\/li>\n\t<li>the carer does not treat you with respect<\/li>\n\t<li>the carer handles you badly or roughly<\/li>\n\t<li>you are suspicious about the carer's honesty<\/li>\n<\/ul><h2>How to get support<\/h2>\n\n<p>You can follow our step-by-step process for getting support. This will take you through:<\/p>\n\n<p>telling us about your situation and choosing the support you need\nany costs that may come with the support, and how to pay them<\/p>\n\n<h2>\nPaying for private care<\/h2>\n\n<p>You can also pay for your private care. If you choose private care, we recommend that you look at your provider's brochure and check:<\/p>\n\n<ul><li>they have a statement of purpose<\/li>\n\t<li>they are approved by Croydon council Social Services<\/li>\n\t<li>they are a member of the United Kingdom Home Care Association<\/li>\n\t<li>they are registered with the Commission for Social Care Inspection<\/li>\n\t<li>how much they charge<\/li>\n\t<li>how you pay<\/li>\n\t<li>you can see a copy of the contract to read first<\/li>\n\t<li>the care workers are fully insured for professional, public and employer's liability<\/li>\n\t<li>care staff are appropriately trained and vetted, with references<\/li>\n\t<li>the organisation has a complaints procedure and an emergency contact number<\/li>\n<\/ul><h2>\nIf you pay for private care in addition to council care<\/h2>\n\n<p>Tell your <a href=\"https:\/\/new.croydon.gov.uk\/adult-health-and-social-care\/paying-adult-social-care\/financial-assessment\">financial assessment officer<\/a> so that we can consider it when we calculate how much you can afford to pay.<\/p>",
             "summary": "How to get care in your home to help you live independently."
         }
     ],
