@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * LocalGovDrupal demo module file.
+ */
+
+use \Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_modules_installed().
+ */
+function localgov_demo_modules_installed($modules, $is_syncing) {
+
+  // Fix broken entity references.
+  if (!$is_syncing and in_array('localgov_demo', $modules)) {
+    $serializer = \Drupal::service('serializer');
+    $entity_repo = \Drupal::service('entity.repository');
+
+    // Entity reference fields to fix.
+    $fix_fields = [
+      'localgov_services_parent',
+      'localgov_guides_parent',
+      'localgov_step_parent',
+    ];
+
+    $dir = drupal_get_path('module', 'localgov_demo') . "/content/node";
+    foreach (glob($dir . "/*.json") as $filename) {
+      $contents = file_get_contents($filename);
+      $decoded = $serializer->decode($contents, 'hal_json');
+      foreach ($decoded['_embedded'] as $key => $embedded) {
+        $parts = explode('/', $key);
+        $field_name = end($parts);
+        if (in_array($field_name, $fix_fields)) {
+          $uuid = $embedded[0]['uuid'][0]['value'];
+          $parent = $entity_repo->loadEntityByUuid('node', $uuid);
+          $nid = $decoded['nid'][0]['value'];
+          $node = Node::load($nid);
+          $node->set($field_name, ['target_id' => $parent->id()]);
+          $node->save();
+        }
+      }
+    }
+  }
+}
