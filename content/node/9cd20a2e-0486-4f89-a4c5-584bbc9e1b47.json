@@ -1,0 +1,184 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/travel-passes-and-support\/blue-badges\/blue-badge-fraud?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_guides_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_guides_page\/revision_uid": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_guides_page\/uid": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_guides_page\/localgov_guides_parent": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/travel-passes-and-support\/blue-badges?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 21
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9cd20a2e-0486-4f89-a4c5-584bbc9e1b47"
+        }
+    ],
+    "vid": [
+        {
+            "value": 81
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "localgov_guides_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-06-23T19:20:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_guides_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "585f4f21-931c-475e-810e-488ee71fdf67"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_guides_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "585f4f21-931c-475e-810e-488ee71fdf67"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_guides_page\/localgov_guides_parent": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/travel-passes-and-support\/blue-badges?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_guides_overview"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5f46013c-8afd-4304-b073-2a7d12a89ec0"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Blue Badge fraud",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-23T19:19:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-23T19:20:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/adult-health-and-social-care\/travel-passes-and-support\/blue-badges\/blue-badge-fraud",
+            "pid": 23,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>You must not:<\/p>\r\n\r\n<ul>\r\n\t<li>allow&nbsp;someone else to use your blue badge<\/li>\r\n\t<li>use&nbsp;a fake or altered blue badge&nbsp;<\/li>\r\n\t<li>use dishonesty or deception to get&nbsp;a blue badge<\/li>\r\n\t<li>use&nbsp;a cancelled badge while your vehicle is being driven or is parked<\/li>\r\n\t<li>use&nbsp;a badge that should have been returned while your vehicle is being driven or is parked<\/li>\r\n<\/ul>\r\n\r\n<p>Your Blue Badge will be taken away if you misuse it.<\/p>\r\n\r\n<h2>Report suspected Blue Badge fraud<\/h2>\r\n\r\n<p>If you suspect someone is misusing a Blue Badge, please&nbsp;<a href=\"https:\/\/secure.croydon.gov.uk\/eforms\/ufsmain?formid=EXT_SS_BLUE_BADGE_FRAUD\">report it through the online form<\/a>.<\/p>\r\n",
+            "format": "wysiwyg",
+            "processed": "<p>You must not:<\/p>\n\n<ul><li>allow\u00a0someone else to use your blue badge<\/li>\n\t<li>use\u00a0a fake or altered blue badge\u00a0<\/li>\n\t<li>use dishonesty or deception to get\u00a0a blue badge<\/li>\n\t<li>use\u00a0a cancelled badge while your vehicle is being driven or is parked<\/li>\n\t<li>use\u00a0a badge that should have been returned while your vehicle is being driven or is parked<\/li>\n<\/ul><p>Your Blue Badge will be taken away if you misuse it.<\/p>\n\n<h2>Report suspected Blue Badge fraud<\/h2>\n\n<p>If you suspect someone is misusing a Blue Badge, please\u00a0<a href=\"https:\/\/secure.croydon.gov.uk\/eforms\/ufsmain?formid=EXT_SS_BLUE_BADGE_FRAUD\">report it through the online form<\/a>.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "localgov_guides_section_title": [
+        {
+            "value": "Blue Badge fraud"
+        }
+    ]
+}

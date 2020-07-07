@@ -1,0 +1,194 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/step-by-step\/request-support-adult-step-step\/choosing-how-manage-your?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_step_by_step_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_step_by_step_page\/revision_uid": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_step_by_step_page\/uid": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_step_by_step_page\/localgov_step_parent": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/step-by-step\/request-support-adult-step-step?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 27
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b54c3592-47d9-455f-8371-7f592a0a9479"
+        }
+    ],
+    "vid": [
+        {
+            "value": 92
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "localgov_step_by_step_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-06-23T19:36:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_step_by_step_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "585f4f21-931c-475e-810e-488ee71fdf67"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_step_by_step_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "585f4f21-931c-475e-810e-488ee71fdf67"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_step_by_step_page\/localgov_step_parent": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/step-by-step\/request-support-adult-step-step?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_step_by_step_overview"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "75aa141a-7e15-4d97-be6b-42372299ba4c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Choosing how to manage your care",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-23T19:36:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-23T19:36:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/adult-health-and-social-care\/step-by-step\/request-support-adult-step-step\/choosing-how-manage-your",
+            "pid": 29,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Once we've decided the&nbsp;support you'll receive and what you'll pay towards it, we'll help you decide how you want to make payments.<\/p>\r\n\r\n<p>Whether you pay towards your care or not, you'll have a personal care budget to use to pay for support. You'll then have 2 options:<\/p>\r\n\r\n<ul>\r\n\t<li>we&nbsp;manage your budget and choose the people who provide your care<\/li>\r\n\t<li>you manage your budget and choose the people who provide your care (this is called&nbsp;<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"e6e66e63-5164-4e64-bcb7-ed272292ff72\" href=\"https:\/\/new.croydon.gov.uk\/adult-health-and-social-care\/paying-adult-social-care\/direct-payments-adults\">direct payment<\/a>)<\/li>\r\n<\/ul>\r\n\r\n<p>If you own your home, you may also have the option to make&nbsp;<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"1b01f44a-cfbf-4d04-b840-c31c78bf32a6\" href=\"https:\/\/new.croydon.gov.uk\/adult-health-and-social-care\/paying-adult-social-care\/deferred-payments\">deferred payments<\/a>. This means that instead of selling your home to pay for care, you can continue to live in it. Payments will be taken from the value of the house after it's sold.<\/p>\r\n",
+            "format": "wysiwyg",
+            "processed": "<p>Once we've decided the\u00a0support you'll receive and what you'll pay towards it, we'll help you decide how you want to make payments.<\/p>\n\n<p>Whether you pay towards your care or not, you'll have a personal care budget to use to pay for support. You'll then have 2 options:<\/p>\n\n<ul><li>we\u00a0manage your budget and choose the people who provide your care<\/li>\n\t<li>you manage your budget and choose the people who provide your care (this is called\u00a0<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"e6e66e63-5164-4e64-bcb7-ed272292ff72\" href=\"https:\/\/new.croydon.gov.uk\/adult-health-and-social-care\/paying-adult-social-care\/direct-payments-adults\">direct payment<\/a>)<\/li>\n<\/ul><p>If you own your home, you may also have the option to make\u00a0<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"1b01f44a-cfbf-4d04-b840-c31c78bf32a6\" href=\"https:\/\/new.croydon.gov.uk\/adult-health-and-social-care\/paying-adult-social-care\/deferred-payments\">deferred payments<\/a>. This means that instead of selling your home to pay for care, you can continue to live in it. Payments will be taken from the value of the house after it's sold.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "localgov_step_section_title": [
+        {
+            "value": "Choosing how to manage your care",
+            "lang": "en"
+        }
+    ],
+    "localgov_step_summary": [
+        {
+            "value": "<p>If we pay towards your care, you have several options for how to do this, including:<\/p>\r\n\r\n<ul>\r\n\t<li>deferred payments<\/li>\r\n\t<li>direct payments<\/li>\r\n\t<li>virtual wallet<\/li>\r\n<\/ul>\r\n",
+            "format": "wysiwyg",
+            "processed": "<p>If we pay towards your care, you have several options for how to do this, including:<\/p>\n\n<ul><li>deferred payments<\/li>\n\t<li>direct payments<\/li>\n\t<li>virtual wallet<\/li>\n<\/ul>"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/localgov_topic\/garden-waste?_format=hal_json"
+            "href": "http:\/\/localgov.lndo.site\/localgov_topic\/garden-waste?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/localgov_topic"
