@@ -25,6 +25,7 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
       'localgov_services_parent',
       'localgov_guides_parent',
       'localgov_step_parent',
+      'localgov_campaigns_parent',
     ];
     $serializer = \Drupal::service('serializer');
     $entity_repo = \Drupal::service('entity.repository');

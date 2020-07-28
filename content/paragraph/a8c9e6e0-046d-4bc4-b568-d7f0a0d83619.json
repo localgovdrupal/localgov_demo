@@ -1,0 +1,115 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/localgov_image"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/localgov_image\/localgov_image": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/media\/3\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 11
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a8c9e6e0-046d-4bc4-b568-d7f0a0d83619"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 75
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "localgov_image"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-28T16:02:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "28"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "localgov_campaigns_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "second",
+                    "parent_uuid": "e5b42467-90c6-4e35-884e-43643d69b1be",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "localgov_caption": [
+        {
+            "value": "<p>Orchid Bee<\/p>\r\n",
+            "format": "wysiwyg",
+            "processed": "<p>Orchid Bee<\/p>"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/localgov_image\/localgov_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/media\/3\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5c8fc614-faeb-4f12-93c6-d9866dc4a754"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/localgov_call_out_box"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/localgov_call_out_box\/localgov_background_image": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/media\/2\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ca26b693-b9e9-4fb5-ba56-7a580aaa5ee0"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 72
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "localgov_call_out_box"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-28T16:00:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "28"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "localgov_campaigns_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "second",
+                    "parent_uuid": "6dcda736-1499-42b6-bf5c-eae0303bf3c3",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/localgov_call_out_box\/localgov_background_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/media\/2\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cf9eb8b9-fd79-437b-ad0e-bd9be0f49db1"
+                    }
+                ]
+            }
+        ]
+    },
+    "localgov_body_text": [
+        {
+            "value": "<p>Morbi ut nisi venenatis, bibendum ex a, vestibulum enim. Duis ut erat elementum, ornare purus at, accumsan enim. Maecenas nec tortor cursus, ullamcorper lectus et, cursus elit.<\/p>\r\n",
+            "format": "wysiwyg",
+            "processed": "<p>Morbi ut nisi venenatis, bibendum ex a, vestibulum enim. Duis ut erat elementum, ornare purus at, accumsan enim. Maecenas nec tortor cursus, ullamcorper lectus et, cursus elit.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "localgov_button": [
+        {
+            "uri": "internal:\/",
+            "title": "Front page",
+            "options": [],
+            "lang": "en"
+        }
+    ],
+    "localgov_header_text": [
+        {
+            "value": "Shout out",
+            "lang": "en"
+        }
+    ]
+}

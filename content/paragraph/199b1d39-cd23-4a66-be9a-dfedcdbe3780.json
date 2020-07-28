@@ -1,0 +1,99 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/localgov_quote"
+        }
+    },
+    "id": [
+        {
+            "value": 32
+        }
+    ],
+    "uuid": [
+        {
+            "value": "199b1d39-cd23-4a66-be9a-dfedcdbe3780"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 55
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "localgov_quote"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-28T16:27:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "33"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "localgov_campaigns_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "second",
+                    "parent_uuid": "b98ba102-fbc4-41ff-b557-d399f073fe2a",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "localgov_author": [
+        {
+            "value": "Lorem ipsum",
+            "lang": "en"
+        }
+    ],
+    "localgov_text_plain": [
+        {
+            "value": "Morbi ut nisi venenatis, bibendum ex a, vestibulum enim. Duis ut erat elementum, ornare purus at, accumsan enim. Maecenas nec tortor cursus, ullamcorper lectus et, cursus elit. Duis fringilla arcu ac urna lacinia, ac posuere ipsum aliquet. Suspendisse rhoncus aliquam ligula, at gravida sapien bibendum sed. Donec euismod eleifend arcu, nec ultricies massa fermentum ut. Aliquam dolor velit, hendrerit fringilla euismod ac, laoreet nec massa. Fusce elementum nibh sed vehicula lobortis. "
+        }
+    ]
+}

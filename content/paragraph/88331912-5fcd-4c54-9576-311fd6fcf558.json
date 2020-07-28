@@ -1,0 +1,114 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/localgov_box_link"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/localgov_box_link\/localgov_image": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/media\/1\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 7
+        }
+    ],
+    "uuid": [
+        {
+            "value": "88331912-5fcd-4c54-9576-311fd6fcf558"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 71
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "localgov_box_link"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-28T15:59:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "28"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "localgov_campaigns_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "first",
+                    "parent_uuid": "6dcda736-1499-42b6-bf5c-eae0303bf3c3",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/localgov_box_link\/localgov_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/media\/1\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "244b0a68-5cfd-4326-9029-873069f45b35"
+                    }
+                ]
+            }
+        ]
+    },
+    "localgov_link": [
+        {
+            "uri": "https:\/\/agile.coop\/",
+            "title": "Agile Collective",
+            "options": [],
+            "lang": "en"
+        }
+    ]
+}

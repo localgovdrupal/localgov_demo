@@ -1,0 +1,95 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/localgov_link_and_summary"
+        }
+    },
+    "id": [
+        {
+            "value": 12
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e7e59801-4662-4906-b39c-b9af69f20424"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 76
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "localgov_link_and_summary"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-28T16:03:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "28"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "localgov_campaigns_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "third",
+                    "parent_uuid": "e5b42467-90c6-4e35-884e-43643d69b1be",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "localgov_link": [
+        {
+            "uri": "entity:node\/2",
+            "title": "Service page",
+            "options": [],
+            "lang": "en"
+        }
+    ],
+    "localgov_summary": [
+        {
+            "value": "Ut justo justo, malesuada sed erat vitae, pretium blandit nibh. Duis hendrerit nulla at diam interdum euismod. Vivamus justo erat, convallis ut cursus in, dignissim a magna. Maecenas efficitur eros id mi scelerisque, at porta mi laoreet. Cras vel neque tellus. Donec eu ex purus. Maecenas id posuere mauris."
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/localgov_fact_box"
+        }
+    },
+    "id": [
+        {
+            "value": 10
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a2482851-df71-48fb-a04a-53fc41613984"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 74
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "localgov_fact_box"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-28T16:02:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "28"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "localgov_campaigns_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "first",
+                    "parent_uuid": "e5b42467-90c6-4e35-884e-43643d69b1be",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "localgov_above_text": [
+        {
+            "value": "Proin pulvinar eu est ut scelerisque.",
+            "lang": "en"
+        }
+    ],
+    "localgov_background": [
+        {
+            "value": "fade-red-blue"
+        }
+    ],
+    "localgov_below_text": [
+        {
+            "value": "Cras ornare augue magna, sed scelerisque ante egestas tincidunt.",
+            "lang": "en"
+        }
+    ],
+    "localgov_fact": [
+        {
+            "value": " Nulla hendrerit sem et vehicula pulvinar. Cras vel finibus orci, id blandit justo. Pellentesque imperdiet congue sapien. Mauris scelerisque sodales eleifend. In lobortis scelerisque erat at interdum.",
+            "lang": "en"
+        }
+    ]
+}

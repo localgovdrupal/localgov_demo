@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localgov.lndo.site\/sites\/default\/files\/2020-07\/AC_Logo-medium_0.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "95047d5b-f642-4ecc-8a1a-af0eb5deb22e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "027bd41f-21df-4c00-9688-0ed2b661ffde"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "AC_Logo-medium.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-07\/AC_Logo-medium_0.png",
+            "url": "\/sites\/default\/files\/2020-07\/AC_Logo-medium_0.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 14067
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-28T15:59:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-07-28T15:59:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

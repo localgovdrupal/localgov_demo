@@ -1,0 +1,243 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localgov.lndo.site\/campaign-page-2?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_campaigns_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_campaigns_page\/revision_uid": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_campaigns_page\/uid": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_campaigns_page\/localgov_campaigns_content": [
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_campaigns_page\/localgov_campaigns_parent": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/test-campaign?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 32
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ce9bf496-8c01-4eeb-a679-3ff665dfde22"
+        }
+    ],
+    "vid": [
+        {
+            "value": 100
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "localgov_campaigns_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-07-28T16:25:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_campaigns_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "027bd41f-21df-4c00-9688-0ed2b661ffde"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_campaigns_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "027bd41f-21df-4c00-9688-0ed2b661ffde"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_campaigns_page\/localgov_campaigns_content": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/page_section"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3a67a2da-3986-4caf-bb1a-17996b601d9f"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "49"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/localgov_image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7c55148f-abd1-4893-b858-193bd355ca9c"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "50"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/localgov_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cbaac577-79ee-46dd-8078-b504b65ffa60"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "51"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_campaigns_page\/localgov_campaigns_parent": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/test-campaign?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/localgov_campaigns_overview"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b85eead3-28e5-4c36-a822-0db0e1755933"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Campaign Page 2",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-28T16:21:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-07-28T16:25:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/campaign-page-2",
+            "pid": 33,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "localgov_campaigns_summary": [
+        {
+            "value": "Nullam vestibulum, justo id consequat convallis, libero velit facilisis nisl, sit amet interdum risus ante sodales turpis. Mauris luctus lacus non mauris faucibus, non auctor massa hendrerit. In mi leo, euismod at dictum sit amet, egestas accumsan urna. Donec scelerisque erat ac purus pulvinar, quis elementum odio volutpat. Aliquam dictum tortor in condimentum dapibus. Pellentesque ut dolor dictum, finibus turpis ac, aliquet justo. ",
+            "lang": "en"
+        }
+    ]
+}

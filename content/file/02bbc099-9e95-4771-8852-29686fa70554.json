@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localgov.lndo.site\/sites\/default\/files\/2020-07\/4783969094_b2c313621e_o_2.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "02bbc099-9e95-4771-8852-29686fa70554"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "027bd41f-21df-4c00-9688-0ed2b661ffde"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "4783969094_b2c313621e_o.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-07\/4783969094_b2c313621e_o_2.jpg",
+            "url": "\/sites\/default\/files\/2020-07\/4783969094_b2c313621e_o_2.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 3101377
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-28T16:01:08+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-07-28T16:01:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

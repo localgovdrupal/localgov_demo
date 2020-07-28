@@ -1,0 +1,95 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/localgov_text"
+        }
+    },
+    "id": [
+        {
+            "value": 28
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cbaac577-79ee-46dd-8078-b504b65ffa60"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 51
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "localgov_text"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-28T16:24:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "32"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "localgov_campaigns_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "second",
+                    "parent_uuid": "3a67a2da-3986-4caf-bb1a-17996b601d9f",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "localgov_text": [
+        {
+            "value": "<p>Proin pulvinar eu est ut scelerisque. Nulla hendrerit sem et vehicula pulvinar. Cras vel finibus orci, id blandit justo. Pellentesque imperdiet congue sapien. Mauris scelerisque sodales eleifend. In lobortis scelerisque erat at interdum. Cras ornare augue magna, sed scelerisque ante egestas tincidunt. Pellentesque vel mauris quis erat dignissim ultricies commodo a felis. Fusce elit urna, congue nec volutpat et, viverra et mi. Maecenas metus ligula, rhoncus bibendum enim a, ornare posuere arcu.<\/p>\r\n",
+            "format": "wysiwyg",
+            "processed": "<p>Proin pulvinar eu est ut scelerisque. Nulla hendrerit sem et vehicula pulvinar. Cras vel finibus orci, id blandit justo. Pellentesque imperdiet congue sapien. Mauris scelerisque sodales eleifend. In lobortis scelerisque erat at interdum. Cras ornare augue magna, sed scelerisque ante egestas tincidunt. Pellentesque vel mauris quis erat dignissim ultricies commodo a felis. Fusce elit urna, congue nec volutpat et, viverra et mi. Maecenas metus ligula, rhoncus bibendum enim a, ornare posuere arcu.<\/p>"
+        }
+    ]
+}

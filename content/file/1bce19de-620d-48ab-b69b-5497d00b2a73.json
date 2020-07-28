@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localgov.lndo.site\/sites\/default\/files\/2020-07\/hot-chocolate-1068703_960_720_0.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1bce19de-620d-48ab-b69b-5497d00b2a73"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localgov.lndo.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "027bd41f-21df-4c00-9688-0ed2b661ffde"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "hot-chocolate-1068703_960_720.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-07\/hot-chocolate-1068703_960_720_0.jpg",
+            "url": "\/sites\/default\/files\/2020-07\/hot-chocolate-1068703_960_720_0.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 132659
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-28T16:05:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-07-28T16:05:53+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

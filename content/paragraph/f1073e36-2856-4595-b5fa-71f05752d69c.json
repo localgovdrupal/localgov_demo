@@ -1,0 +1,89 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/localgov_text"
+        }
+    },
+    "id": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f1073e36-2856-4595-b5fa-71f05752d69c"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 69
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "localgov_text"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-28T15:58:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "28"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "localgov_campaigns_content"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "layout_paragraphs": {
+                    "region": "content",
+                    "parent_uuid": "493939a8-0ea9-4e04-9c1f-1872a89d1765",
+                    "layout": "",
+                    "config": []
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "localgov_text": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus vestibulum sagittis. Phasellus sodales mi at eleifend pretium. Curabitur nec felis finibus, malesuada erat nec, luctus purus. Vestibulum eget dolor ultricies, porta ante in, semper lacus. Donec molestie sollicitudin sapien, in feugiat purus semper ac. Cras venenatis turpis dolor, vitae molestie mauris sodales porttitor. Vivamus nec nunc sed quam vestibulum vulputate ac in orci. Duis dapibus, odio vehicula laoreet hendrerit, sem metus ultrices quam, sed scelerisque augue libero vitae augue. Proin euismod ullamcorper ex, sed elementum odio. Suspendisse ut purus malesuada nulla pharetra pretium sit amet nec diam.<\/p>\r\n\r\n<p>Maecenas vitae odio sed arcu gravida vehicula. Etiam ante turpis, varius quis pharetra in, facilisis vel tortor. Cras nec est at metus gravida convallis at eu sapien. Etiam ullamcorper erat eu enim aliquet, sit amet tempor dui blandit. Duis varius mauris id ligula sagittis faucibus. Integer at eros ac ligula porta pretium. Nunc pharetra facilisis lacus, ut sodales sapien pharetra non. Integer ac sapien ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar feugiat lacus, sed lobortis lacus viverra vitae. Donec facilisis pharetra lacinia. Curabitur pulvinar, quam sed cursus pulvinar, mi sapien rhoncus justo, eget tincidunt quam mi sed est.<\/p>\r\n",
+            "format": "wysiwyg",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus vestibulum sagittis. Phasellus sodales mi at eleifend pretium. Curabitur nec felis finibus, malesuada erat nec, luctus purus. Vestibulum eget dolor ultricies, porta ante in, semper lacus. Donec molestie sollicitudin sapien, in feugiat purus semper ac. Cras venenatis turpis dolor, vitae molestie mauris sodales porttitor. Vivamus nec nunc sed quam vestibulum vulputate ac in orci. Duis dapibus, odio vehicula laoreet hendrerit, sem metus ultrices quam, sed scelerisque augue libero vitae augue. Proin euismod ullamcorper ex, sed elementum odio. Suspendisse ut purus malesuada nulla pharetra pretium sit amet nec diam.<\/p>\n\n<p>Maecenas vitae odio sed arcu gravida vehicula. Etiam ante turpis, varius quis pharetra in, facilisis vel tortor. Cras nec est at metus gravida convallis at eu sapien. Etiam ullamcorper erat eu enim aliquet, sit amet tempor dui blandit. Duis varius mauris id ligula sagittis faucibus. Integer at eros ac ligula porta pretium. Nunc pharetra facilisis lacus, ut sodales sapien pharetra non. Integer ac sapien ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar feugiat lacus, sed lobortis lacus viverra vitae. Donec facilisis pharetra lacinia. Curabitur pulvinar, quam sed cursus pulvinar, mi sapien rhoncus justo, eget tincidunt quam mi sed est.<\/p>"
+        }
+    ]
+}
