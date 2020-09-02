@@ -1,8 +1,8 @@
-name: LocalGovDrupal Demo Content
-description: Example content for demonstrating the LocalGovDrupal distribution and to help with development.
+name: LocalGov Demo Content
+description: Example content for demonstrating the LocalGov Drupal distribution and to help with development.
 core_version_requirement: ^8.9 || ^9
 type: module
-package: LocalGovDrupal
+package: LocalGov Drupal
 
 dependencies:
   - default_content:default_content
