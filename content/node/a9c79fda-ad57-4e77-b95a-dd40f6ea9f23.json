@@ -175,12 +175,12 @@
             "summary": "How to get telecare monitoring and alarm systems to have in your home or carry with you."
         }
     ],
-    "field_hide_related_topics": [
+    "localgov_hide_related_topics": [
         {
             "value": true
         }
     ],
-    "field_override_related_links": [
+    "localgov_override_related_links": [
         {
             "value": false
         }

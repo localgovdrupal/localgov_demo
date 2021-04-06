@@ -17,7 +17,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_sublanding\/field_topics": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_sublanding\/localgov_topics": [
             {
                 "href": ""
             }
@@ -97,7 +97,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_sublanding\/field_topics": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_sublanding\/localgov_topics": [
             {
                 "_links": {
                     "self": {

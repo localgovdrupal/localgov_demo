@@ -175,12 +175,12 @@
             "summary": "How to get care in your home to help you live independently."
         }
     ],
-    "field_hide_related_topics": [
+    "localgov_hide_related_topics": [
         {
             "value": true
         }
     ],
-    "field_override_related_links": [
+    "localgov_override_related_links": [
         {
             "value": false
         }
