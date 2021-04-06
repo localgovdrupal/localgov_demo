@@ -175,12 +175,12 @@
             "summary": "About the meals on wheels service and how to apply for free or reduced cost meals."
         }
     ],
-    "field_hide_related_topics": [
+    "localgov_hide_related_topics": [
         {
             "value": true
         }
     ],
-    "field_override_related_links": [
+    "localgov_override_related_links": [
         {
             "value": false
         }

@@ -17,7 +17,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/field_destinations": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/localgov_destinations": [
             {
                 "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/another-service-landing-page\/service-page?_format=hal_json"
             }
@@ -91,7 +91,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/field_destinations": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/localgov_destinations": [
             {
                 "_links": {
                     "self": {
