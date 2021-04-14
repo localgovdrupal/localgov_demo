@@ -178,17 +178,17 @@
             "lang": "en"
         }
     ],
-    "field_service_status": [
+    "localgov_service_status": [
         {
             "value": "2-no-issues"
         }
     ],
-    "field_service_status_on_landing": [
+    "localgov_service_status_on_landi": [
         {
             "value": true
         }
     ],
-    "field_service_status_on_list": [
+    "localgov_service_status_on_list": [
         {
             "value": true
         }

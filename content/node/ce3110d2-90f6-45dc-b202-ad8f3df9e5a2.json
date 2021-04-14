@@ -175,12 +175,12 @@
             "summary": "We provide advice and support to help you live independently if you're older, disabled, or have a long-term illness."
         }
     ],
-    "field_hide_related_topics": [
+    "localgov_hide_related_topics": [
         {
             "value": true
         }
     ],
-    "field_override_related_links": [
+    "localgov_override_related_links": [
         {
             "value": false
         }

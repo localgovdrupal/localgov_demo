@@ -17,7 +17,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/field_destinations": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/localgov_destinations": [
             {
                 "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/support-your-home?_format=hal_json"
             },
@@ -28,7 +28,7 @@
                 "href": "http:\/\/localgov.lndo.site\/adult-health-and-social-care\/another-service-landing-page\/service-page?_format=hal_json"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/field_popular_topics": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/localgov_popular_topics": [
             {
                 "href": "http:\/\/localgov.lndo.site\/localgov_topic\/garden-waste?_format=hal_json"
             },
@@ -105,7 +105,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/field_destinations": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/localgov_destinations": [
             {
                 "_links": {
                     "self": {
@@ -152,7 +152,7 @@
                 ]
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/field_popular_topics": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/localgov_services_landing\/localgov_popular_topics": [
             {
                 "_links": {
                     "self": {
@@ -252,19 +252,19 @@
             "lang": "en"
         }
     ],
-    "field_address": [
+    "localgov_address": [
         {
             "value": "The Old Music Hall\r\n106-108 Cowley Road\r\nOxford OX4 1JE",
             "format": "plain_text",
             "processed": "<p>The Old Music Hall<br \/>\n106-108 Cowley Road<br \/>\nOxford OX4 1JE<\/p>\n"
         }
     ],
-    "field_address_first_line": [
+    "localgov_address_first_line": [
         {
             "value": "Agile Collective"
         }
     ],
-    "field_common_tasks": [
+    "localgov_common_tasks": [
         {
             "uri": "entity:node\/9",
             "title": "Find out about meals on wheels",
@@ -287,51 +287,51 @@
             }
         }
     ],
-    "field_contact_us_online": [
+    "localgov_contact_us_online": [
         {
             "value": "https:\/\/example.com\/"
         }
     ],
-    "field_email_address": [
+    "localgov_email_address": [
         {
             "value": "contact@example.com"
         }
     ],
-    "field_facebook": [
+    "localgov_facebook": [
         {
             "value": "https:\/\/www.facebook.com\/agilecollective"
         }
     ],
-    "field_hearing_difficulties_phone": [
+    "localgov_hearing_difficulties_ph": [
         {
             "value": "555 111 222 333"
         }
     ],
-    "field_link_to_map": [
+    "localgov_link_to_map": [
         {
             "uri": "https:\/\/www.google.com\/maps\/@51.7483443,-1.238848,19.75z",
             "title": "",
             "options": []
         }
     ],
-    "field_opening_hours": [
+    "localgov_opening_hours": [
         {
             "value": "Monday to Friday 10am to 3pm. Closed on weekends and bank holidays.",
             "format": "plain_text",
             "processed": "<p>Monday to Friday 10am to 3pm. Closed on weekends and bank holidays.<\/p>\n"
         }
     ],
-    "field_other_team_contacts": [
+    "localgov_other_team_contacts": [
         {
             "value": "https:\/\/test.com\/"
         }
     ],
-    "field_phone": [
+    "localgov_phone": [
         {
             "value": "555 111 222 333"
         }
     ],
-    "field_twitter": [
+    "localgov_twitter": [
         {
             "value": "https:\/\/twitter.com\/agilecollective"
         }
