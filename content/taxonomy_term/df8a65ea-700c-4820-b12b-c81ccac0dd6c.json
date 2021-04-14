@@ -7,7 +7,6 @@
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/localgov_topic"
         },
         "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/localgov_topic\/parent": [
-            null
         ]
     },
     "tid": [
@@ -61,7 +60,6 @@
     ],
     "_embedded": {
         "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/localgov_topic\/parent": [
-            null
         ]
     },
     "changed": [
