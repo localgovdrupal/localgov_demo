@@ -6,6 +6,6 @@
     "license": "GPL-2.0-or-later",
     "minimum-stability": "dev",
     "require": {
-        "drupal/default_content": "^2.0@alpha"
+        "drupal/default_content": "^2.0@alpha as 1.0-alpha9"
    }
 }
