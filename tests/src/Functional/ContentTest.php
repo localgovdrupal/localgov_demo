@@ -54,6 +54,14 @@ class ContentTest extends BrowserTestBase {
     $this->assertSession()->elementTextContains('css', 'main .sidebar', 'Popular topics');
     $this->assertSession()->elementTextContains('css', 'main .sidebar', 'Garden waste');
     $this->assertSession()->elementTextContains('css', 'main .sidebar', 'Parks and gardens');
+
+    // Test Service sub-landing page: Another service landing page.
+    $this->drupalGet('/adult-health-and-social-care/another-service-landing-page');
+    $this->assertSession()->elementTextContains('css', 'header h1', 'Another service landing page');
+    $this->assertSession()->elementTextContains('css', 'header p', 'Morbi porta tortor ac felis placerat, nec sodales justo tincidunt.');
+    $this->assertSession()->elementTextContains('css', 'main article h2', 'Child pages');
+    $this->assertSession()->elementTextContains('css', 'main article h3', 'Service page');
+    $this->assertSession()->elementTextContains('css', 'main article', 'Example external link');
   }
 
 }
