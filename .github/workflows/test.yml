@@ -44,7 +44,7 @@ jobs:
           composer global config github-oauth.github.com ${{ github.token }}
 
       - name: Grab test target from this repo
-        run: composer --working-dir=html require localgovdrupal/${{ github.event.repository.name }}:"dev-${GIT_BRANCH} as 1.0.x-dev"
+        run: composer --working-dir=html require --with-all-dependencies localgovdrupal/${{ github.event.repository.name }}:"dev-${GIT_BRANCH} as 1.0.x-dev"
 
       - name: Start Docker environment
         run: docker-compose up -d
