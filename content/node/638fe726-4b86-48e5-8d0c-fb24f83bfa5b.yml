@@ -6,6 +6,7 @@ _meta:
   default_langcode: en
   depends:
     f8066c54-cdd4-42c5-bf25-8720757c410b: node
+    e3aafe22-3b56-4bf9-afd8-3dda0ae16213: node
 default:
   revision_uid:
     -
@@ -31,6 +32,9 @@ default:
   revision_translation_affected:
     -
       value: true
+  moderation_state:
+    -
+      value: published
   path:
     -
       alias: /births-deaths-marriages-and-citizenship
@@ -40,7 +44,9 @@ default:
     -
       value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra, erat vel laoreet semper, erat urna molestie urna, vel consequat diam magna eget nunc. Vivamus aliquet erat vitae lacus pellentesque interdum. Maecenas egestas nisl ac nisl fringilla, sed consectetur mi hendrerit. Vestibulum a lacus sollicitudin, accumsan est in, feugiat nisi. Integer at lacus in risus maximus pulvinar. Quisque ullamcorper dui ante, ut porta mauris iaculis a. In feugiat velit id neque maximus, aliquam euismod sapien sodales. Duis viverra nec lectus ac fringilla.</p>\r\n"
       format: wysiwyg
-      summary: 'Due to Coronavirus, all Register Office face to face registration and ceremonial services have been suspended until further notice. We will rebook as soon as possible.'
+      summary: 'Services delivered by the Register Office, including registering a birth or a death, ordering certificate copies and citizenship ceremonies.'
   localgov_destinations:
     -
       entity: f8066c54-cdd4-42c5-bf25-8720757c410b
+    -
+      entity: e3aafe22-3b56-4bf9-afd8-3dda0ae16213
