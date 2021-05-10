@@ -22,9 +22,13 @@ Or
 Export content and all references with:
 
 ```bash
-drush dcer <entity type> <entity id> --folder=modules/contrib/localgov_demo/content/
+lando drush dcer <entity type> <entity id> --folder=modules/contrib/localgov_demo/content/
 ```
 
-You'll want to delete the `localgov_demo/content/user` directory before
-committing code if using this method. Then add the new UUIDs to the
-`localgov_demo.info.yml` file.
+Notes:
+
+1. The --folder definition is relative to the web root.
+2. There is no slash at the start of the path, it is --folder=modules/contrib...
+3. You should delete the `localgov_demo/content/user` directory before
+committing code if using this method as it will include users.
+4. You should also add the new UUIDs to the `localgov_demo.info.yml` file.
