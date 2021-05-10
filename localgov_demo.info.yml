@@ -15,6 +15,13 @@ dependencies:
   - localgov_services:localgov_services_sublanding
   - localgov_step_by_step:localgov_step_by_step
   - localgov_subsites:localgov_subsites
+  - localgov_alert_banner:localgov_alert_banner
+  - localgov_directories:localgov_directories
+  - localgov_directories:localgov_directories_location
+  - localgov_directories:localgov_directories_page
+  - localgov_directories:localgov_directories_venue
+  - localgov_events:localgov_events
+
 
 default_content:
   node:
