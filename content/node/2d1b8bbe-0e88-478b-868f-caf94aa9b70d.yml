@@ -5,7 +5,6 @@ _meta:
   bundle: localgov_step_by_step_overview
   default_langcode: en
   depends:
-    5eb1f39a-1740-44c9-bc71-8f0ba897d761: user
     e3aafe22-3b56-4bf9-afd8-3dda0ae16213: node
     69297010-e255-4192-9bd9-b5b550098b10: node
     ab6aecc5-c49c-4958-9690-7b7cf8ffaf3e: node
@@ -23,7 +22,7 @@ default:
       value: true
   uid:
     -
-      entity: 5eb1f39a-1740-44c9-bc71-8f0ba897d761
+      target_id: 1
   title:
     -
       value: 'Get married or form a civil partnership: step by step'
@@ -39,9 +38,6 @@ default:
   revision_translation_affected:
     -
       value: true
-  moderation_state:
-    -
-      value: published
   path:
     -
       alias: /births-deaths-marriages-and-citizenship/marriage-and-civil-partnerships/step-by-step/get-married-or
