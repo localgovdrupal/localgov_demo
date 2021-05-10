@@ -43,4 +43,4 @@ default:
       format: wysiwyg
   type_of_alert:
     -
-      value: 00--announcement
+      value: 20--minor
