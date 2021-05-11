@@ -31,6 +31,9 @@ default:
   revision_translation_affected:
     -
       value: true
+  moderation_state:
+    -
+      value: published
   path:
     -
       alias: /adult-health-and-social-care/step-by-step/request-support-adult-step-step/apply-financial-support
@@ -38,7 +41,7 @@ default:
       pathauto: 1
   body:
     -
-      value: "<p>If you have less than £23,250 in savings, you may get some or all of your support&nbsp;costs covered. To find out how much you should pay, we'll&nbsp;carry out a financial assessment to check your income after your support package is agreed on.</p>\r\n\r\n<p>You'll be sent a letter and a financial assessment form to complete and return to us as soon as you can. If you do not return it within 28 days we will charge you the full cost of service.</p>\r\n\r\n<p>You can start receiving care and support before the financial assessment is&nbsp;complete. If we find that you need to pay anything&nbsp;we'll send you the charges&nbsp;for the care you've received.</p>\r\n\r\n<p>If you know you have more than&nbsp;£23,250 in savings, or if you do not want to be assessed, you can choose not to have a financial assessment. You will then be charged the full amount for your care.</p>\r\n\r\n<p>Our&nbsp;<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"49af1c1c-7daa-40a3-be0f-513150f778b0\" href=\"https://new.croydon.gov.uk/adult-health-and-social-care/paying-adult-social-care\">guide to paying for adult social care</a>&nbsp;explains our financial assessment process.</p>\r\n"
+      value: "<p>If you have less than £23,250 in savings, you may get some or all of your support&nbsp;costs covered. To find out how much you should pay, we'll&nbsp;carry out a financial assessment to check your income after your support package is agreed on.</p>\r\n\r\n<p>You'll be sent a letter and a financial assessment form to complete and return to us as soon as you can. If you do not return it within 28 days we will charge you the full cost of service.</p>\r\n\r\n<p>You can start receiving care and support before the financial assessment is&nbsp;complete. If we find that you need to pay anything&nbsp;we'll send you the charges&nbsp;for the care you've received.</p>\r\n\r\n<p>If you know you have more than&nbsp;£23,250 in savings, or if you do not want to be assessed, you can choose not to have a financial assessment. You will then be charged the full amount for your care.</p>\r\n\r\n<p>Our&nbsp;<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"c1d9f01d-c368-4db3-a4ec-c882d217781b\" href=\"/node/1\">guide to paying for adult social care</a>&nbsp;explains our financial assessment process.</p>\r\n"
       format: wysiwyg
       summary: ''
   localgov_step_parent:

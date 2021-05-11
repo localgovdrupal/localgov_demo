@@ -9,8 +9,9 @@ _meta:
     75aa141a-7e15-4d97-be6b-42372299ba4c: node
     ce3110d2-90f6-45dc-b202-ad8f3df9e5a2: node
     57b46ceb-20d3-45cc-9f9b-2bf2a6561c78: node
-    968ae2b4-a5f3-4f6a-bb83-376a819a77e0: node
     1c9e5aaf-5ff8-4f96-9c6b-5d8626069a42: node
+    968ae2b4-a5f3-4f6a-bb83-376a819a77e0: node
+    57297753-c989-4358-8133-d5a8ba197544: node
     acfb5e02-f92b-4822-9f09-d5802314dd52: taxonomy_term
     df8a65ea-700c-4820-b12b-c81ccac0dd6c: taxonomy_term
 default:
@@ -38,6 +39,9 @@ default:
   revision_translation_affected:
     -
       value: true
+  moderation_state:
+    -
+      value: published
   path:
     -
       alias: /adult-health-and-social-care
@@ -50,7 +54,7 @@ default:
       summary: 'Advice and support for adult health and social care'
   localgov_address:
     -
-      value: "The Old Music Hall\r\n106-108 Cowley Road\r\nOxford OX4 1JE"
+      value: "Makespace Central\r\n21b Park End Street\r\nOxford OX1 1HU"
       format: plain_text
   localgov_address_first_line:
     -
@@ -78,21 +82,20 @@ default:
     -
       entity: 57b46ceb-20d3-45cc-9f9b-2bf2a6561c78
     -
+      entity: 1c9e5aaf-5ff8-4f96-9c6b-5d8626069a42
+    -
       entity: 968ae2b4-a5f3-4f6a-bb83-376a819a77e0
     -
-      entity: 1c9e5aaf-5ff8-4f96-9c6b-5d8626069a42
+      entity: 57297753-c989-4358-8133-d5a8ba197544
   localgov_email_address:
     -
       value: contact@example.com
-  localgov_facebook:
-    -
-      value: 'https://www.facebook.com/agilecollective'
   localgov_hearing_difficulties_ph:
     -
       value: '555 111 222 333'
   localgov_link_to_map:
     -
-      uri: 'https://www.google.com/maps/@51.7483443,-1.238848,19.75z'
+      uri: 'https://goo.gl/maps/JxQN1htPv7XaPMtu6'
       title: ''
       options: {  }
   localgov_opening_hours:
@@ -112,4 +115,4 @@ default:
       entity: df8a65ea-700c-4820-b12b-c81ccac0dd6c
   localgov_twitter:
     -
-      value: 'https://twitter.com/agilecollective'
+      value: 'https://twitter.com/LocalGovDrupal'

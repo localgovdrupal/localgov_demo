@@ -35,6 +35,9 @@ default:
   revision_translation_affected:
     -
       value: true
+  moderation_state:
+    -
+      value: published
   path:
     -
       alias: /adult-health-and-social-care/step-by-step/request-support-adult-step-step
@@ -42,7 +45,7 @@ default:
       pathauto: 1
   body:
     -
-      value: "<p class=\"alert alert-info\"><strong>Coronavirus (COVID-19) update:</strong><br />\r\n<br />\r\nAppointments with adult social care staff are now happening on the telephone. If you had an appointment and haven’t heard from your social worker, call&nbsp;020 8726 6000.</p>\r\n\r\n<p>We provide&nbsp;support for people who are older, disabled, or&nbsp;are in need of support for another reason, so they can stay healthy, active and independent. You can apply for&nbsp;yourself or on behalf of&nbsp;someone you know.</p>\r\n\r\n<p class=\"callout callout-danger\">For urgent help, call 020 8726 6500</p>\r\n"
+      value: "<p class=\"alert alert-info\"><strong>Important update:</strong><br />\r\n<br />\r\nDue to current circumstances appointments with adult social care staff are now happening on the telephone. If you had an appointment and haven’t heard from your social worker, call&nbsp;555 111 222 333.</p>\r\n\r\n<p>We provide&nbsp;support for people who are older, disabled, or&nbsp;are in need of support for another reason, so they can stay healthy, active and independent. You can apply for&nbsp;yourself or on behalf of&nbsp;someone you know.</p>\r\n\r\n<p class=\"callout callout-danger\">For urgent help, call 555 111 222 333</p>\r\n"
       format: wysiwyg
       summary: ''
   localgov_services_parent:

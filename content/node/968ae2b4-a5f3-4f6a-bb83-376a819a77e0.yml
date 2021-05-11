@@ -32,6 +32,9 @@ default:
   revision_translation_affected:
     -
       value: true
+  moderation_state:
+    -
+      value: published
   path:
     -
       alias: /adult-health-and-social-care/travel-passes-and-support
@@ -39,9 +42,9 @@ default:
       pathauto: 1
   body:
     -
-      value: "<p>Blue Badges, Freedom Passes for older or disabled people, London Taxicards and other travel support.</p>\r\n"
+      value: "<p>Blue Badges, Freedom Passes for older or disabled people and other travel support.</p>\r\n"
       format: wysiwyg
-      summary: 'Blue Badges, Freedom Passes for older or disabled people, London Taxicards and other travel support.'
+      summary: 'Blue Badges, Freedom Passes for older or disabled people and other travel support.'
   localgov_services_parent:
     -
       entity: c1d9f01d-c368-4db3-a4ec-c882d217781b
