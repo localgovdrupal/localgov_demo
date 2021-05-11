@@ -151,14 +151,13 @@ class ContentTest extends BrowserTestBase {
 
     // Test Subsite page: Example page with a video.
     $this->drupalGet('/test-subsite-demo-all-components/video-page-key-contact');
-    $this->assertSession()->elementTextContains('css', 'main article h2', 'A video page, with a key contact');
     // $this->assertSession()->elementTextContains('css', 'main article', 'MHCLG');
+    $this->assertSession()->elementTextContains('css', 'main article h2', 'A video page, with a key contact');
 
     // Test Directory venue: LocalGov Drupal Collaborators.
     $this->drupalGet('/localgov-drupal-collaborators');
     $this->assertSession()->elementTextContains('css', 'header h1', 'LocalGov Drupal Collaborators');
     $this->assertSession()->elementTextContains('css', 'main', 'Explore the contributors and adopters in this directory.');
-    // $this->assertSession()->elementTextContains('css', '.view', 'Lambeth Council');
 
     // Test Directory venue: Agile Collective.
     $this->drupalGet('/localgov-drupal-collaborators/agile-collective');
