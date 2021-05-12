@@ -60,7 +60,6 @@ class ContentTest extends BrowserTestBase {
     $this->assertSession()->elementTextContains('css', 'header h1', 'Another service landing page');
     $this->assertSession()->elementTextContains('css', 'header p', 'Morbi porta tortor ac felis placerat, nec sodales justo tincidunt.');
     $this->assertSession()->elementTextContains('css', 'main article h2', 'Child pages');
-    // $this->assertSession()->elementTextContains('css', 'main article h3', 'Service page');
     $this->assertSession()->elementTextContains('css', 'main article', 'Example external link');
 
     // Test Service page: Occupational Therapy and equipment.
@@ -151,7 +150,6 @@ class ContentTest extends BrowserTestBase {
 
     // Test Subsite page: Example page with a video.
     $this->drupalGet('/test-subsite-demo-all-components/video-page-key-contact');
-    // $this->assertSession()->elementTextContains('css', 'main article', 'MHCLG');
     $this->assertSession()->elementTextContains('css', 'main article h2', 'A video page, with a key contact');
 
     // Test Directory venue: LocalGov Drupal Collaborators.
