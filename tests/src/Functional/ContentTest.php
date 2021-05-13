@@ -129,9 +129,7 @@ class ContentTest extends BrowserTestBase {
     // Test Event page: LocalGovDrupal Product Group meetup.
     $this->drupalGet('/events/localgovdrupal-product-group-meetup');
     $this->assertSession()->elementTextContains('css', 'header h1', 'LocalGovDrupal Product Group meetup');
-    $this->assertSession()->elementTextContains('css', 'main article', 'Thursday, 13th May 2021');
-    $this->assertSession()->elementTextContains('css', 'main article', 'Thursday, 27th May 2021');
-    $this->assertSession()->elementTextContains('css', 'main article', 'Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.');
+    $this->assertSession()->elementTextContains('css', 'main', 'Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.');
 
     // Test Subsite overview: A test subsite to demo all the components.
     $this->drupalGet('/test-subsite-demo-all-components');
