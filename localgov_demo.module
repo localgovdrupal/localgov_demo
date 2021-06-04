@@ -56,5 +56,14 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
         }
       }
     }
+
+    // Regenerate all path aliases.
+    // This needs to happen after entity reference fixes.
+    $nids = \Drupal::entityTypeManager()->getStorage('node')->getQuery()->execute();
+    $nodes = \Drupal::entityTypeManager()->getStorage('node')->loadMultiple($nids);
+    foreach ($nodes as $node) {
+      \Drupal::service('pathauto.generator')->updateEntityAlias($node, 'update');
+    }
+
   }
 }
