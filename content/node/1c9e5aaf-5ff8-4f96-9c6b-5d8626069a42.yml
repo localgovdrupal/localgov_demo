@@ -34,9 +34,12 @@ default:
   revision_translation_affected:
     -
       value: true
+  moderation_state:
+    -
+      value: published
   path:
     -
-      alias: /another-service-landing-page/service-page
+      alias: /adult-health-and-social-care/another-service-landing-page/service-page
       langcode: en
       pathauto: 1
   body:
@@ -47,7 +50,7 @@ default:
   localgov_common_tasks:
     -
       target_uuid: c1d9f01d-c368-4db3-a4ec-c882d217781b
-      title: 'Test service page'
+      title: 'Adult health and social care'
       options:
         type: action
     -
@@ -64,7 +67,7 @@ default:
   localgov_related_links:
     -
       target_uuid: c1d9f01d-c368-4db3-a4ec-c882d217781b
-      title: 'Test service link'
+      title: 'Adult health and social care'
       options:
         attributes: {  }
   localgov_services_parent:
