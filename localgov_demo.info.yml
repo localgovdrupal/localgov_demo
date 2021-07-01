@@ -21,7 +21,7 @@ dependencies:
   - localgov_directories:localgov_directories_page
   - localgov_directories:localgov_directories_venue
   - localgov_events:localgov_events
-
+  - localgov_search:localgov_search
 
 default_content:
   node:
