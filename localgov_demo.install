@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the localgov_demo module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function localgov_demo_install() {
+
+  // Enable scheduled transitions for all node bundles.
+  $localgov_directories_venue_config = \Drupal::service('config.factory')->getEditable('field.field.node.localgov_directories_venue.localgov_location');
+  $localgov_directories_venue_config->set('settings.handler_settings.target_bundles.area', 'area');
+  $localgov_directories_venue_config->save();
+}
