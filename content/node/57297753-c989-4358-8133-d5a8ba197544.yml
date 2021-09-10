@@ -6,7 +6,6 @@ _meta:
   default_langcode: en
   depends:
     c1d9f01d-c368-4db3-a4ec-c882d217781b: node
-    1c9e5aaf-5ff8-4f96-9c6b-5d8626069a42: node
     df8a65ea-700c-4820-b12b-c81ccac0dd6c: taxonomy_term
 default:
   revision_uid:
@@ -75,10 +74,6 @@ default:
             -
               value: 'Child pages'
           topic_list_links:
-            -
-              target_uuid: 1c9e5aaf-5ff8-4f96-9c6b-5d8626069a42
-              title: 'Test service page'
-              options: {  }
             -
               uri: 'https://example.com/'
               title: 'Example external link'

@@ -16,7 +16,7 @@ default:
       target_id: 1
   title:
     -
-      value: 'A minor alert'
+      value: 'Welcome to the LocalGov Drupal demo site!'
   display_title:
     -
       value: true
@@ -31,10 +31,10 @@ default:
       value: true
   token:
     -
-      value: alert-7--ecb749e31fd39ec22925ff1c0150db48d9bb5948
+      value: alert-2--acb697bb383f5dc3ab22eea5ccf6df5a2385a7d7
   short_description:
     -
-      value: "<p>This is an example of a minor alert - to see other variations go to /admin/content/alert-banners</p>\r\n"
+      value: "<p>This is an example of a site-wide minor alert - click hide and you should not see me again. Other alerts might be displayed on specific pages.&nbsp;</p>\r\n"
       format: wysiwyg
   type_of_alert:
     -

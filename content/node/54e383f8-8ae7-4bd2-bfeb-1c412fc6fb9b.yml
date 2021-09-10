@@ -90,6 +90,9 @@ default:
                   layout: layout_onecol
                   config:
                     label: ''
+          revision_translation_affected:
+            -
+              value: true
     -
       entity:
         _meta:
@@ -114,6 +117,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_text:
             -
               value: "<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit.</p>\r\n\r\n<p>Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt.</p>\r\n\r\n<p>Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada.</p>\r\n"
@@ -142,6 +148,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_heading_level:
             -
               value: h2

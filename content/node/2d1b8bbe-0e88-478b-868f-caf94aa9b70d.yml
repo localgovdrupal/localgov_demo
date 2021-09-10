@@ -38,6 +38,9 @@ default:
   revision_translation_affected:
     -
       value: true
+  moderation_state:
+    -
+      value: published
   path:
     -
       alias: /births-deaths-marriages-and-citizenship/marriage-and-civil-partnerships/step-by-step/get-married-or
@@ -45,7 +48,7 @@ default:
       pathauto: 1
   body:
     -
-      value: "<p>If you have a ceremony already booked over the coming months, please email us at the address below if you wish to change dates.&nbsp;</p>\r\n\r\n<p>We understand this is a very difficult time for all of us and we are working hard to deliver services for our residents throughout the pandemic. Please bear with us if it takes a little longer to respond to queries as demand is very high.</p>\r\n"
+      value: "<p>If you have a ceremony already booked over the coming months, please email us at the address below if you wish to change dates.&nbsp;</p>\r\n"
       format: wysiwyg
       summary: ''
   localgov_services_parent:
