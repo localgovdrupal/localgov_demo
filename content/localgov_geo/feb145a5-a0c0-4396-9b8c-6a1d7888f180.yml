@@ -14,26 +14,33 @@ default:
   created:
     -
       value: 1620224903
+  label:
+    -
+      value: |-
+        117 Botchergate
+        Carlisle
+        CA1 1RD
+        United Kingdom
   revision_translation_affected:
     -
       value: true
   location:
     -
-      value: 'POINT (-2.928464 54.890303)'
+      value: 'POINT (-2.9284636703349 54.89030305)'
       geo_type: Point
-      lat: 54.890303
-      lon: -2.928464
-      left: -2.928464
-      top: 54.890303
-      right: -2.928464
-      bottom: 54.890303
-      geohash: gcvbm27x1y4g
-      latlon: '54.890303,-2.928464'
+      lat: 54.89030305
+      lon: -2.9284636703349
+      left: -2.9284636703349
+      top: 54.89030305
+      right: -2.9284636703349
+      bottom: 54.89030305
+      geohash: gcvbm27x1y55z036
+      latlon: '54.89030305,-2.9284636703349'
   postal_address:
     -
       langcode: ''
       country_code: GB
-      administrative_area: ''
+      administrative_area: England
       locality: Carlisle
       dependent_locality: ''
       postal_code: 'CA1 1RD'

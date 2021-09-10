@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: localgov_geo
-  uuid: c065a456-0319-45e6-b671-b4465345383f
+  uuid: b7bd2cce-8fe6-4cff-a7fc-15ebd86cd2ad
   bundle: address
   default_langcode: en
 default:
@@ -13,40 +13,39 @@ default:
       target_id: 1
   created:
     -
-      value: 1620224565
+      value: 1631270985
   label:
     -
       value: |-
-        Bartholomew House
-        Bartholomew Square
-        Brighton
-        BN1 1JS
+        43-49 Harley Street
+        Westminster
+        W1G 7HA
         United Kingdom
   revision_translation_affected:
     -
       value: true
   location:
     -
-      value: 'POINT (-0.1404718 50.8207459)'
+      value: 'POINT (-0.14698465156324 51.51848505)'
       geo_type: Point
-      lat: 50.8207459
-      lon: -0.1404718
-      left: -0.1404718
-      top: 50.8207459
-      right: -0.1404718
-      bottom: 50.8207459
-      geohash: gcpchg9sqc8tu
-      latlon: '50.8207459,-0.1404718'
+      lat: 51.51848505
+      lon: -0.14698465156324
+      left: -0.14698465156324
+      top: 51.51848505
+      right: -0.14698465156324
+      bottom: 51.51848505
+      geohash: gcpvhdsuzj8mcter
+      latlon: '51.51848505,-0.14698465156324'
   postal_address:
     -
       langcode: ''
       country_code: GB
       administrative_area: England
-      locality: Brighton
+      locality: Westminster
       dependent_locality: ''
-      postal_code: 'BN1 1JS'
+      postal_code: 'W1G 7HA'
       sorting_code: ''
-      address_line1: 'Bartholomew Square 10'
+      address_line1: 'Harley Street 43-49'
       address_line2: ''
       organization: ''
       given_name: ''

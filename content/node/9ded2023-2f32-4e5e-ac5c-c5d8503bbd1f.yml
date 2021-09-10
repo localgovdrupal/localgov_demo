@@ -1,0 +1,953 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9ded2023-2f32-4e5e-ac5c-c5d8503bbd1f
+  bundle: localgov_subsites_overview
+  default_langcode: en
+  depends:
+    638fe726-4b86-48e5-8d0c-fb24f83bfa5b: node
+    f8066c54-cdd4-42c5-bf25-8720757c410b: node
+    e3aafe22-3b56-4bf9-afd8-3dda0ae16213: node
+    30f235fa-0119-4db9-afca-d8b7be0635c0: node
+    7b913fee-9b49-452b-930c-33e10ef608ac: media
+    75aa141a-7e15-4d97-be6b-42372299ba4c: node
+    5f46013c-8afd-4304-b073-2a7d12a89ec0: node
+    a6abc378-3a60-4d97-a52e-ab796461e053: node
+    d2af8444-4898-4daf-9814-6dc0c16cfb26: media
+    d1aa7821-645a-4882-90a2-cd3ed84d4cfa: media
+    a1358f58-1927-4825-8918-70c36f94951f: media
+    198d685b-043e-409d-8e92-21452f38a2fe: node
+    a39ba204-ea13-4f42-b30d-8370278e40cf: media
+    78d35e95-caba-4abc-a179-52d08718d242: node
+    951e93f6-c9f0-4545-baac-05d45cf8e661: media
+    90c4eac2-84a2-42c5-a7d6-8d6f79a4e1da: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Localgov Drupal Demo'
+  created:
+    -
+      value: 1631266212
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /localgov-drupal-demo
+      langcode: en
+      pathauto: 1
+  localgov_subsites_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c8bc933a-6b45-4b41-a34d-0391a1367fe9
+          bundle: localgov_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631266274
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: ''
+                  parent_uuid: ''
+                  layout: ''
+                  config: {  }
+          revision_translation_affected:
+            -
+              value: true
+          localgov_text:
+            -
+              value: "<p class=\"alert alert-success\"><strong>Welcome to the LocalGov Drupal Demo site! This site has been created to demonstrate some of what LocalGov Drupal can do with a default installation. Explore the different types of content via the top navigation and the options below.</strong></p>\r\n"
+              format: wysiwyg
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7cfb3e1c-cb7c-4086-95fb-1ee35420f9c2
+          bundle: page_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631268491
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: ''
+                  parent_uuid: ''
+                  layout: layout_threecol_33_34_33
+                  config:
+                    label: ''
+          revision_translation_affected:
+            -
+              value: true
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 488ee9db-5555-411f-b184-62f2933d2c69
+          bundle: localgov_ia_block
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631268505
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: first
+                  parent_uuid: 7cfb3e1c-cb7c-4086-95fb-1ee35420f9c2
+                  layout: ''
+                  config: {  }
+                  parent_delta: 1
+          revision_translation_affected:
+            -
+              value: true
+          localgov_ia_block_link:
+            -
+              target_uuid: 638fe726-4b86-48e5-8d0c-fb24f83bfa5b
+              title: ''
+              options: {  }
+          localgov_ia_block_links:
+            -
+              target_uuid: f8066c54-cdd4-42c5-bf25-8720757c410b
+              title: 'Registering a birth (service page)'
+              options: {  }
+            -
+              target_uuid: e3aafe22-3b56-4bf9-afd8-3dda0ae16213
+              title: 'Marriage and civil partnerships (service page)'
+              options: {  }
+          localgov_ia_block_promoted:
+            -
+              value: false
+          localgov_ia_block_title:
+            -
+              value: 'Births, deaths and marriages'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 999d16b9-54e1-4eda-9333-5ad2b5559ce4
+          bundle: localgov_ia_block
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631270604
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: second
+                  parent_uuid: 7cfb3e1c-cb7c-4086-95fb-1ee35420f9c2
+                  layout: ''
+                  config: {  }
+                  parent_delta: 1
+          revision_translation_affected:
+            -
+              value: true
+          localgov_ia_block_link:
+            -
+              uri: 'https://demo.localgovdrupal.org/adult-health-and-social-care'
+              title: ''
+              options: {  }
+          localgov_ia_block_links:
+            -
+              uri: 'https://demo.localgovdrupal.org/adult-health-and-social-care/support-your-home'
+              title: 'Support in your home (service page)'
+              options: {  }
+            -
+              uri: 'https://demo.localgovdrupal.org/mental-health-support'
+              title: 'Mental health support (service page)'
+              options: {  }
+          localgov_ia_block_promoted:
+            -
+              value: false
+          localgov_ia_block_title:
+            -
+              value: 'Adult health and social care'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: dc3dd94c-0be6-4435-8a37-3a19372e2f37
+          bundle: localgov_ia_block
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631272287
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: third
+                  parent_uuid: 7cfb3e1c-cb7c-4086-95fb-1ee35420f9c2
+                  layout: ''
+                  config: {  }
+                  parent_delta: 1
+          revision_translation_affected:
+            -
+              value: true
+          localgov_ia_block_link:
+            -
+              uri: 'https://demo.localgovdrupal.org/libraries-leisure-and-culture'
+              title: ''
+              options: {  }
+          localgov_ia_block_links:
+            -
+              uri: 'https://demo.localgovdrupal.org/libraries-leisure-and-culture/z-sports-and-activities/basketball'
+              title: 'Basketball (service page)'
+              options: {  }
+            -
+              uri: 'https://demo.localgovdrupal.org/libraries-leisure-and-culture/z-sports-and-activities/'
+              title: 'Skateboarding (service page)'
+              options: {  }
+          localgov_ia_block_promoted:
+            -
+              value: false
+          localgov_ia_block_title:
+            -
+              value: 'Libraries, Leisure and Culture'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e8192108-3bd2-4fec-951c-74d814e8779b
+          bundle: page_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631280596
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: ''
+                  parent_uuid: ''
+                  layout: layout_threecol_33_34_33
+                  config:
+                    label: ''
+          revision_translation_affected:
+            -
+              value: true
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9777598c-a3bd-4c03-a2a6-4f8de978f51c
+          bundle: localgov_ia_block
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631270190
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: first
+                  parent_uuid: e8192108-3bd2-4fec-951c-74d814e8779b
+                  layout: ''
+                  config: {  }
+                  parent_delta: 5
+          revision_translation_affected:
+            -
+              value: true
+          localgov_ia_block_link:
+            -
+              uri: 'https://demo.localgovdrupal.org/events/st-patricks-festival'
+              title: ''
+              options: {  }
+          localgov_ia_block_links:
+            -
+              uri: 'https://demo.localgovdrupal.org/events/hogmanay-2021'
+              title: 'hogmanay-2021 (another event page)'
+              options: {  }
+            -
+              uri: 'https://demo.localgovdrupal.org/events/localgovdrupal-product-group-meetup'
+              title: 'Another event page'
+              options: {  }
+          localgov_ia_block_promoted:
+            -
+              value: false
+          localgov_ia_block_title:
+            -
+              value: 'St Patrick''s Festival'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f42a9670-c4a1-4771-b490-36c17d73df40
+          bundle: localgov_ia_block
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631269750
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: second
+                  parent_uuid: e8192108-3bd2-4fec-951c-74d814e8779b
+                  layout: ''
+                  config: {  }
+                  parent_delta: 5
+          revision_translation_affected:
+            -
+              value: true
+          localgov_ia_block_link:
+            -
+              uri: 'https://demo.localgovdrupal.org/adult-health-and-social-care/money-employment-and-training-directory/citizens-advice'
+              title: ''
+              options: {  }
+          localgov_ia_block_links:
+            -
+              uri: 'https://demo.localgovdrupal.org/adult-health-and-social-care/money-employment-and-training-directory/citizens-advice'
+              title: 'link to the Citizens Advice directory page'
+              options: {  }
+            -
+              uri: 'https://demo.localgovdrupal.org/adult-health-and-social-care/money-employment-and-training-directory/citizens-advice'
+              title: 'link to the Citizens Advice directory page'
+              options: {  }
+          localgov_ia_block_promoted:
+            -
+              value: false
+          localgov_ia_block_title:
+            -
+              value: 'Citizens Advice'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7a322da5-db31-4dac-bcdd-241344faf2db
+          bundle: localgov_ia_block
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631270394
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: third
+                  parent_uuid: e8192108-3bd2-4fec-951c-74d814e8779b
+                  layout: ''
+                  config: {  }
+                  parent_delta: 5
+          revision_translation_affected:
+            -
+              value: true
+          localgov_ia_block_link:
+            -
+              uri: 'https://demo.localgovdrupal.org/order-copy-certificate'
+              title: ''
+              options: {  }
+          localgov_ia_block_links:
+            -
+              uri: 'https://demo.localgovdrupal.org/order-copy-certificate'
+              title: 'Certificate - Guide page'
+              options: {  }
+            -
+              uri: 'https://demo.localgovdrupal.org/adult-health-and-social-care/travel-passes-and-support/blue-badges'
+              title: 'Get a blue badge - Guide page'
+              options: {  }
+          localgov_ia_block_promoted:
+            -
+              value: false
+          localgov_ia_block_title:
+            -
+              value: 'Order a copy certificate'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 752fc27b-4b8b-4675-a5b5-c51740018380
+          bundle: localgov_media_with_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631267905
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: ''
+                  parent_uuid: ''
+                  layout: ''
+                  config: {  }
+          revision_translation_affected:
+            -
+              value: true
+          localgov_heading_level:
+            -
+              value: h2
+          localgov_link:
+            -
+              target_uuid: 30f235fa-0119-4db9-afca-d8b7be0635c0
+              title: 'More about Scarfolk Crematorium'
+              options: {  }
+          localgov_media_item:
+            -
+              entity: 7b913fee-9b49-452b-930c-33e10ef608ac
+          localgov_media_position:
+            -
+              value: left
+          localgov_media_with_text_style:
+            -
+              value: default
+          localgov_opens_in_a_new_window:
+            -
+              value: false
+          localgov_text:
+            -
+              value: "<h3>Services</h3>\r\n\r\n<p>Services are at 45 minute intervals. Extra time can be booked for extended services or to accommodate large congregations. Both chapels can play recorded music and have organs, but we do not supply organists.</p>\r\n\r\n<p>The east chapel has a modern design, with upholstered linked seating, allowing flexibility and seating for about 130 people. The catafalque has double curtains, net and velvet, that can be drawn to fully or partially obscure the coffin at committal.</p>\r\n"
+              format: wysiwyg
+          localgov_title:
+            -
+              value: 'Scarfolk Crematorium (Explore a subsite)'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2717d62f-f001-46b7-a19f-3dc8799406fa
+          bundle: page_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631266479
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: ''
+                  parent_uuid: ''
+                  layout: layout_threecol_33_34_33
+                  config:
+                    label: ''
+          revision_translation_affected:
+            -
+              value: true
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 847f29dd-6beb-4ea4-8382-19b461f337ab
+          bundle: localgov_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631267987
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: top
+                  parent_uuid: 2717d62f-f001-46b7-a19f-3dc8799406fa
+                  layout: ''
+                  config: {  }
+                  parent_delta: 10
+          revision_translation_affected:
+            -
+              value: true
+          localgov_text:
+            -
+              value: "<h2>Some other types of content</h2>\r\n"
+              format: wysiwyg
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c435def7-60cc-43cb-9288-6633d1443ad5
+          bundle: localgov_link_and_summary
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631266531
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: first
+                  parent_uuid: 2717d62f-f001-46b7-a19f-3dc8799406fa
+                  layout: ''
+                  config: {  }
+                  parent_delta: 10
+          revision_translation_affected:
+            -
+              value: true
+          localgov_link:
+            -
+              target_uuid: 75aa141a-7e15-4d97-be6b-42372299ba4c
+              title: 'Step by Step'
+              options: {  }
+          localgov_summary:
+            -
+              value: 'A step by step is used for content which you should go through sequentially. '
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0083bee9-fe64-41a6-bb2c-7ce6d6be828a
+          bundle: localgov_link_and_summary
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631266680
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: second
+                  parent_uuid: 2717d62f-f001-46b7-a19f-3dc8799406fa
+                  layout: ''
+                  config: {  }
+                  parent_delta: 10
+          revision_translation_affected:
+            -
+              value: true
+          localgov_link:
+            -
+              target_uuid: 5f46013c-8afd-4304-b073-2a7d12a89ec0
+              title: 'Guide pages'
+              options: {  }
+          localgov_summary:
+            -
+              value: 'Guide pages are useful when you want to group together a collection of connected pages. If there''s content that''s relative to the user completing a task, but it doesn''t follow a strict process, you should use the guide format. '
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 89b088d5-9ef4-47cd-ba0a-b0fab24b4aad
+          bundle: localgov_link_and_summary
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631266834
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: third
+                  parent_uuid: 2717d62f-f001-46b7-a19f-3dc8799406fa
+                  layout: ''
+                  config: {  }
+                  parent_delta: 10
+          revision_translation_affected:
+            -
+              value: true
+          localgov_link:
+            -
+              target_uuid: a6abc378-3a60-4d97-a52e-ab796461e053
+              title: Subsites
+              options: {  }
+          localgov_summary:
+            -
+              value: 'Subsites allow you to create a section of the site with it''s own look and feel, and internal information architecture'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 45716467-63b4-488b-a2b5-6a7723f836e8
+          bundle: localgov_quote
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631267077
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: bottom
+                  parent_uuid: 2717d62f-f001-46b7-a19f-3dc8799406fa
+                  layout: ''
+                  config: {  }
+                  parent_delta: 10
+          revision_translation_affected:
+            -
+              value: true
+          localgov_author:
+            -
+              value: 'someone, somewhere'
+          localgov_text_plain:
+            -
+              value: 'LocalGov Drupal is really great. '
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c6417386-3885-4a1f-94f9-2e3e717e465c
+          bundle: localgov_box_links_listing
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631267329
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: ''
+                  parent_uuid: ''
+                  layout: ''
+                  config: {  }
+          revision_translation_affected:
+            -
+              value: true
+          localgov_box_listing_theme:
+            -
+              value: grid
+          localgov_heading_level:
+            -
+              value: h2
+          localgov_paragraphs:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 38e4842f-5f05-45c1-b31f-3203ed2aed39
+                  bundle: localgov_box_link
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1631267329
+                  behavior_settings:
+                    -
+                      value: {  }
+                  localgov_image:
+                    -
+                      entity: d2af8444-4898-4daf-9814-6dc0c16cfb26
+                  localgov_link:
+                    -
+                      uri: 'https://localgovdrupal.org'
+                      title: 'Find out more'
+                      options: {  }
+                  localgov_opens_in_a_new_window:
+                    -
+                      value: false
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 75d824bd-b2ae-4f13-bb2d-21ab8bbf01eb
+                  bundle: localgov_box_link
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1631267385
+                  behavior_settings:
+                    -
+                      value: {  }
+                  localgov_image:
+                    -
+                      entity: d1aa7821-645a-4882-90a2-cd3ed84d4cfa
+                  localgov_link:
+                    -
+                      uri: 'https://github.com/localgovdrupal'
+                      title: 'See the codebase'
+                      options: {  }
+                  localgov_opens_in_a_new_window:
+                    -
+                      value: false
+          localgov_title:
+            -
+              value: 'Get involved'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 57da1b10-536e-48ed-ac12-4988f915f4e7
+          bundle: page_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631268057
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: ''
+                  parent_uuid: ''
+                  layout: layout_threecol_33_34_33
+                  config:
+                    label: ''
+          revision_translation_affected:
+            -
+              value: true
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ab2a69ed-3df3-40bb-bdab-6748f6a40816
+          bundle: localgov_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631268333
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: top
+                  parent_uuid: 57da1b10-536e-48ed-ac12-4988f915f4e7
+                  layout: ''
+                  config: {  }
+                  parent_delta: 17
+          revision_translation_affected:
+            -
+              value: true
+          localgov_text:
+            -
+              value: "<h2>LocalGov Drupal comes with News</h2>\r\n"
+              format: wysiwyg
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: bd01185b-dcd1-4a37-a577-b86858928dd1
+          bundle: localgov_newsroom_teaser
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631268080
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: first
+                  parent_uuid: 57da1b10-536e-48ed-ac12-4988f915f4e7
+                  layout: ''
+                  config: {  }
+                  parent_delta: 17
+          revision_translation_affected:
+            -
+              value: true
+          localgov_newsroom_teaser_image:
+            -
+              entity: a1358f58-1927-4825-8918-70c36f94951f
+          localgov_newsroom_teaser_link:
+            -
+              target_uuid: 198d685b-043e-409d-8e92-21452f38a2fe
+              title: ''
+              options: {  }
+          localgov_newsroom_teaser_summary:
+            -
+              value: "The new independent chair of the council's Adult Safeguarding Board has set out her plans for keeping vulnerable adults safe, as the board’s revamped website is launched this week.\r\n\r\n"
+          localgov_newsroom_teaser_title:
+            -
+              value: 'Committed to keeping vulnerable adults safe, new safeguarding head'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e40ea9d6-c20e-4782-867d-f38b66fd8237
+          bundle: localgov_newsroom_teaser
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631268165
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: second
+                  parent_uuid: 57da1b10-536e-48ed-ac12-4988f915f4e7
+                  layout: ''
+                  config: {  }
+                  parent_delta: 17
+          revision_translation_affected:
+            -
+              value: true
+          localgov_newsroom_teaser_image:
+            -
+              entity: a39ba204-ea13-4f42-b30d-8370278e40cf
+          localgov_newsroom_teaser_link:
+            -
+              target_uuid: 78d35e95-caba-4abc-a179-52d08718d242
+              title: ''
+              options: {  }
+          localgov_newsroom_teaser_summary:
+            -
+              value: 'The warmer weather this summer with the occasional almost tropical rain storm has encouraged Cumbrian gardens to flourish, creating an abundance of surplus garden waste.'
+          localgov_newsroom_teaser_title:
+            -
+              value: 'Don`t waste your waste - get composting this autumn'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e107f7e3-94af-4041-8aec-b93550ea5fd0
+          bundle: localgov_newsroom_teaser
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1631268250
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  region: third
+                  parent_uuid: 57da1b10-536e-48ed-ac12-4988f915f4e7
+                  layout: ''
+                  config: {  }
+                  parent_delta: 17
+          revision_translation_affected:
+            -
+              value: true
+          localgov_newsroom_teaser_image:
+            -
+              entity: 951e93f6-c9f0-4545-baac-05d45cf8e661
+          localgov_newsroom_teaser_link:
+            -
+              target_uuid: 90c4eac2-84a2-42c5-a7d6-8d6f79a4e1da
+              title: ''
+              options: {  }
+          localgov_newsroom_teaser_summary:
+            -
+              value: 'The summer sun is performing its last dance of the year and our gardens will soon become wastelands of winter, but before the snow starts to fall, it’s time to take autumn by the bronzed leaves and get out there, prune, trim and prepare the garden for next year.'
+          localgov_newsroom_teaser_title:
+            -
+              value: ' Discounted compost bins can help transform your garden over winter!'
+  localgov_subsites_hide_menu:
+    -
+      value: true
+  localgov_subsites_theme:
+    -
+      value: theme_a
