@@ -72,4 +72,20 @@ function localgov_demo_install() {
   ]);
   $guide_menu_item->save();
 
+  // Create a link to /node/55.
+  $social_care_menu_item = MenuLinkContent::create([
+    'title' => 'Adult health and social care',
+    'link' => ['uri' => 'internal:/node/55'],
+    'menu_name' => 'localgov_services_menu',
+    'expanded' => FALSE,
+  ]);
+  $social_care_menu_item->save();
+  // Create a link to /node/30.
+  $social_care_menu_item = MenuLinkContent::create([
+    'title' => 'Births, deaths, marriages and citizenship',
+    'link' => ['uri' => 'internal:/node/30'],
+    'menu_name' => 'localgov_services_menu',
+    'expanded' => FALSE,
+  ]);
+  $social_care_menu_item->save();
 }
