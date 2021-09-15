@@ -64,6 +64,9 @@ default:
                   layout: layout_twocol
                   config:
                     label: ''
+          revision_translation_affected:
+            -
+              value: true
     -
       entity:
         _meta:
@@ -88,6 +91,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_table:
             -
               value:
@@ -139,6 +145,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_text:
             -
               value: "<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Proin eget tortor risus. Nulla porttitor accumsan tincidunt.</p>\r\n\r\n<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus.</p>\r\n\r\n<p>Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>\r\n\r\n<p>Donec sollicitudin molestie malesuada. Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Sed porttitor lectus nibh.</p>\r\n"
@@ -167,6 +176,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_text:
             -
               value: "<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Proin eget tortor risus. Nulla porttitor accumsan tincidunt.</p>\r\n\r\n<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus.</p>\r\n"
@@ -195,6 +207,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_heading_level:
             -
               value: h2

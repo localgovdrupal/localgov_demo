@@ -14,21 +14,28 @@ default:
   created:
     -
       value: 1620226728
+  label:
+    -
+      value: |-
+        62-64 Victoria Street
+        Westminster
+        SW1E 6QP
+        United Kingdom
   revision_translation_affected:
     -
       value: true
   location:
     -
-      value: 'POINT (-0.137247 51.4975)'
+      value: 'POINT (-0.13734355477368 51.4976144)'
       geo_type: Point
-      lat: 51.4975
-      lon: -0.137247
-      left: -0.137247
-      top: 51.4975
-      right: -0.137247
-      bottom: 51.4975
-      geohash: gcpuuyu49vv1
-      latlon: '51.4975,-0.137247'
+      lat: 51.4976144
+      lon: -0.13734355477368
+      left: -0.13734355477368
+      top: 51.4976144
+      right: -0.13734355477368
+      bottom: 51.4976144
+      geohash: gcpuuyggrej5xhuk
+      latlon: '51.4976144,-0.13734355477368'
   postal_address:
     -
       langcode: ''

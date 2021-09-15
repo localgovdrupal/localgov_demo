@@ -59,6 +59,9 @@ default:
           behavior_settings:
             -
               value: {  }
+          revision_translation_affected:
+            -
+              value: true
           localgov_image:
             -
               entity: 7b913fee-9b49-452b-930c-33e10ef608ac
@@ -87,6 +90,9 @@ default:
                   layout: layout_onecol
                   config:
                     label: ''
+          revision_translation_affected:
+            -
+              value: true
     -
       entity:
         _meta:
@@ -111,6 +117,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_text:
             -
               value: "<h3>Crematorium memorial options</h3>\r\n\r\n<p>You can choose from a range different memorials – for example:</p>\r\n\r\n<ul>\r\n\t<li>a book of remembrance</li>\r\n\t<li>a wooden bench</li>\r\n\t<li>memorials tree and shrubs</li>\r\n\t<li>Yorkstone paving</li>\r\n</ul>\r\n\r\n<p>For more information on these memorials and other options, visit&nbsp;our&nbsp;<a href=\"/\">guide for&nbsp;brochures and pricing.</a></p>\r\n\r\n<h3>&nbsp;</h3>\r\n"

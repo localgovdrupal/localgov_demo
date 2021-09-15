@@ -12,7 +12,7 @@ default:
       value: drupalgov-mission-discovery_400x400.png
   uri:
     -
-      value: 'public://2021-05/drupalgov-mission-discovery_400x400.png'
+      value: 'public://2021-05/drupalgov-mission-discovery_400x400_3.png'
   filemime:
     -
       value: image/png
