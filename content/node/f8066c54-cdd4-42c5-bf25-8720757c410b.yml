@@ -5,6 +5,7 @@ _meta:
   bundle: localgov_services_page
   default_langcode: en
   depends:
+    b60200f9-b034-45f3-bf79-108f4906db93: paragraphs_library_item
     638fe726-4b86-48e5-8d0c-fb24f83bfa5b: node
 default:
   revision_uid:
@@ -31,6 +32,9 @@ default:
   revision_translation_affected:
     -
       value: true
+  moderation_state:
+    -
+      value: published
   path:
     -
       alias: /births-deaths-marriages-and-citizenship/registering-birth
@@ -47,6 +51,9 @@ default:
   localgov_override_related_links:
     -
       value: false
+  localgov_page_components:
+    -
+      entity: b60200f9-b034-45f3-bf79-108f4906db93
   localgov_services_parent:
     -
       entity: 638fe726-4b86-48e5-8d0c-fb24f83bfa5b

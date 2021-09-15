@@ -5,9 +5,9 @@ _meta:
   bundle: localgov_guides_overview
   default_langcode: en
   depends:
-    9cd20a2e-0486-4f89-a4c5-584bbc9e1b47: node
     5963812c-9e71-4be0-9067-59125da10a71: node
     7ca88e56-8a8b-44ae-9fa0-f75df0533189: node
+    9cd20a2e-0486-4f89-a4c5-584bbc9e1b47: node
     c89123ee-a53f-4470-a384-085c596e157b: node
     e7734a03-c2d5-4fa3-92b8-a945b8388b38: node
     968ae2b4-a5f3-4f6a-bb83-376a819a77e0: node
@@ -57,11 +57,11 @@ default:
       value: unordered
   localgov_guides_pages:
     -
-      entity: 9cd20a2e-0486-4f89-a4c5-584bbc9e1b47
-    -
       entity: 5963812c-9e71-4be0-9067-59125da10a71
     -
       entity: 7ca88e56-8a8b-44ae-9fa0-f75df0533189
+    -
+      entity: 9cd20a2e-0486-4f89-a4c5-584bbc9e1b47
     -
       entity: c89123ee-a53f-4470-a384-085c596e157b
     -

@@ -44,6 +44,9 @@ default:
       value: 'Vestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar. Etiam vitae quam sit amet ligula eleifend congue. Quisque sit amet ipsum non erat auctor interdum. Aenean vel sapien nisl. Quisque efficitur aliquet tristique. Sed sodales arcu porta, finibus justo vel, posuere nunc. Etiam iaculis sem sit amet dictum sodales. Maecenas vitae egestas ex. Quisque rhoncus et massa eget pretium. '
       format: plain_text
       summary: 'Vestibulum quis congue metus. Maecenas nec libero vel magna sagittis sagittis sed sed augue. Praesent faucibus suscipit libero varius fermentum. Vivamus efficitur ac ex vel pulvinar.'
+  localgov_services_parent:
+    -
+      entity: c1d9f01d-c368-4db3-a4ec-c882d217781b
   localgov_service_status:
     -
       value: 0-severe-impact
@@ -53,6 +56,3 @@ default:
   localgov_service_status_on_list:
     -
       value: true
-  localgov_services_parent:
-    -
-      entity: c1d9f01d-c368-4db3-a4ec-c882d217781b

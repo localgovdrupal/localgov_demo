@@ -12,6 +12,7 @@ _meta:
     1c9e5aaf-5ff8-4f96-9c6b-5d8626069a42: node
     968ae2b4-a5f3-4f6a-bb83-376a819a77e0: node
     57297753-c989-4358-8133-d5a8ba197544: node
+    9f43890d-c2c2-4d3d-b036-bb3ae7265752: node
     acfb5e02-f92b-4822-9f09-d5802314dd52: taxonomy_term
     df8a65ea-700c-4820-b12b-c81ccac0dd6c: taxonomy_term
 default:
@@ -67,7 +68,7 @@ default:
         type: basic
     -
       target_uuid: 75aa141a-7e15-4d97-be6b-42372299ba4c
-      title: 'Request help for an adult'
+      title: 'Step by step page'
       options:
         type: action
     -
@@ -87,6 +88,16 @@ default:
       entity: 968ae2b4-a5f3-4f6a-bb83-376a819a77e0
     -
       entity: 57297753-c989-4358-8133-d5a8ba197544
+    -
+      entity: 9f43890d-c2c2-4d3d-b036-bb3ae7265752
+    -
+      entity: 57297753-c989-4358-8133-d5a8ba197544
+    -
+      entity: 1c9e5aaf-5ff8-4f96-9c6b-5d8626069a42
+    -
+      entity: 57b46ceb-20d3-45cc-9f9b-2bf2a6561c78
+    -
+      entity: 968ae2b4-a5f3-4f6a-bb83-376a819a77e0
   localgov_email_address:
     -
       value: contact@example.com

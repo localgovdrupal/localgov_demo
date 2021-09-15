@@ -5,7 +5,6 @@ _meta:
   bundle: localgov_services_sublanding
   default_langcode: en
   depends:
-    5eb1f39a-1740-44c9-bc71-8f0ba897d761: user
     3266e45f-1489-4b88-8d8a-98b25e0ed143: node
 default:
   revision_uid:
@@ -16,7 +15,7 @@ default:
       value: true
   uid:
     -
-      entity: 5eb1f39a-1740-44c9-bc71-8f0ba897d761
+      target_id: 1
   title:
     -
       value: 'A to Z of sports and activities'

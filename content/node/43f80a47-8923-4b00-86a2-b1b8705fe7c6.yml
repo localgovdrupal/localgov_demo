@@ -67,6 +67,9 @@ default:
                   layout: layout_onecol
                   config:
                     label: ''
+          revision_translation_affected:
+            -
+              value: true
     -
       entity:
         _meta:
@@ -91,6 +94,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_text:
             -
               value: "<p>Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.</p>\r\n\r\n<p>Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>\r\n\r\n<p>Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit.</p>\r\n"
@@ -119,6 +125,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_box_listing_theme:
             -
               value: grid
@@ -144,6 +153,9 @@ default:
                   behavior_settings:
                     -
                       value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
                   localgov_image:
                     -
                       entity: d2af8444-4898-4daf-9814-6dc0c16cfb26
@@ -173,6 +185,9 @@ default:
                   behavior_settings:
                     -
                       value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
                   localgov_image:
                     -
                       entity: d1aa7821-645a-4882-90a2-cd3ed84d4cfa
@@ -211,6 +226,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_text:
             -
               value: "<p>Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.</p>\r\n\r\n<p>Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>\r\n\r\n<p>Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit.</p>\r\n"
@@ -239,6 +257,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_background_image:
             -
               entity: 7b913fee-9b49-452b-930c-33e10ef608ac
@@ -287,6 +308,9 @@ default:
                   layout: layout_twocol
                   config:
                     label: ''
+          revision_translation_affected:
+            -
+              value: true
     -
       entity:
         _meta:
@@ -311,6 +335,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 5
+          revision_translation_affected:
+            -
+              value: true
           localgov_caption:
             -
               value: "<p>This is a caption</p>\r\n"
@@ -342,6 +369,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 5
+          revision_translation_affected:
+            -
+              value: true
           localgov_author:
             -
               value: 'Someone said that a long time ago'
@@ -372,6 +402,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 5
+          revision_translation_affected:
+            -
+              value: true
           localgov_image:
             -
               entity: d1aa7821-645a-4882-90a2-cd3ed84d4cfa
@@ -399,6 +432,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 5
+          revision_translation_affected:
+            -
+              value: true
           localgov_text:
             -
               value: "<p class=\"alert alert-danger\">Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.</p>\r\n\r\n<p>Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>\r\n\r\n<p class=\"alert alert-success\">Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit.</p>\r\n"
@@ -427,6 +463,9 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 5
+          revision_translation_affected:
+            -
+              value: true
           localgov_heading_level:
             -
               value: h2

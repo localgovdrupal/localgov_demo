@@ -14,26 +14,33 @@ default:
   created:
     -
       value: 1620224708
+  label:
+    -
+      value: |-
+        59½ Southwark Street 
+        London
+        SE1 0JF
+        United Kingdom
   revision_translation_affected:
     -
       value: true
   location:
     -
-      value: 'POINT (-0.101143 51.505998)'
+      value: 'POINT (-0.1011429 51.5059985)'
       geo_type: Point
-      lat: 51.505998
-      lon: -0.101143
-      left: -0.101143
-      top: 51.505998
-      right: -0.101143
-      bottom: 51.505998
-      geohash: gcpvj8qk5jym
-      latlon: '51.505998,-0.101143'
+      lat: 51.5059985
+      lon: -0.1011429
+      left: -0.1011429
+      top: 51.5059985
+      right: -0.1011429
+      bottom: 51.5059985
+      geohash: gcpvj8qk5nn2u
+      latlon: '51.5059985,-0.1011429'
   postal_address:
     -
       langcode: ''
       country_code: GB
-      administrative_area: ''
+      administrative_area: England
       locality: London
       dependent_locality: ''
       postal_code: 'SE1 0JF'

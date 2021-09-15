@@ -5,7 +5,7 @@ _meta:
   bundle: localgov_subsites_overview
   default_langcode: en
   depends:
-    7b913fee-9b49-452b-930c-33e10ef608ac: media
+    3af4f9c5-1600-430e-a163-fe458ef474e0: media
 default:
   revision_uid:
     -
@@ -63,7 +63,7 @@ default:
               value: true
           localgov_image:
             -
-              entity: 7b913fee-9b49-452b-930c-33e10ef608ac
+              entity: 3af4f9c5-1600-430e-a163-fe458ef474e0
           localgov_subsites_banner_text:
             -
               value: 'Donec sollicitudin molestie malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec rutrum congue leo eget malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.'

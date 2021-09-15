@@ -5,7 +5,8 @@ _meta:
   bundle: localgov_event
   default_langcode: en
   depends:
-    3c65edbc-39b6-48c2-8f86-216bd29404e1: taxonomy_term
+    169dd9e6-1975-4aa4-9fa6-158ed4602f88: taxonomy_term
+    d2af8444-4898-4daf-9814-6dc0c16cfb26: media
 default:
   revision_uid:
     -
@@ -44,6 +45,9 @@ default:
       value: "<p>Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat.</p>\r\n"
       format: wysiwyg
       summary: ''
+  localgov_event_categories:
+    -
+      entity: 169dd9e6-1975-4aa4-9fa6-158ed4602f88
   localgov_event_date:
     -
       value: '2021-05-11T14:00:00'
@@ -51,6 +55,6 @@ default:
       rrule: FREQ=MONTHLY;INTERVAL=1;BYDAY=TU;BYSETPOS=2
       timezone: Europe/London
       infinite: true
-  localgov_event_price:
+  localgov_event_image:
     -
-      entity: 3c65edbc-39b6-48c2-8f86-216bd29404e1
+      entity: d2af8444-4898-4daf-9814-6dc0c16cfb26
