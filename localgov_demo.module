@@ -6,6 +6,7 @@
  */
 
 use Drupal\Core\Serialization\Yaml;
+use Drupal\node\Entity\Node;
 
 /**
  * Implements hook_modules_installed().
@@ -43,6 +44,17 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
 
       // Iterate over all field.
       foreach ($decoded['default'] as $field_name => $field) {
+
+        // Re-save all news nodes, which have the localgov_newsroom field.
+        if ($field_name == 'localgov_newsroom') {
+          // Load the (hopefully only) newsroom and set the news_articles to
+          // reference that newsroom, so that they all show on /news.
+          $newsroom_nids = \Drupal::entityQuery('node')->condition('type', 'localgov_newsroom')->execute();
+          $newsroom_nodes = Node::loadMultiple($newsroom_nids);
+          $newsroom_node_ids = array_keys($newsroom_nodes);
+          $current_node->set('localgov_newsroom', ['target_id' => $newsroom_node_ids[0]]);
+          $current_node->save();
+        }
 
         // Update entity reference fields.
         if (in_array($field_name, $fix_fields)) {
