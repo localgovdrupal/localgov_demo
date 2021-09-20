@@ -6,9 +6,9 @@ _meta:
   default_langcode: en
   depends:
     a39ba204-ea13-4f42-b30d-8370278e40cf: media
-    6bff53ac-9af4-476f-95fa-b2c6f1ca423f: node
     acfb5e02-f92b-4822-9f09-d5802314dd52: taxonomy_term
     90c4eac2-84a2-42c5-a7d6-8d6f79a4e1da: node
+    6bff53ac-9af4-476f-95fa-b2c6f1ca423f: node
 default:
   revision_uid:
     -
@@ -50,9 +50,6 @@ default:
   field_media_image:
     -
       entity: a39ba204-ea13-4f42-b30d-8370278e40cf
-  localgov_newsroom:
-    -
-      entity: 6bff53ac-9af4-476f-95fa-b2c6f1ca423f
   localgov_news_categories:
     -
       entity: acfb5e02-f92b-4822-9f09-d5802314dd52
@@ -62,3 +59,6 @@ default:
   localgov_news_related:
     -
       entity: 90c4eac2-84a2-42c5-a7d6-8d6f79a4e1da
+  localgov_newsroom:
+    -
+      entity: 6bff53ac-9af4-476f-95fa-b2c6f1ca423f

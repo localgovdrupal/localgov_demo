@@ -12,7 +12,7 @@ default:
       value: true
   label:
     -
-      value: 'Quick fact'
+      value: 'quick fact'
   paragraphs:
     -
       entity:
@@ -37,7 +37,7 @@ default:
               value: true
           localgov_above_text:
             -
-              value: 'Did you know? '
+              value: 'Quick Fact example'
           localgov_background:
             -
               value: fact-box-light

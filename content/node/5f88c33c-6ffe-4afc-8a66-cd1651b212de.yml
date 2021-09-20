@@ -41,7 +41,7 @@ default:
       pathauto: 1
   body:
     -
-      value: "<p>&nbsp;</p>\r\n\r\n<p>Sources of advice, help and support on jobs, careers, training, debt management, finding work and managing your money.</p>\r\n"
+      value: "<p>Sources of advice, help and support on jobs, careers, training, debt management, finding work and managing your money.</p>\r\n"
       format: wysiwyg
       summary: ''
   localgov_directory_channel_types:

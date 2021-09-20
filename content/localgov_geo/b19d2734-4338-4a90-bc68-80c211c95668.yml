@@ -14,31 +14,39 @@ default:
   created:
     -
       value: 1620226543
+  label:
+    -
+      value: |-
+        Lambeth Town Hall
+        2 Brixton Hill
+        London
+        SW2 1RP
+        United Kingdom
   revision_translation_affected:
     -
       value: true
   location:
     -
-      value: 'POINT (-1.297345 51.067562)'
+      value: 'POINT (-0.1168226 51.4595616)'
       geo_type: Point
-      lat: 51.067562
-      lon: -1.297345
-      left: -1.297345
-      top: 51.067562
-      right: -1.297345
-      bottom: 51.067562
-      geohash: gcp4d2x61et3
-      latlon: '51.067562,-1.297345'
+      lat: 51.4595616
+      lon: -0.1168226
+      left: -0.1168226
+      top: 51.4595616
+      right: -0.1168226
+      bottom: 51.4595616
+      geohash: gcputrfvtvdcb
+      latlon: '51.4595616,-0.1168226'
   postal_address:
     -
       langcode: ''
       country_code: GB
-      administrative_area: ''
-      locality: Winchester
+      administrative_area: England
+      locality: London
       dependent_locality: ''
-      postal_code: 'SO23 3NH'
+      postal_code: 'SW2 1RP'
       sorting_code: ''
-      address_line1: 'Winnall Manor Road'
+      address_line1: 'Brixton Hill'
       address_line2: ''
       organization: ''
       given_name: ''

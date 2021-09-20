@@ -14,21 +14,29 @@ default:
   created:
     -
       value: 1620225012
+  label:
+    -
+      value: |-
+        Hammersmith & Fulham Council Town Hall
+        King Street
+        London
+        W6 9JU
+        United Kingdom
   revision_translation_affected:
     -
       value: true
   location:
     -
-      value: 'POINT (-0.232825 51.492618)'
+      value: 'POINT (-0.23413756040935 51.491513165839)'
       geo_type: Point
-      lat: 51.492618
-      lon: -0.232825
-      left: -0.232825
-      top: 51.492618
-      right: -0.232825
-      bottom: 51.492618
-      geohash: gcpuftyqnz9n
-      latlon: '51.492618,-0.232825'
+      lat: 51.491513165839
+      lon: -0.23413756040935
+      left: -0.23413756040935
+      top: 51.491513165839
+      right: -0.23413756040935
+      bottom: 51.491513165839
+      geohash: gcpufttxb1y2k5yq
+      latlon: '51.491513165839,-0.23413756040935'
   postal_address:
     -
       langcode: ''
@@ -36,9 +44,9 @@ default:
       administrative_area: England
       locality: London
       dependent_locality: ''
-      postal_code: 'W6 0QE'
+      postal_code: 'W6 9LE'
       sorting_code: ''
-      address_line1: 'King Street'
+      address_line1: 'Riverside Gardens'
       address_line2: ''
       organization: ''
       given_name: ''

@@ -5,7 +5,7 @@ _meta:
   bundle: localgov_subsites_page
   default_langcode: en
   depends:
-    d1aa7821-645a-4882-90a2-cd3ed84d4cfa: media
+    6e36cf1c-6d7d-4f08-9812-2035ef679d03: media
     b9f331dc-ad91-4adc-bd8c-5bc50ffdb28d: media
     a6abc378-3a60-4d97-a52e-ab796461e053: node
 default:
@@ -65,7 +65,7 @@ default:
               value: true
           localgov_image:
             -
-              entity: d1aa7821-645a-4882-90a2-cd3ed84d4cfa
+              entity: 6e36cf1c-6d7d-4f08-9812-2035ef679d03
   localgov_subsites_content:
     -
       entity:

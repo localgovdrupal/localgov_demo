@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e60ca250-1d8a-48aa-bddf-23cf3d55f663
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: snowdonia.json
+  uri:
+    -
+      value: 'public://2021-09/snowdonia.json'
+  filemime:
+    -
+      value: application/octet-stream
+  filesize:
+    -
+      value: 255389
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1631816801
