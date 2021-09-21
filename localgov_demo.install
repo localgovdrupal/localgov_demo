@@ -27,10 +27,15 @@ function localgov_demo_install() {
   $services_home_block->set('region', 'disabled');
   $services_home_block->save();
 
+  // Set weight of localgov_alert_banner block to float up above the banner.
+  $alert_banner_block = \Drupal::configFactory()->getEditable('block.block.localgov_alert_banner');
+  $alert_banner_block->set('weight', '-10');
+  $alert_banner_block->save();
+
   // Create a link to Docs.
   $news_menu_item = MenuLinkContent::create([
     'title' => 'Docs',
-    'link' => ['uri' => 'external:https:https://localgovdrupal.org/'],
+    'link' => ['uri' => 'https://localgovdrupal.org/'],
     'menu_name' => 'main',
     'expanded' => FALSE,
   ]);
@@ -38,7 +43,7 @@ function localgov_demo_install() {
   // Create a link to GitHub.
   $events_menu_item = MenuLinkContent::create([
     'title' => 'GitHub',
-    'link' => ['uri' => 'external:https://github.com/localgovdrupal/'],
+    'link' => ['uri' => 'https://github.com/localgovdrupal/'],
     'menu_name' => 'main',
     'expanded' => FALSE,
   ]);
