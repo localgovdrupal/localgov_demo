@@ -19,7 +19,7 @@ function localgov_demo_install() {
 
   // Set demo front page.
   $system_site = \Drupal::configFactory()->getEditable('system.site');
-  $system_site->set('page.front', '/node/91');
+  $system_site->set('page.front', '/node/108');
   $system_site->save();
 
   // Remove services block from home page.

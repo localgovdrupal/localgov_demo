@@ -17,10 +17,9 @@ default:
   label:
     -
       value: |-
-        82 Merrion Square South
+        Merrion Square South 82
         Dublin
-        Dublin
-        DUBLIN2
+        DUBLIN 2
         Ireland
   revision_translation_affected:
     -
