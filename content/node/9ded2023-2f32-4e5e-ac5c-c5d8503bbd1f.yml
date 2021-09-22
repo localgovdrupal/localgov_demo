@@ -321,16 +321,16 @@ default:
               value: true
           localgov_ia_block_link:
             -
-              uri: 'https://demo.localgovdrupal.org/adult-health-and-social-care'
+              uri: 'internal:/adult-health-and-social-care'
               title: ''
               options: {  }
           localgov_ia_block_links:
             -
-              uri: 'https://demo.localgovdrupal.org/adult-health-and-social-care/support-your-home'
+              target_uuid: 57b46ceb-20d3-45cc-9f9b-2bf2a6561c78
               title: 'Support in your home (service page)'
               options: {  }
             -
-              uri: 'https://demo.localgovdrupal.org/mental-health-support'
+              target_uuid: 9f43890d-c2c2-4d3d-b036-bb3ae7265752
               title: 'Mental health support (service page)'
               options: {  }
           localgov_ia_block_promoted:
@@ -368,16 +368,16 @@ default:
               value: true
           localgov_ia_block_link:
             -
-              uri: 'https://demo.localgovdrupal.org/libraries-leisure-and-culture'
+              uri: 'internal:/libraries-leisure-and-culture'
               title: ''
               options: {  }
           localgov_ia_block_links:
             -
-              uri: 'https://demo.localgovdrupal.org/libraries-leisure-and-culture/z-sports-and-activities/basketball'
+              target_uuid: 3a3e01c0-9cff-4c23-8294-816416b5e2b7
               title: 'Basketball (service page)'
               options: {  }
             -
-              uri: 'https://demo.localgovdrupal.org/libraries-leisure-and-culture/z-sports-and-activities/'
+              target_uuid: 8eb90b8f-4dcc-457c-9bea-abe86cb69b6b
               title: 'Skateboarding (service page)'
               options: {  }
           localgov_ia_block_promoted:
