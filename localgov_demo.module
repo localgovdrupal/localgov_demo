@@ -7,6 +7,7 @@
 
 use Drupal\Core\Serialization\Yaml;
 use Drupal\node\Entity\Node;
+use Drupal\menu_link_content\Entity\MenuLinkContent;
 
 /**
  * Implements hook_modules_installed().
@@ -119,6 +120,32 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
           $current_node->save();
         }
       }
+    }
+
+    // Set services menu links by uuid as the node ids might change.
+    $services_links = [
+      [
+        'title' => 'Adult health and social care',
+        'uuid' => 'c1d9f01d-c368-4db3-a4ec-c882d217781b',
+      ],
+      [
+        'title' => 'Births, deaths, marriages and citizenship',
+        'uuid' => '638fe726-4b86-48e5-8d0c-fb24f83bfa5b',
+      ],
+      [
+        'title' => 'Libraries, leisure and culture',
+        'uuid' => '3266e45f-1489-4b88-8d8a-98b25e0ed143',
+      ],
+    ];
+    foreach ($services_links as $services_link) {
+      $target_node = \Drupal::service('entity.repository')->loadEntityByUuid('node', $services_link['uuid']);
+      $menu_item = MenuLinkContent::create([
+        'title' => $services_link['title'],
+        'link' => ['uri' => 'internal:/node/' . $target_node->id()],
+        'menu_name' => 'localgov_services_menu',
+        'expanded' => FALSE,
+      ]);
+      $menu_item->save();
     }
 
     // Regenerate all path aliases.
