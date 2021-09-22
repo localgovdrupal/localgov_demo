@@ -9,6 +9,9 @@ _meta:
     638fe726-4b86-48e5-8d0c-fb24f83bfa5b: node
     f8066c54-cdd4-42c5-bf25-8720757c410b: node
     e3aafe22-3b56-4bf9-afd8-3dda0ae16213: node
+    57b46ceb-20d3-45cc-9f9b-2bf2a6561c78: node
+    8eb90b8f-4dcc-457c-9bea-abe86cb69b6b: node
+    3a3e01c0-9cff-4c23-8294-816416b5e2b7: node
     99068425-f184-46ac-a121-624e51d7565b: node
     aaa24693-6789-4de2-8094-57f848a6e259: media
     a1358f58-1927-4825-8918-70c36f94951f: media
@@ -20,7 +23,6 @@ _meta:
     75aa141a-7e15-4d97-be6b-42372299ba4c: node
     5f46013c-8afd-4304-b073-2a7d12a89ec0: node
     b9dbea76-8a95-459b-847a-7f331ba2b508: node
-    6bff53ac-9af4-476f-95fa-b2c6f1ca423f: node
 default:
   revision_uid:
     -
@@ -46,9 +48,6 @@ default:
   revision_translation_affected:
     -
       value: true
-  moderation_state:
-    -
-      value: published
   path:
     -
       alias: /localgov-drupal-demo
@@ -73,9 +72,6 @@ default:
           behavior_settings:
             -
               value: {  }
-          revision_translation_affected:
-            -
-              value: true
           localgov_image:
             -
               entity: 3de01a96-ad5c-445a-be9e-04b64db0fc56
@@ -110,9 +106,6 @@ default:
                   layout: layout_threecol_33_34_33
                   config:
                     label: ''
-          revision_translation_affected:
-            -
-              value: true
     -
       entity:
         _meta:
@@ -137,9 +130,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
-          revision_translation_affected:
-            -
-              value: true
           localgov_link:
             -
               uri: 'https://twitter.com/localgovdrupal'
@@ -172,9 +162,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
-          revision_translation_affected:
-            -
-              value: true
           localgov_link:
             -
               uri: 'https://github.com/localgovdrupal'
@@ -207,9 +194,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
-          revision_translation_affected:
-            -
-              value: true
           localgov_link:
             -
               uri: 'https://localgovdrupal.org/'
@@ -242,9 +226,6 @@ default:
                   layout: layout_threecol_33_34_33
                   config:
                     label: ''
-          revision_translation_affected:
-            -
-              value: true
     -
       entity:
         _meta:
@@ -269,9 +250,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 4
-          revision_translation_affected:
-            -
-              value: true
           localgov_ia_block_link:
             -
               target_uuid: 638fe726-4b86-48e5-8d0c-fb24f83bfa5b
@@ -326,12 +304,13 @@ default:
               options: {  }
           localgov_ia_block_links:
             -
-              target_uuid: 57b46ceb-20d3-45cc-9f9b-2bf2a6561c78
-              title: 'Support in your home (service page)'
+              uri: 'internal:/mental-health-support'
+              title: 'Mental health support (service page)'
               options: {  }
             -
-              target_uuid: 9f43890d-c2c2-4d3d-b036-bb3ae7265752
-              title: 'Mental health support (service page)'
+              target_uuid: 57b46ceb-20d3-45cc-9f9b-2bf2a6561c78
+              uri: 'internal:/adult-health-and-social-care/support-your-home'
+              title: 'Support in your home (service page)'
               options: {  }
           localgov_ia_block_promoted:
             -
@@ -363,9 +342,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 4
-          revision_translation_affected:
-            -
-              value: true
           localgov_ia_block_link:
             -
               uri: 'internal:/libraries-leisure-and-culture'
@@ -373,12 +349,12 @@ default:
               options: {  }
           localgov_ia_block_links:
             -
-              target_uuid: 3a3e01c0-9cff-4c23-8294-816416b5e2b7
-              title: 'Basketball (service page)'
+              uri: 'internal:/libraries-leisure-and-culture/z-sports-and-activities/skateboarding'
+              title: 'Skateboarding (service page)'
               options: {  }
             -
-              target_uuid: 8eb90b8f-4dcc-457c-9bea-abe86cb69b6b
-              title: 'Skateboarding (service page)'
+              uri: 'internal:/libraries-leisure-and-culture/z-sports-and-activities/skateboarding'
+              title: 'Basketball (service page)'
               options: {  }
           localgov_ia_block_promoted:
             -
@@ -410,9 +386,6 @@ default:
                   layout: layout_threecol_33_34_33
                   config:
                     label: ''
-          revision_translation_affected:
-            -
-              value: true
     -
       entity:
         _meta:
@@ -436,9 +409,6 @@ default:
                   parent_uuid: ''
                   layout: ''
                   config: {  }
-          revision_translation_affected:
-            -
-              value: true
           localgov_heading_level:
             -
               value: h3
@@ -490,9 +460,6 @@ default:
                   layout: layout_threecol_33_34_33
                   config:
                     label: ''
-          revision_translation_affected:
-            -
-              value: true
     -
       entity:
         _meta:
@@ -517,9 +484,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 10
-          revision_translation_affected:
-            -
-              value: true
           localgov_text:
             -
               value: "<h2>Latest Council News</h2>\r\n"
@@ -548,9 +512,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 10
-          revision_translation_affected:
-            -
-              value: true
           localgov_newsroom_teaser_image:
             -
               entity: a1358f58-1927-4825-8918-70c36f94951f
@@ -589,9 +550,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 10
-          revision_translation_affected:
-            -
-              value: true
           localgov_newsroom_teaser_image:
             -
               entity: a39ba204-ea13-4f42-b30d-8370278e40cf
@@ -630,9 +588,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 10
-          revision_translation_affected:
-            -
-              value: true
           localgov_newsroom_teaser_image:
             -
               entity: 951e93f6-c9f0-4545-baac-05d45cf8e661
@@ -671,9 +626,6 @@ default:
                   layout: layout_threecol_33_34_33
                   config:
                     label: ''
-          revision_translation_affected:
-            -
-              value: true
     -
       entity:
         _meta:
@@ -698,9 +650,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 15
-          revision_translation_affected:
-            -
-              value: true
           localgov_text:
             -
               value: "<p class=\"alert alert-success\"><strong>Welcome to the LocalGov Drupal demo site! This site has been created to demonstrate some of what LocalGov Drupal can do with a default installation. Explore the different types of content below.</strong></p>\r\n"
@@ -729,9 +678,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 15
-          revision_translation_affected:
-            -
-              value: true
           localgov_text:
             -
               value: "<h2>Core content types</h2>\r\n"
@@ -760,9 +706,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 15
-          revision_translation_affected:
-            -
-              value: true
           localgov_link:
             -
               target_uuid: f8066c54-cdd4-42c5-bf25-8720757c410b
@@ -795,9 +738,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 15
-          revision_translation_affected:
-            -
-              value: true
           localgov_link:
             -
               target_uuid: 638fe726-4b86-48e5-8d0c-fb24f83bfa5b
@@ -830,9 +770,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 15
-          revision_translation_affected:
-            -
-              value: true
           localgov_link:
             -
               target_uuid: 75aa141a-7e15-4d97-be6b-42372299ba4c
@@ -865,9 +802,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 15
-          revision_translation_affected:
-            -
-              value: true
           localgov_link:
             -
               target_uuid: 5f46013c-8afd-4304-b073-2a7d12a89ec0
@@ -900,9 +834,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 15
-          revision_translation_affected:
-            -
-              value: true
           localgov_link:
             -
               target_uuid: b9dbea76-8a95-459b-847a-7f331ba2b508
@@ -935,9 +866,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 15
-          revision_translation_affected:
-            -
-              value: true
           localgov_link:
             -
               uri: 'internal:/events'
@@ -970,9 +898,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 15
-          revision_translation_affected:
-            -
-              value: true
           localgov_link:
             -
               target_uuid: 99068425-f184-46ac-a121-624e51d7565b
@@ -1005,14 +930,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 15
-          revision_translation_affected:
-            -
-              value: true
-          localgov_link:
-            -
-              target_uuid: 6bff53ac-9af4-476f-95fa-b2c6f1ca423f
-              title: Newsroom
-              options: {  }
           localgov_summary:
             -
               value: 'A newsroom is the index page for all your news articles, with up to three “featured” News Articles listed at the top of the page.'
@@ -1040,9 +957,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 15
-          revision_translation_affected:
-            -
-              value: true
           localgov_link:
             -
               target_uuid: 198d685b-043e-409d-8e92-21452f38a2fe
@@ -1075,9 +989,6 @@ default:
                   layout: layout_twocol
                   config:
                     label: ''
-          revision_translation_affected:
-            -
-              value: true
     -
       entity:
         _meta:
@@ -1102,9 +1013,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 27
-          revision_translation_affected:
-            -
-              value: true
           localgov_body_text:
             -
               value: "<p>This is where you will find documentation for the different content types.&nbsp;</p>\r\n"
@@ -1150,9 +1058,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 27
-          revision_translation_affected:
-            -
-              value: true
           localgov_body_text:
             -
               value: "<p>The Github repositories have the LocalGov Drupal distribution and install profile.&nbsp;</p>\r\n"
