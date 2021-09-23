@@ -10,13 +10,13 @@ default:
       target_id: 1
   status:
     -
-      value: false
+      value: true
   uid:
     -
       target_id: 1
   title:
     -
-      value: 'An announcement with a title and link'
+      value: 'This is an example of a ''service landing page'''
   display_title:
     -
       value: true
@@ -31,16 +31,17 @@ default:
       value: true
   token:
     -
-      value: alert-6--603960a04fc194376a47505781dbd365a0df4994
-  link:
-    -
-      uri: 'https://localgovdrupal.org/'
-      title: 'Read more in the docs'
-      options: {  }
+      value: alert-1--e0d54c3ffe609096513dc5a434afb5ae2d48e83b
   short_description:
     -
-      value: "<p><br />\r\nVivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada.</p>\r\n\r\n<p>Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada feugiat.</p>\r\n"
+      value: "<p>Use a 'service landing page' for the homepage of a section.</p>\r\n\r\n<p>Click hide to hide this alert banner.</p>\r\n"
       format: wysiwyg
   type_of_alert:
     -
       value: 00--announcement
+  visibility:
+    -
+      conditions:
+        request_path:
+          pages: "/adult-health-and-social-care\r\n/births-deaths-marriages-and-citizenship\r\n/libraries-leisure-and-culture"
+          negate: '0'

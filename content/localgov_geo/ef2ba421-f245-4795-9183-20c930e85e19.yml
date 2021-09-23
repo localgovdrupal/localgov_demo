@@ -17,10 +17,9 @@ default:
   label:
     -
       value: |-
-        Makespace Central
-        21b Park End Street
+        Park End Street
         Oxford
-        OX1 1HU
+        OX1 1JD
         United Kingdom
   revision_translation_affected:
     -

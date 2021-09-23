@@ -5,8 +5,8 @@ _meta:
   bundle: localgov_subsites_page
   default_langcode: en
   depends:
-    3af4f9c5-1600-430e-a163-fe458ef474e0: media
-    7b913fee-9b49-452b-930c-33e10ef608ac: media
+    aaa24693-6789-4de2-8094-57f848a6e259: media
+    06ef19ba-88f9-4ef4-b3f4-65873933bf01: media
     99068425-f184-46ac-a121-624e51d7565b: node
 default:
   revision_uid:
@@ -20,7 +20,7 @@ default:
       target_id: 1
   title:
     -
-      value: 'Scarfolk Crematorium'
+      value: 'The fostering process'
   created:
     -
       value: 1620142190
@@ -38,7 +38,7 @@ default:
       value: published
   path:
     -
-      alias: /bereavement-services/scarfolk-crematorium
+      alias: /fostering/fostering-process
       langcode: en
       pathauto: 1
   localgov_subsites_banner:
@@ -65,7 +65,7 @@ default:
               value: true
           localgov_image:
             -
-              entity: 3af4f9c5-1600-430e-a163-fe458ef474e0
+              entity: aaa24693-6789-4de2-8094-57f848a6e259
   localgov_subsites_content:
     -
       entity:
@@ -115,9 +115,12 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_text:
             -
-              value: "<h3>Services</h3>\r\n\r\n<p>Services are at 45 minute intervals. Extra time can be booked for extended services or to accommodate large congregations. Both chapels can play recorded music and have organs, but we do not supply organists.</p>\r\n\r\n<h3>East chapel</h3>\r\n\r\n<p>The east chapel has a modern design, with upholstered linked seating, allowing flexibility and seating for about 130 people. The catafalque has double curtains, net and velvet, that can be drawn to fully or partially obscure the coffin at committal.</p>\r\n\r\n<h3>West chapel</h3>\r\n\r\n<p>The west chapel has a traditional design, with a vaulted ceiling and&nbsp;wooden pews. The catafalque descends upon committal, unless you prefer the coffin to remain. There is seating for about 80 people.</p>\r\n\r\n<h3>Cremation services</h3>\r\n\r\n<p>Read our guide to&nbsp;cremation services.</p>\r\n\r\n<h3>After the service</h3>\r\n\r\n<p>After the service the remains can be scattered in our gardens of remembrance or buried in a cremation plot in one of our&nbsp;<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"f06037d2-6dae-450c-8fa1-ccdb069d9fe3\" href=\"/node/30\" title=\"Cemeteries\">cemeteries</a>. You can have a memorial in our hall or gardens of remembrance, even if you did not have your ceremony at the crematorium.</p>\r\n\r\n<h3>Memorial options</h3>\r\n\r\n<p>There is a wide variety of&nbsp;<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"710da991-9e02-4893-bfc0-3ddf397b9a14\" href=\"/node/29\" title=\"Crematorium memorial options\">memorial options</a>&nbsp;at Scarfolk Crematorium.</p>\r\n\r\n<h3>Opening times</h3>\r\n\r\n<p>Monday to Friday, 9am to 4pm</p>\r\n\r\n<p>Saturday, 9.30am to 11.45pm</p>\r\n\r\n<h4>Crematorium grounds</h4>\r\n\r\n<p>Every day, 8am to 5pm.&nbsp;</p>\r\n"
+              value: "<h2>Step 1 - Make an enquiry</h2>\r\n\r\n<p>If you've given some thought to becoming a foster carer and you'd like more information or a quick chat to discuss it, you can call us, complete our online form or email us.</p>\r\n\r\n<p>We'll come back to you within two days if you make an online or email enquiry.</p>\r\n\r\n<h2>Step 2 - We’ll come and visit you</h2>\r\n\r\n<p>Within a week of making your enquiry, we’ll set up a home visit.</p>\r\n\r\n<p>The home visit gives us an opportunity to speak to you about fostering and answer any questions that you might have. We'll complete a questionnaire with you to capture the conversation.</p>\r\n\r\n<p>At this early stage, we need to understand whether you can meet our practical criteria to become a foster carer and how fostering could potentially impact upon your own life given the time and commitment it requires.</p>\r\n\r\n<h2>Step 3 - We’ll do your assessment</h2>\r\n\r\n<p>The formal assessment is a wide-ranging exercise. We'll need to carry out certain checks that may influence whether or not you can foster.</p>\r\n\r\n<p>For example, we'll ask you to complete a health check and criminal record check. At the same time, your training to become a foster carer will begin and you'll complete our ‘skills to foster’ course.</p>\r\n\r\n<h2>Step 4 - You’ll attend our fostering panel</h2>\r\n\r\n<p>When you've completed your assessment, we'll produce a report for our fostering panel.</p>\r\n\r\n<p>The fostering panel is a group of people, including independent people, social work professionals, children who have left care and current foster carers, who'll ask you questions about your assessment. Following this meeting, the panel will make a final recommendation.</p>\r\n\r\n<h2>Step 5 - You become a foster carer</h2>\r\n\r\n<p>Our lead officer for children’s social care will look at the assessment and findings of the fostering panel and make a final decision on your application.</p>\r\n\r\n<p>This is the end of the formal application process and once you've been assessed as suitable for fostering, you'll join our team.</p>\r\n\r\n<p>We'll introduce you to our support staff and begin the induction.</p>\r\n"
               format: wysiwyg
     -
       entity:
@@ -143,17 +146,17 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_caption:
             -
               value: "<p>This is a caption</p>\r\n"
               format: wysiwyg
           localgov_image:
             -
-              entity: 7b913fee-9b49-452b-930c-33e10ef608ac
+              entity: 06ef19ba-88f9-4ef4-b3f4-65873933bf01
   localgov_subsites_parent:
     -
       entity: 99068425-f184-46ac-a121-624e51d7565b
       weight: 0
-  localgov_subsites_summary:
-    -
-      value: "Croydon Crematorium is in Scarfolk Road Cemetery, with entrances on Scarfolk Road and Thother Road. It has 2 chapels, a garden of remembrance and a hall of remembrance.\r\n\r\n"
