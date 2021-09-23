@@ -5,6 +5,7 @@ _meta:
   bundle: localgov_subsites_page
   default_langcode: en
   depends:
+    6e36cf1c-6d7d-4f08-9812-2035ef679d03: media
     d2af8444-4898-4daf-9814-6dc0c16cfb26: media
     a6abc378-3a60-4d97-a52e-ab796461e053: node
 default:
@@ -46,7 +47,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: b6a25b47-179c-4dcd-8d1b-1b8d1e9381d7
+          uuid: 9fe7539f-3ba4-4172-b194-ea9fe86c8ce0
           bundle: localgov_banner_secondary
           default_langcode: en
         default:
@@ -55,7 +56,7 @@ default:
               value: true
           created:
             -
-              value: 1620400567
+              value: 1631885862
           behavior_settings:
             -
               value: {  }
@@ -64,7 +65,7 @@ default:
               value: true
           localgov_image:
             -
-              entity: d2af8444-4898-4daf-9814-6dc0c16cfb26
+              entity: 6e36cf1c-6d7d-4f08-9812-2035ef679d03
   localgov_subsites_content:
     -
       entity:
@@ -90,9 +91,6 @@ default:
                   layout: layout_onecol
                   config:
                     label: ''
-          revision_translation_affected:
-            -
-              value: true
     -
       entity:
         _meta:
@@ -117,9 +115,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
-          revision_translation_affected:
-            -
-              value: true
           localgov_text:
             -
               value: "<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit.</p>\r\n\r\n<p>Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt.</p>\r\n\r\n<p>Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada.</p>\r\n"
@@ -148,9 +143,6 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
-          revision_translation_affected:
-            -
-              value: true
           localgov_heading_level:
             -
               value: h2
@@ -193,7 +185,7 @@ default:
                       format: wysiwyg
                   localgov_title:
                     -
-                      value: 'Vivamus magna justo, lacinia eget consectetur sed'
+                      value: 'This is a "Featured Teaser" component'
             -
               entity:
                 _meta:
@@ -229,10 +221,10 @@ default:
                       format: wysiwyg
                   localgov_title:
                     -
-                      value: 'Curabitur aliquet quam id dui posuere blandit'
+                      value: 'This is a "Featured Teaser" component without an image'
           localgov_title:
             -
-              value: 'Vivamus magna justo'
+              value: 'This is  a list of featured teasers - called a "Featured teasers" component'
   localgov_subsites_parent:
     -
       entity: a6abc378-3a60-4d97-a52e-ab796461e053

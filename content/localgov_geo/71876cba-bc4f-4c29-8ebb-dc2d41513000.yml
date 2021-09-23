@@ -14,6 +14,13 @@ default:
   created:
     -
       value: 1620226931
+  label:
+    -
+      value: |-
+        Hornton Street
+        London
+        W8 7RW
+        United Kingdom
   revision_translation_affected:
     -
       value: true
@@ -33,7 +40,7 @@ default:
     -
       langcode: ''
       country_code: GB
-      administrative_area: ''
+      administrative_area: England
       locality: London
       dependent_locality: ''
       postal_code: 'W8 7RW'

@@ -110,7 +110,6 @@ default_content:
     - 65d5f9d3-dbd0-463b-b1c6-a69543cc1f91
     - 69297010-e255-4192-9bd9-b5b550098b10
     - 6b8052f8-5db6-4a63-8498-d440092f2079
-    - 6bff53ac-9af4-476f-95fa-b2c6f1ca423f
     - 6c0df0c3-f6e4-4ba4-9316-2693cbd94f29
     - 6c7c7844-3bff-4af7-b607-4e8271a35db8
     - 710da991-9e02-4893-bfc0-3ddf397b9a14
@@ -170,13 +169,9 @@ default_content:
     - f6e20e37-22ea-44bd-8e69-ae8923d78b12
     - f8066c54-cdd4-42c5-bf25-8720757c410b
   taxonomy_term:
-    - 3ac08b7-9ee6-4a55-867a-8f9ed2fe5c14
-    - 69dd9e6-1975-4aa4-9fa6-158ed4602f88
-    - d26cc28-44d0-4ccb-8150-dab195d9b7f6
-    - 5e629ee-5cd0-4e05-b316-0030e7ce2314
-    - c65edbc-39b6-48c2-8f86-216bd29404e1
-    - b24be29-f78d-4ff2-8a2d-7e35030e4157
-    - 3206157-5bb8-4894-934c-6c3c74ec5500
-    - cfb5e02-f92b-4822-9f09-d5802314dd52
-    - c3c3c1d-8cbe-4446-8b9e-73003530678c
-    - f8a65ea-700c-4820-b12b-c81ccac0dd6c
+    - 2d26cc28-44d0-4ccb-8150-dab195d9b7f6
+    - 8b24be29-f78d-4ff2-8a2d-7e35030e4157
+    - a3206157-5bb8-4894-934c-6c3c74ec5500
+    - acfb5e02-f92b-4822-9f09-d5802314dd52
+    - cc3c3c1d-8cbe-4446-8b9e-73003530678c
+    - df8a65ea-700c-4820-b12b-c81ccac0dd6c

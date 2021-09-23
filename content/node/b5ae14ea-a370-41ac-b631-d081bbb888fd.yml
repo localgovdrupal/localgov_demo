@@ -44,9 +44,6 @@ default:
       value: "<p>All non-essential face to face registration and ceremonial services have been suspended until further notice due to the Coronavirus pandemic, including registering a birth. You will be able to register at a later date.</p>\r\n\r\n<p>You will not be penalised for going over the normal 42 day birth registration period if you have been unable to register a birth because of Coronavirus regulations. You can still apply for child benefit or universal credit.</p>\r\n"
       format: wysiwyg
       summary: 'All non-essential face to face registration and ceremonial services have been suspended until further notice due to the Coronavirus pandemic.'
-  localgov_services_parent:
-    -
-      entity: 638fe726-4b86-48e5-8d0c-fb24f83bfa5b
   localgov_service_status:
     -
       value: 0-severe-impact
@@ -56,3 +53,6 @@ default:
   localgov_service_status_on_list:
     -
       value: true
+  localgov_services_parent:
+    -
+      entity: 638fe726-4b86-48e5-8d0c-fb24f83bfa5b

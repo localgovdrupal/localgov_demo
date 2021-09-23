@@ -14,21 +14,28 @@ default:
   created:
     -
       value: 1620228039
+  label:
+    -
+      value: |-
+        Merrion Square South 82
+        Dublin
+        DUBLIN 2
+        Ireland
   revision_translation_affected:
     -
       value: true
   location:
     -
-      value: 'POINT (-6.251248 53.339479)'
+      value: 'POINT (-6.2513721428501 53.33928925)'
       geo_type: Point
-      lat: 53.339479
-      lon: -6.251248
-      left: -6.251248
-      top: 53.339479
-      right: -6.251248
-      bottom: 53.339479
-      geohash: gc7x3wpuzre9
-      latlon: '53.339479,-6.251248'
+      lat: 53.33928925
+      lon: -6.2513721428501
+      left: -6.2513721428501
+      top: 53.33928925
+      right: -6.2513721428501
+      bottom: 53.33928925
+      geohash: gc7x3wpgukpn49b1
+      latlon: '53.33928925,-6.2513721428501'
   postal_address:
     -
       langcode: ''

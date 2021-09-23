@@ -5,9 +5,10 @@ _meta:
   bundle: localgov_subsites_page
   default_langcode: en
   depends:
-    3af4f9c5-1600-430e-a163-fe458ef474e0: media
+    23cdd380-08f5-4fa8-b307-7cf8f6766c1e: media
     30f235fa-0119-4db9-afca-d8b7be0635c0: node
-    7b913fee-9b49-452b-930c-33e10ef608ac: media
+    aaa24693-6789-4de2-8094-57f848a6e259: media
+    06ef19ba-88f9-4ef4-b3f4-65873933bf01: media
     99068425-f184-46ac-a121-624e51d7565b: node
 default:
   revision_uid:
@@ -21,7 +22,7 @@ default:
       target_id: 1
   title:
     -
-      value: Cemeteries
+      value: 'Top myths about fostering'
   created:
     -
       value: 1620141953
@@ -39,7 +40,7 @@ default:
       value: published
   path:
     -
-      alias: /bereavement-services/cemeteries
+      alias: /fostering/top-myths-about-fostering
       langcode: en
       pathauto: 1
   localgov_subsites_banner:
@@ -61,12 +62,9 @@ default:
           behavior_settings:
             -
               value: {  }
-          revision_translation_affected:
-            -
-              value: true
           localgov_image:
             -
-              entity: 3af4f9c5-1600-430e-a163-fe458ef474e0
+              entity: 23cdd380-08f5-4fa8-b307-7cf8f6766c1e
   localgov_subsites_content:
     -
       entity:
@@ -116,33 +114,36 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_heading_level:
             -
               value: h3
           localgov_link:
             -
               target_uuid: 30f235fa-0119-4db9-afca-d8b7be0635c0
-              title: 'Read more about Scarfolk Crematorium'
+              title: 'Read more about the fostering process'
               options: {  }
           localgov_media_item:
             -
-              entity: 7b913fee-9b49-452b-930c-33e10ef608ac
+              entity: aaa24693-6789-4de2-8094-57f848a6e259
           localgov_media_position:
             -
-              value: right
+              value: top
           localgov_media_with_text_style:
             -
-              value: default
+              value: featured
           localgov_opens_in_a_new_window:
             -
               value: false
           localgov_text:
             -
-              value: "<p>Scarfolk&nbsp;Crematorium is in&nbsp;Scarfolk Road Cemetery, it has 2 chapels, a garden of remembrance and a hall of remembrance.</p>\r\n"
+              value: "<p>You can be considered for fostering if you are:</p>\r\n\r\n<ul>\r\n\t<li>single, married or living with a partner</li>\r\n\t<li>an adult&nbsp;over 21 years old - there is no upper age limit</li>\r\n\t<li>a family, with or without children</li>\r\n\t<li>of any sexuality</li>\r\n\t<li>of any gender</li>\r\n</ul>\r\n"
               format: wysiwyg
           localgov_title:
             -
-              value: 'Scarfolk Crematorium'
+              value: 'Who can foster'
     -
       entity:
         _meta:
@@ -167,12 +168,15 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_heading_level:
             -
               value: h3
           localgov_media_item:
             -
-              entity: 7b913fee-9b49-452b-930c-33e10ef608ac
+              entity: 06ef19ba-88f9-4ef4-b3f4-65873933bf01
           localgov_media_position:
             -
               value: left
@@ -184,15 +188,15 @@ default:
               value: false
           localgov_text:
             -
-              value: "<p>This is a late Victorian cemetery, first opened in 1897. There are no new graves but reclaimed graves are available.</p>\r\n"
+              value: "<p>We need carers for all ages but especially for:&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>children over 10 years old</li>\r\n\t<li>sibling groups</li>\r\n\t<li>unaccompanied asylum-seeking children</li>\r\n</ul>\r\n"
               format: wysiwyg
           localgov_title:
             -
-              value: 'Scarfolk Road Cemetery'
+              value: 'Scarfolk needs foster carers'
   localgov_subsites_parent:
     -
       entity: 99068425-f184-46ac-a121-624e51d7565b
       weight: 0
   localgov_subsites_summary:
     -
-      value: 'We have 2 cemeteries, a memorial park and a crematorium with gardens of remembrance.'
+      value: "When you’re researching what it’s like to become a foster carer, you may come across various stories and personal anecdotes about the experience. As the worldwide web can be fraught with conflicting information, we’d like to dispel a few of the most common untruths surrounding the journey into fostering.\r\n\r\n"

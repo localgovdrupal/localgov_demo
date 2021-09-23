@@ -19,7 +19,7 @@ function localgov_demo_install() {
 
   // Set demo front page.
   $system_site = \Drupal::configFactory()->getEditable('system.site');
-  $system_site->set('page.front', '/node/91');
+  $system_site->set('page.front', '/localgov-drupal-demo');
   $system_site->save();
 
   // Remove services block from home page.
@@ -27,65 +27,26 @@ function localgov_demo_install() {
   $services_home_block->set('region', 'disabled');
   $services_home_block->save();
 
-  // Create a link to /news.
+  // Set weight of localgov_alert_banner block to float up above the banner.
+  $alert_banner_block = \Drupal::configFactory()->getEditable('block.block.localgov_alert_banner');
+  $alert_banner_block->set('weight', '-10');
+  $alert_banner_block->save();
+
+  // Create a link to Docs.
   $news_menu_item = MenuLinkContent::create([
-    'title' => 'News',
-    'link' => ['uri' => 'internal:/news'],
+    'title' => 'Docs',
+    'link' => ['uri' => 'https://localgovdrupal.org/'],
     'menu_name' => 'main',
     'expanded' => FALSE,
   ]);
   $news_menu_item->save();
-
-  // Create a link to /events.
+  // Create a link to GitHub.
   $events_menu_item = MenuLinkContent::create([
-    'title' => 'Events',
-    'link' => ['uri' => 'internal:/events'],
+    'title' => 'GitHub',
+    'link' => ['uri' => 'https://github.com/localgovdrupal/'],
     'menu_name' => 'main',
     'expanded' => FALSE,
   ]);
   $events_menu_item->save();
 
-  // Create a link to /localgov-drupal-collaborators.
-  $directory_menu_item = MenuLinkContent::create([
-    'title' => 'Directory',
-    'link' => ['uri' => 'internal:/localgov-drupal-collaborators'],
-    'menu_name' => 'main',
-    'expanded' => FALSE,
-  ]);
-  $directory_menu_item->save();
-
-  // Create a link to /node/14.
-  $step_by_step_menu_item = MenuLinkContent::create([
-    'title' => 'Step-by-step',
-    'link' => ['uri' => 'internal:/node/14'],
-    'menu_name' => 'main',
-    'expanded' => FALSE,
-  ]);
-  $step_by_step_menu_item->save();
-
-  // Create a link to /node/50.
-  $guide_menu_item = MenuLinkContent::create([
-    'title' => 'Guide',
-    'link' => ['uri' => 'internal:/node/50'],
-    'menu_name' => 'main',
-    'expanded' => FALSE,
-  ]);
-  $guide_menu_item->save();
-
-  // Create a link to /node/55.
-  $social_care_menu_item = MenuLinkContent::create([
-    'title' => 'Adult health and social care',
-    'link' => ['uri' => 'internal:/node/55'],
-    'menu_name' => 'localgov_services_menu',
-    'expanded' => FALSE,
-  ]);
-  $social_care_menu_item->save();
-  // Create a link to /node/30.
-  $social_care_menu_item = MenuLinkContent::create([
-    'title' => 'Births, deaths, marriages and citizenship',
-    'link' => ['uri' => 'internal:/node/30'],
-    'menu_name' => 'localgov_services_menu',
-    'expanded' => FALSE,
-  ]);
-  $social_care_menu_item->save();
 }
