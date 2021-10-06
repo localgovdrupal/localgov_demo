@@ -22,10 +22,19 @@ function localgov_demo_install() {
   $system_site->set('page.front', '/localgov-drupal-demo');
   $system_site->save();
 
-  // Remove services block from home page.
-  $services_home_block = \Drupal::configFactory()->getEditable('block.block.views_block__services_block_service_list');
-  $services_home_block->set('region', 'disabled');
-  $services_home_block->save();
+  // Disable unwanted blocks from localgov_base and localgov_scarfolk.
+  $blocks_to_disable = [
+    'block.block.views_block__services_block_service_list_base',
+    'block.block.views_block__services_block_service_list_scarfolk',
+    'block.block.localgov_home_welcome_block_base',
+    'block.block.localgov_home_welcome_block_scarfolk',
+  ];
+  foreach ($blocks_to_disable as $block_id) {
+    // Load block and set disabled.
+    $services_home_block = \Drupal::configFactory()->getEditable($block_id);
+    $services_home_block->set('region', 'disabled');
+    $services_home_block->save();
+  }
 
   // Set weight of localgov_alert_banner block to float up above the banner.
   $alert_banner_block = \Drupal::configFactory()->getEditable('block.block.localgov_alert_banner');
