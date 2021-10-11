@@ -930,6 +930,14 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 15
+          revision_translation_affected:
+            -
+              value: true
+          localgov_link:
+            -
+              uri: 'internal:/news'
+              title: Newsroom
+              options: {  }
           localgov_summary:
             -
               value: 'A newsroom is the index page for all your news articles, with up to three “featured” News Articles listed at the top of the page.'
