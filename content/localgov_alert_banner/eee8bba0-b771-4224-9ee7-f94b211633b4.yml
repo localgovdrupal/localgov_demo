@@ -10,7 +10,7 @@ default:
       target_id: 1
   status:
     -
-      value: true
+      value: false
   uid:
     -
       target_id: 1
@@ -31,7 +31,7 @@ default:
       value: true
   token:
     -
-      value: alert-3--d9430e9c04abe2b10b6d89f866cda0b9493128a2
+      value: alert-6--b88a0b0669d380ac8e9585ad4f4447428acf4494
   short_description:
     -
       value: "<p>Thou know'st 'tis common; all that lives must die,<br />\r\nPassing through nature to eternity.</p>\r\n"
@@ -39,3 +39,9 @@ default:
   type_of_alert:
     -
       value: 90--notable-person
+  visibility:
+    -
+      conditions:
+        request_path:
+          pages: /births-deaths-marriages-and-citizenship
+          negate: '0'

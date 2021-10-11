@@ -5,7 +5,7 @@ _meta:
   bundle: localgov_subsites_page
   default_langcode: en
   depends:
-    7b913fee-9b49-452b-930c-33e10ef608ac: media
+    06ef19ba-88f9-4ef4-b3f4-65873933bf01: media
     99068425-f184-46ac-a121-624e51d7565b: node
 default:
   revision_uid:
@@ -19,7 +19,7 @@ default:
       target_id: 1
   title:
     -
-      value: 'Choosing a memorial'
+      value: 'Types of fostering'
   created:
     -
       value: 1620141494
@@ -37,7 +37,7 @@ default:
       value: published
   path:
     -
-      alias: /bereavement-services/choosing-memorial
+      alias: /fostering/types-fostering
       langcode: en
       pathauto: 1
   localgov_subsites_banner:
@@ -59,9 +59,12 @@ default:
           behavior_settings:
             -
               value: {  }
+          revision_translation_affected:
+            -
+              value: true
           localgov_image:
             -
-              entity: 7b913fee-9b49-452b-930c-33e10ef608ac
+              entity: 06ef19ba-88f9-4ef4-b3f4-65873933bf01
   localgov_subsites_content:
     -
       entity:
@@ -111,9 +114,12 @@ default:
                   layout: ''
                   config: {  }
                   parent_delta: 0
+          revision_translation_affected:
+            -
+              value: true
           localgov_text:
             -
-              value: "<h3>Crematorium memorial options</h3>\r\n\r\n<p>You can choose from a range different memorials – for example:</p>\r\n\r\n<ul>\r\n\t<li>a book of remembrance</li>\r\n\t<li>a wooden bench</li>\r\n\t<li>memorials tree and shrubs</li>\r\n\t<li>Yorkstone paving</li>\r\n</ul>\r\n\r\n<p>For more information on these memorials and other options, visit&nbsp;our&nbsp;<a href=\"/\">guide for&nbsp;brochures and pricing.</a></p>\r\n\r\n<h3>&nbsp;</h3>\r\n"
+              value: "<p>During the assessment process, we'll talk with you to understand what type of care you are interested in providing.</p>\r\n\r\n<p>Once you're assessed, we'll try and arrange fostering placements that match your interest.</p>\r\n"
               format: wysiwyg
     -
       entity:
@@ -169,14 +175,14 @@ default:
                       value: true
                   localgov_body_text:
                     -
-                      value: "<p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>\r\n\r\n<p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit.</p>\r\n"
+                      value: "<p>Short-term care involves caring for up to three children or young people for a specified period of time while a decision is made about their future.</p>\r\n\r\n<p>These placements provide opportunities for assessment and often high levels of contact with birth families. Carers will often be involved in working with children, young people and birth families to support a return home. Sometimes, a return home may not be possible. So, support preparing for a move to an adoptive or permanent family placement is needed.</p>\r\n"
                       format: wysiwyg
                   localgov_heading_level:
                     -
                       value: h3
                   localgov_title:
                     -
-                      value: 'This is accordion which would contain some more details'
+                      value: 'Short-term foster care'
             -
               entity:
                 _meta:
@@ -200,14 +206,45 @@ default:
                       value: true
                   localgov_body_text:
                     -
-                      value: "<p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>\r\n\r\n<p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit.</p>\r\n"
+                      value: "<p>Children and young people who are placed in long-term or permanent care will often have significant contact with their birth families, but are not able to live at home. These placements are arranged in a planned way and mean that the child or young person will remain in foster care until they are ready for independence or they reach adulthood. Such placements will often provide a lifelong relationship for all concerned.</p>\r\n"
                       format: wysiwyg
                   localgov_heading_level:
                     -
                       value: h3
                   localgov_title:
                     -
-                      value: 'This is another accordion which would contain some more details'
+                      value: 'Long-term foster care'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d7cd30bb-cd85-427e-a739-4777bf81af7b
+                  bundle: localgov_accordion_pane
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1631787793
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  localgov_body_text:
+                    -
+                      value: "<p>This type of foster care placement involves offering a safe, stable and loving home to a child or young person from another country. Many have been separated from their families, either in their homeland or during transit to this country, so are often very distressed and frightened as a result.</p>\r\n\r\n<p>As a foster carer specialising in asylum-seeking fostering, you can help and teach these children the skills that they need to successfully build a new life and ways to overcome their traumatic past.</p>\r\n\r\n<p>We try to place children and young people with families where some of the culture or language of the child may be known about. However, this is not always possible, and we therefore want foster carers who are resourceful and will be able to facilitate the young person to maintain their culture. Special training and support is provided.</p>\r\n"
+                      format: wysiwyg
+                  localgov_heading_level:
+                    -
+                      value: h3
+                  localgov_title:
+                    -
+                      value: 'Unaccompanied asylum-seeking children'
           localgov_title:
             -
               value: 'This is a test accordion on a subsite page'
@@ -217,4 +254,4 @@ default:
       weight: 0
   localgov_subsites_summary:
     -
-      value: "We have a range of memorial options for your loved ones.\r\n\r\n"
+      value: 'Children and young people come into our care for different reasons, so we offer a range of fostering placements to meet their needs.'

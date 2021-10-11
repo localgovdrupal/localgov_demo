@@ -6,7 +6,6 @@ _meta:
   default_langcode: en
   depends:
     3266e45f-1489-4b88-8d8a-98b25e0ed143: node
-    7c3be0a3-c5b6-4f24-8663-17356d86dd31: node
 default:
   revision_uid:
     -
@@ -70,8 +69,3 @@ default:
           revision_translation_affected:
             -
               value: true
-          topic_list_links:
-            -
-              target_uuid: 7c3be0a3-c5b6-4f24-8663-17356d86dd31
-              title: ''
-              options: {  }

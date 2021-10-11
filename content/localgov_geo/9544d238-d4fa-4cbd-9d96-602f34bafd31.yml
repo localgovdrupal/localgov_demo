@@ -14,6 +14,14 @@ default:
   created:
     -
       value: 1620227418
+  label:
+    -
+      value: |-
+        Second Floor, Seed Warehouse
+        The Wash
+        East Hertfordshire
+        SG14 1PT
+        United Kingdom
   revision_translation_affected:
     -
       value: true
@@ -38,8 +46,8 @@ default:
       dependent_locality: ''
       postal_code: 'SG14 1PT'
       sorting_code: ''
-      address_line1: 'The Wash'
-      address_line2: ''
+      address_line1: 'Second Floor, Seed Warehouse'
+      address_line2: 'The Wash'
       organization: ''
       given_name: ''
       additional_name: ''

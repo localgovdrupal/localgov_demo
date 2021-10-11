@@ -5,8 +5,12 @@ _meta:
   bundle: localgov_services_landing
   default_langcode: en
   depends:
-    5eb1f39a-1740-44c9-bc71-8f0ba897d761: user
     2b336282-d1d7-4c69-b2d6-65cbb2f363eb: node
+    7c3be0a3-c5b6-4f24-8663-17356d86dd31: node
+    4e6bd794-edfc-4c26-a0c2-c99fb3dd2afd: node
+    5f88c33c-6ffe-4afc-8a66-cd1651b212de: node
+    f444f463-1fa5-42a2-a809-74c99f28e8b1: node
+    21e3511f-a5d6-4d66-88a0-a1b6d8d87e7a: node
 default:
   revision_uid:
     -
@@ -16,7 +20,7 @@ default:
       value: true
   uid:
     -
-      entity: 5eb1f39a-1740-44c9-bc71-8f0ba897d761
+      target_id: 1
   title:
     -
       value: 'Libraries, leisure and culture'
@@ -48,3 +52,13 @@ default:
   localgov_destinations:
     -
       entity: 2b336282-d1d7-4c69-b2d6-65cbb2f363eb
+    -
+      entity: 7c3be0a3-c5b6-4f24-8663-17356d86dd31
+    -
+      entity: 4e6bd794-edfc-4c26-a0c2-c99fb3dd2afd
+    -
+      entity: 5f88c33c-6ffe-4afc-8a66-cd1651b212de
+    -
+      entity: f444f463-1fa5-42a2-a809-74c99f28e8b1
+    -
+      entity: 21e3511f-a5d6-4d66-88a0-a1b6d8d87e7a

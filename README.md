@@ -1,6 +1,6 @@
-# LocalGovDrupal demonstration module
+# LocalGov Drupal demonstration module
 
-Example content for demonstrating the LocalGovDrupal distribution and to help
+Example content for demonstrating the LocalGov Drupal distribution and to help
 with development.
 
 ## Updating and adding content

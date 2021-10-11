@@ -14,26 +14,33 @@ default:
   created:
     -
       value: 1620225887
+  label:
+    -
+      value: |-
+        Forest Road
+        London
+        E17 4JF
+        United Kingdom
   revision_translation_affected:
     -
       value: true
   location:
     -
-      value: 'POINT (-0.013526 51.591196)'
+      value: 'POINT (-0.013518 51.591023)'
       geo_type: Point
-      lat: 51.591196
-      lon: -0.013526
-      left: -0.013526
-      top: 51.591196
-      right: -0.013526
-      bottom: 51.591196
-      geohash: gcpvrxyhkzfr
-      latlon: '51.591196,-0.013526'
+      lat: 51.591023
+      lon: -0.013518
+      left: -0.013518
+      top: 51.591023
+      right: -0.013518
+      bottom: 51.591023
+      geohash: gcpvrxy5mp8p
+      latlon: '51.591023,-0.013518'
   postal_address:
     -
       langcode: ''
       country_code: GB
-      administrative_area: ''
+      administrative_area: England
       locality: London
       dependent_locality: ''
       postal_code: 'E17 4JF'

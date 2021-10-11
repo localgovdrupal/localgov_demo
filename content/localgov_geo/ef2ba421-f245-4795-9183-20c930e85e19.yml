@@ -14,31 +14,38 @@ default:
   created:
     -
       value: 1620222926
+  label:
+    -
+      value: |-
+        Park End Street
+        Oxford
+        OX1 1JD
+        United Kingdom
   revision_translation_affected:
     -
       value: true
   location:
     -
-      value: 'POINT (-1.268295 51.752476)'
+      value: 'POINT (-1.266744 51.752704)'
       geo_type: Point
-      lat: 51.752476
-      lon: -1.268295
-      left: -1.268295
-      top: 51.752476
-      right: -1.268295
-      bottom: 51.752476
-      geohash: gcpn7jk2n8f8
-      latlon: '51.752476,-1.268295'
+      lat: 51.752704
+      lon: -1.266744
+      left: -1.266744
+      top: 51.752704
+      right: -1.266744
+      bottom: 51.752704
+      geohash: gcpn7jm96er0
+      latlon: '51.752704,-1.266744'
   postal_address:
     -
       langcode: ''
       country_code: GB
-      administrative_area: ''
+      administrative_area: England
       locality: Oxford
       dependent_locality: ''
-      postal_code: 'OX1 1PP'
+      postal_code: 'OX1 1JD'
       sorting_code: ''
-      address_line1: 'Becket Street'
+      address_line1: 'Park End Street'
       address_line2: ''
       organization: ''
       given_name: ''

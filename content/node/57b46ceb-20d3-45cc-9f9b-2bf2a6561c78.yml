@@ -6,10 +6,6 @@ _meta:
   default_langcode: en
   depends:
     c1d9f01d-c368-4db3-a4ec-c882d217781b: node
-    ce3110d2-90f6-45dc-b202-ad8f3df9e5a2: node
-    a9c79fda-ad57-4e77-b95a-dd40f6ea9f23: node
-    8d774d57-90ee-44bf-82d0-1f468010bbf0: node
-    1633301d-071e-4ef3-83ac-2c01bf18f530: node
 default:
   revision_uid:
     -
@@ -73,20 +69,3 @@ default:
           revision_translation_affected:
             -
               value: true
-          topic_list_links:
-            -
-              target_uuid: ce3110d2-90f6-45dc-b202-ad8f3df9e5a2
-              title: ''
-              options: {  }
-            -
-              target_uuid: a9c79fda-ad57-4e77-b95a-dd40f6ea9f23
-              title: ''
-              options: {  }
-            -
-              target_uuid: 8d774d57-90ee-44bf-82d0-1f468010bbf0
-              title: ''
-              options: {  }
-            -
-              target_uuid: 1633301d-071e-4ef3-83ac-2c01bf18f530
-              title: ''
-              options: {  }
