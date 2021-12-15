@@ -40,7 +40,8 @@ class ContentTest extends BrowserTestBase {
     $this->assertSession()->elementTextContains('css', 'header h1', 'Adult health and social care');
     $this->assertSession()->elementTextContains('css', 'header p', 'Advice and support for adult health and social care');
     $this->assertSession()->elementTextContains('css', '.block-localgov-service-cta-block nav', 'Find out about meals on wheels');
-    $this->assertSession()->elementTextContains('css', '.block-localgov-service-cta-block nav', 'Request help for an adult');
+    $this->assertSession()->elementTextContains('css', '.block-localgov-service-cta-block nav', 'Step by step page');
+    $this->assertSession()->elementTextContains('css', '.block-localgov-service-cta-block nav', 'Find out about occupational therapy');
     $this->assertSession()->elementTextContains('css', 'main .servicehub--more h3', 'Support in your home');
     $this->assertSession()->elementTextContains('css', 'main .servicehub--more p', 'Support and equipment to help you live independently and safely.');
     $this->assertSession()->elementTextContains('css', 'main .servicehub--status h3', 'Service updates');
