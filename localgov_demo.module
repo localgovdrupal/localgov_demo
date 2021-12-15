@@ -41,7 +41,7 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
     $entity_repo = \Drupal::service('entity.repository');
 
     // Iterate over all default node content.
-    $dir = drupal_get_path('module', 'localgov_demo') . "/content/node";
+    $dir = \Drupal::service('extension.list.module')->getPath('localgov_demo') . "/content/node";
     foreach (glob($dir . "/*.yml") as $filename) {
 
       // Load serialized content.
