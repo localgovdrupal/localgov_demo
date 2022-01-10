@@ -39,7 +39,7 @@ default:
       pathauto: 1
   body:
     -
-      value: "<p>hello</p>\r\n"
+      value: ""
       format: wysiwyg
       summary: 'The United Kingdom has fourteen national parks that are visited by estimated 110 million people each year.'
   localgov_directory_channel_types:
