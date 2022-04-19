@@ -59,7 +59,10 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
         if ($field_name == 'localgov_newsroom') {
           // Load the (hopefully only) newsroom and set the news_articles to
           // reference that newsroom, so that they all show on /news.
-          $newsroom_nids = \Drupal::entityQuery('node')->condition('type', 'localgov_newsroom')->execute();
+          $newsroom_nids = \Drupal::entityQuery('node')
+            ->condition('type', 'localgov_newsroom')
+            ->accessCheck(FALSE)
+            ->execute();
           $newsroom_nodes = Node::loadMultiple($newsroom_nids);
           $newsroom_node_ids = array_keys($newsroom_nodes);
           $current_node->set('localgov_newsroom', ['target_id' => $newsroom_node_ids[0]]);
@@ -150,8 +153,14 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
 
     // Regenerate all path aliases.
     // This needs to happen after entity reference fixes.
-    $nids = \Drupal::entityTypeManager()->getStorage('node')->getQuery()->execute();
-    $nodes = \Drupal::entityTypeManager()->getStorage('node')->loadMultiple($nids);
+    $nids = \Drupal::entityTypeManager()
+      ->getStorage('node')
+      ->getQuery()
+      ->accessCheck(FALSE)
+      ->execute();
+    $nodes = \Drupal::entityTypeManager()
+      ->getStorage('node')
+      ->loadMultiple($nids);
     foreach ($nodes as $node) {
       \Drupal::service('pathauto.generator')->updateEntityAlias($node, 'update');
     }
