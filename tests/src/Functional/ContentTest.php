@@ -94,8 +94,8 @@ class ContentTest extends BrowserTestBase {
     $this->assertSession()->elementTextContains('css', '.lgd-prev-next a', 'Next');
 
     // // Test Guide page: Apply for a blue badge.
-    // $this->drupalGet('/adult-health-and-social-care/travel-passes-and-support/blue-badges/apply-blue-badge');
-    $this->clicklink('Apply for a Blue Badge');
+    $this->drupalGet('/adult-health-and-social-care/travel-passes-and-support/blue-badges/apply-blue-badge');
+    // $this->clicklink('Apply for a Blue Badge');
     $this->assertSession()->elementTextContains('css', '.lgd-page-title-block h1', 'Blue Badges');
     $this->assertSession()->elementTextContains('css', '.lgd-guide-nav', 'About Blue Badges');
     $this->assertSession()->elementTextContains('css', '.lgd-guide-nav', 'Blue Badges for organisations');
