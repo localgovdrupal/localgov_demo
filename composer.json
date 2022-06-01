@@ -7,6 +7,6 @@
     "minimum-stability": "dev",
     "require": {
         "drupal/default_content": "^2.0@alpha",
-        "localgovdrupal/localgov_geo": "dev-feature/24-leaflet-2 as 1.1.4"
+        "drupal/leaflet": "2.2.1 as 2.1.7"
    }
 }
