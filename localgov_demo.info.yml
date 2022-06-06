@@ -6,24 +6,25 @@ package: LocalGov Drupal
 
 dependencies:
   - default_content:default_content
-  - localgov_subsites:localgov_subsites
+  - localgov_alert_banner:localgov_alert_banner
   - localgov_core:localgov_media
+  - localgov_directories:localgov_directories
+  - localgov_directories:localgov_directories_location
+  - localgov_directories:localgov_directories_page
+  - localgov_directories:localgov_directories_venue
+  - localgov_events:localgov_events
+  - localgov_geo:localgov_geo_area
   - localgov_guides:localgov_guides
+  - localgov_news:localgov_news
+  - localgov_search:localgov_search
   - localgov_services:localgov_services_landing
   - localgov_services:localgov_services_page
   - localgov_services:localgov_services_status
   - localgov_services:localgov_services_sublanding
   - localgov_step_by_step:localgov_step_by_step
   - localgov_subsites:localgov_subsites
-  - localgov_alert_banner:localgov_alert_banner
-  - localgov_directories:localgov_directories
-  - localgov_directories:localgov_directories_location
-  - localgov_directories:localgov_directories_page
-  - localgov_directories:localgov_directories_venue
-  - localgov_events:localgov_events
-  - localgov_search:localgov_search
-  - localgov_news:localgov_news
-  - localgov_geo:localgov_geo_area
+  - localgov_workflows:localgov_workflows
+  - localgov_workflows:localgov_review_date
 
 default_content:
   localgov_alert_banner:
