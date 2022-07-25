@@ -9,6 +9,7 @@ dependencies:
   - localgov_alert_banner:localgov_alert_banner
   - localgov_core:localgov_media
   - localgov_directories:localgov_directories
+  - localgov_directories:localgov_directories_db
   - localgov_directories:localgov_directories_location
   - localgov_directories:localgov_directories_page
   - localgov_directories:localgov_directories_venue
@@ -17,6 +18,7 @@ dependencies:
   - localgov_guides:localgov_guides
   - localgov_news:localgov_news
   - localgov_search:localgov_search
+  - localgov_search:localgov_search_db
   - localgov_services:localgov_services_landing
   - localgov_services:localgov_services_page
   - localgov_services:localgov_services_status
