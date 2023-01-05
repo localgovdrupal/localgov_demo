@@ -8,15 +8,15 @@
     "require": {
         "drupal/default_content": "^2.0@alpha",
         "localgovdrupal/localgov_alert_banner": "^1.2.0",
-        "localgovdrupal/localgov_core": "^2.1.0",
-        "localgovdrupal/localgov_directories": "^2.3.0",
-        "localgovdrupal/localgov_events": "^2.0.0",
-        "localgovdrupal/localgov_guides": "^2.0.0",
-        "localgovdrupal/localgov_news": "^2.0.0",
-        "localgovdrupal/localgov_search": "^1.1.0",
-        "localgovdrupal/localgov_services": "^2.0.0",
-        "localgovdrupal/localgov_step_by_step": "^2.0.0",
-        "localgovdrupal/localgov_subsites": "^2.0.0",
-        "localgovdrupal/localgov_workflows": "^1.0.0"
+        "localgovdrupal/localgov_core": "dev-feature/drupal-10 as 2.2.0",
+        "localgovdrupal/localgov_directories": "dev-feature/drupal-10 as 2.4.0",
+        "localgovdrupal/localgov_events": "dev-feature/drupal-10 as 2.1.0",
+        "localgovdrupal/localgov_guides": "dev-feature/drupal-10 as 2.1.0",
+        "localgovdrupal/localgov_news": "dev-feature/drupal-10 as 2.3.0",
+        "localgovdrupal/localgov_search": "dev-feature/drupal-10 as 1.2.0",
+        "localgovdrupal/localgov_services": "dev-feature/drupal-10 as 2.1.0",
+        "localgovdrupal/localgov_step_by_step": "dev-feature/drupal-10 as 2.1.0",
+        "localgovdrupal/localgov_subsites": "dev-feature/drupal-10 as 2.3.0",
+        "localgovdrupal/localgov_workflows": "dev-feature/drupal-10 as 1.2.0"
    }
 }
