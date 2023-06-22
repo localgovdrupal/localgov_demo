@@ -7,14 +7,14 @@
     "minimum-stability": "dev",
     "require": {
         "drupal/default_content": "^2.0@alpha",
-        "localgovdrupal/localgov_alert_banner": "^1.2.0",
+        "localgovdrupal/localgov_alert_banner": "^1.2",
         "localgovdrupal/localgov_core": "^2.12",
         "localgovdrupal/localgov_directories": "3.x-dev",
         "localgovdrupal/localgov_events": "dev-feature/drupal-10 as 2.1.0",
         "localgovdrupal/localgov_guides": "dev-feature/drupal-10 as 2.1.0",
         "localgovdrupal/localgov_news": "dev-feature/drupal-10 as 2.3.0",
-        "localgovdrupal/localgov_search": "dev-feature/drupal-10 as 1.2.0",
-        "localgovdrupal/localgov_services": "^2.1.0",
+        "localgovdrupal/localgov_search": "^1.2",
+        "localgovdrupal/localgov_services": "^2.1",
         "localgovdrupal/localgov_step_by_step": "dev-feature/drupal-10 as 2.1.0",
         "localgovdrupal/localgov_subsites": "dev-feature/drupal-10 as 2.3.0",
         "localgovdrupal/localgov_workflows": "dev-feature/drupal-10 as 1.2.0"
