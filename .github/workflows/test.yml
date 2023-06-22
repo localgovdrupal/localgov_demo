@@ -86,13 +86,10 @@ jobs:
 
       - name: REMOVE BEFORE MERGING - Require aliased dependencies
         run: |
-          composer --working-dir=./html require localgovdrupal/localgov_core:"dev-feature/drupal-10 as 2.2.0"
-          composer --working-dir=./html require localgovdrupal/localgov_directories:"dev-feature/drupal-10 as 2.4.0"
           composer --working-dir=./html require localgovdrupal/localgov_events:"dev-feature/drupal-10 as 2.1.0"
           composer --working-dir=./html require localgovdrupal/localgov_guides:"dev-feature/drupal-10 as 2.1.0"
           composer --working-dir=./html require localgovdrupal/localgov_news:"dev-feature/drupal-10 as 2.3.0"
           composer --working-dir=./html require localgovdrupal/localgov_search:"dev-feature/drupal-10 as 1.2.0"
-          composer --working-dir=./html require localgovdrupal/localgov_services:"dev-feature/drupal-10 as 2.1.0"
           composer --working-dir=./html require localgovdrupal/localgov_step_by_step:"dev-feature/drupal-10 as 2.1.0"
           composer --working-dir=./html require localgovdrupal/localgov_subsites:"dev-feature/drupal-10 as 2.3.0"
           composer --working-dir=./html require localgovdrupal/localgov_workflows:"dev-feature/drupal-10 as 1.2.0"
