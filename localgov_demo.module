@@ -6,8 +6,8 @@
  */
 
 use Drupal\Core\Serialization\Yaml;
-use Drupal\node\Entity\Node;
 use Drupal\menu_link_content\Entity\MenuLinkContent;
+use Drupal\node\Entity\Node;
 
 /**
  * Implements hook_modules_installed().
@@ -23,7 +23,9 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
   ) {
 
     // Set all alert banners to be live by default.
-    $alert_banner_ids = \Drupal::entityQuery('localgov_alert_banner')->execute();
+    $alert_banner_ids = \Drupal::entityQuery('localgov_alert_banner')
+      ->accessCheck(FALSE)
+      ->execute();
     $alert_banner_entities = \Drupal::entityTypeManager()->getStorage('localgov_alert_banner')->loadMultiple($alert_banner_ids);
 
     foreach ($alert_banner_entities as $alert_banner) {
