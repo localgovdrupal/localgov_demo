@@ -3,6 +3,14 @@
 Example content for demonstrating the LocalGov Drupal distribution and to help
 with development.
 
+Enabling this module through the admin interface is not supported. Attempting to enable this module through the admin interface will likely fail as it exceeds PHP execution limits.
+
+Instead, install the module from the terminal using
+
+```bash
+drush en localgov_demo
+```
+
 ## Updating and adding content
 
 To update default content already included in the module simply run:
