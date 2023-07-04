@@ -11,6 +11,20 @@ Instead, install the module from the terminal using
 drush en localgov_demo
 ```
 
+If you're using Lando or ddev, you'll need to add the relevant command before this.
+
+So, for Lando, run:
+
+```bash
+lando drush en localgov_demo
+```
+
+Or, for ddev, run:
+
+```bash
+ddev drush en localgov_demo
+```
+
 ## Updating and adding content
 
 To update default content already included in the module simply run:
