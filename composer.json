@@ -9,7 +9,7 @@
         "drupal/default_content": "^2.0@alpha",
         "localgovdrupal/localgov_alert_banner": "^1.2",
         "localgovdrupal/localgov_core": "^2.12",
-        "localgovdrupal/localgov_directories": "3.x-dev",
+        "localgovdrupal/localgov_directories": "dev-feature/3.x/geo_entity",
         "localgovdrupal/localgov_events": "3.x-dev",
         "localgovdrupal/localgov_guides": "^2.1",
         "localgovdrupal/localgov_news": "^2.3",
