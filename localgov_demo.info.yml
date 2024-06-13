@@ -17,6 +17,7 @@ dependencies:
   - localgov_geo:localgov_geo_area
   - localgov_guides:localgov_guides
   - localgov_news:localgov_news
+  - localgov_publications:localgov_publications
   - localgov_search:localgov_search
   - localgov_search:localgov_search_db
   - localgov_services:localgov_services_landing
