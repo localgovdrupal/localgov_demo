@@ -14,6 +14,7 @@
         "localgovdrupal/localgov_events": "^3.0@alpha",
         "localgovdrupal/localgov_guides": "^2.1",
         "localgovdrupal/localgov_news": "^2.3",
+        "localgovdrupal/localgov_publications": "^1.0",
         "localgovdrupal/localgov_search": "^1.2",
         "localgovdrupal/localgov_services": "^2.1",
         "localgovdrupal/localgov_step_by_step": "^2.1",
