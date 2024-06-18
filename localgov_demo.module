@@ -18,8 +18,8 @@ use Drupal\node\Entity\Node;
  */
 function localgov_demo_modules_installed($modules, $is_syncing) {
   if (!$is_syncing &&
-    in_array('default_content', $modules) &&
-    in_array('localgov_demo', $modules)
+    in_array('default_content', $modules, TRUE) &&
+    in_array('localgov_demo', $modules, TRUE)
   ) {
 
     // Set all alert banners to be live by default.
@@ -72,7 +72,7 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
         }
 
         // Update entity reference fields.
-        if (in_array($field_name, $fix_fields)) {
+        if (in_array($field_name, $fix_fields, TRUE)) {
           // Grab the uuid of the target node.
           $uuid_target_node = $field[0]['entity'];
           if ($uuid_target_node && $parent = $entity_repo->loadEntityByUuid('node', $uuid_target_node)) {
