@@ -5,7 +5,7 @@
  * LocalGovDrupal demo module file.
  */
 
-use Drupal\Core\Serialization\Yaml;
+use Drupal\Component\Serialization\Yaml;
 use Drupal\menu_link_content\Entity\MenuLinkContent;
 use Drupal\node\Entity\Node;
 
@@ -151,6 +151,35 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
         'expanded' => FALSE,
       ]);
       $menu_item->save();
+    }
+
+    // Set up book for publication content.
+    $book_uuid = 'e109e380-3add-4b10-a387-f07a9baee45a';
+    $book_page_uuids = [
+      '453e22f7-2d21-4c92-a5aa-5208797d1265',
+      'cc248467-dc96-4296-a25f-a7861dfef450',
+      '2497eb15-c91a-4110-bf58-8adc410492ce',
+      '210e655a-5798-4de3-8e2c-ac89fadb6910',
+    ];
+    $book_node = $entity_repo->loadEntityByUuid('node', $book_uuid);
+    $book_node->book = [
+      'bid' => $book_node->id(),
+      'pid' => 0,
+      'has_children' => 1,
+      'weight' => 0,
+      'depth' => 1,
+    ];
+    $book_node->save();
+    foreach ($book_page_uuids as $i => $page_uuid) {
+      $page_node = $entity_repo->loadEntityByUuid('node', $page_uuid);
+      $page_node->book = [
+        'bid' => $book_node->id(),
+        'pid' => $book_node->id(),
+        'has_children' => 0,
+        'weight' => $i,
+        'depth' => 2,
+      ];
+      $page_node->save();
     }
 
     // Regenerate all path aliases.
