@@ -1,29 +1,33 @@
 name: LocalGov Demo Content
 description: Example content for demonstrating the LocalGov Drupal distribution and to help with development.
-core_version_requirement: ^8.9 || ^9
+core_version_requirement: ^9 || ^10
 type: module
 package: LocalGov Drupal
 
 dependencies:
   - default_content:default_content
-  - localgov_subsites:localgov_subsites
+  - localgov_alert_banner:localgov_alert_banner
   - localgov_core:localgov_media
+  - localgov_directories:localgov_directories
+  - localgov_directories:localgov_directories_db
+  - localgov_directories:localgov_directories_location
+  - localgov_directories:localgov_directories_page
+  - localgov_directories:localgov_directories_venue
+  - localgov_events:localgov_events
+  - localgov_geo:localgov_geo_area
   - localgov_guides:localgov_guides
+  - localgov_news:localgov_news
+  - localgov_publications:localgov_publications
+  - localgov_search:localgov_search
+  - localgov_search:localgov_search_db
   - localgov_services:localgov_services_landing
   - localgov_services:localgov_services_page
   - localgov_services:localgov_services_status
   - localgov_services:localgov_services_sublanding
   - localgov_step_by_step:localgov_step_by_step
   - localgov_subsites:localgov_subsites
-  - localgov_alert_banner:localgov_alert_banner
-  - localgov_directories:localgov_directories
-  - localgov_directories:localgov_directories_location
-  - localgov_directories:localgov_directories_page
-  - localgov_directories:localgov_directories_venue
-  - localgov_events:localgov_events
-  - localgov_search:localgov_search
-  - localgov_news:localgov_news
-  - localgov_geo:localgov_geo_area
+  - localgov_workflows:localgov_workflows
+  - localgov_workflows:localgov_review_date
 
 default_content:
   localgov_alert_banner:
@@ -41,7 +45,7 @@ default_content:
     - 64a4909c-c6bf-483b-99dd-5b0ad4ce90b0
     - 9fd42e4a-aa83-4c9a-9999-1b5bfa96a003
     - c0676f68-b06d-4674-89be-09bc1de1fdf5
-  localgov_geo:
+  geo_entity:
     - 61a2c681-f994-4108-9c6c-f525cd67774a
     - 62e5b97f-277e-4032-8c43-1af65d021638
     - 6c093157-8509-4046-869e-4c95eee26d8e
@@ -58,6 +62,8 @@ default_content:
     - e19f2979-22ab-4a77-8d6c-0a2d7f92651c
     - ef2ba421-f245-4795-9183-20c930e85e19
     - feb145a5-a0c0-4396-9b8c-6a1d7888f180
+  file:
+    - 41b8e667-57f6-46d4-b2a4-c4c1d2481bb8
   media:
     - 3af4f9c5-1600-430e-a163-fe458ef474e0
     - 7b913fee-9b49-452b-930c-33e10ef608ac
@@ -67,6 +73,7 @@ default_content:
     - a39ba204-ea13-4f42-b30d-8370278e40cf
     - a52491c7-ba55-46a3-aef5-4c25495b47de
     - b9f331dc-ad91-4adc-bd8c-5bc50ffdb28d
+    - cbc23e4d-2d63-46c8-bdaa-195ac1195b6a
     - cfd479d7-f736-4d08-a65a-c3a49b269e6a
     - d1aa7821-645a-4882-90a2-cd3ed84d4cfa
     - d2af8444-4898-4daf-9814-6dc0c16cfb26
@@ -82,7 +89,9 @@ default_content:
     - 1c9e5aaf-5ff8-4f96-9c6b-5d8626069a42
     - 1d918fcc-955d-4e43-b7fa-05e9493afd46
     - 1f0e941c-d025-4631-96fa-f1c4c7cd0617
+    - 210e655a-5798-4de3-8e2c-ac89fadb6910
     - 23deec1f-26e7-4fc1-b869-38b856ec4d48
+    - 2497eb15-c91a-4110-bf58-8adc410492ce
     - 25c7d988-00c8-403a-96f1-d31464a0c535
     - 269d654c-e247-41bc-bf04-66b6fba4b6af
     - 2b336282-d1d7-4c69-b2d6-65cbb2f363eb
@@ -97,6 +106,7 @@ default_content:
     - 3cea48b6-09ba-4609-b512-2f49853d0e6f
     - 43f80a47-8923-4b00-86a2-b1b8705fe7c6
     - 450e542f-21d7-43f6-a065-578b7a69b4d8
+    - 453e22f7-2d21-4c92-a5aa-5208797d1265
     - 4e6bd794-edfc-4c26-a0c2-c99fb3dd2afd
     - 54e383f8-8ae7-4bd2-bfeb-1c412fc6fb9b
     - 57297753-c989-4358-8133-d5a8ba197544
@@ -118,6 +128,7 @@ default_content:
     - 7acd885a-da61-438d-b60f-1028fab696a6
     - 7c3be0a3-c5b6-4f24-8663-17356d86dd31
     - 7ca88e56-8a8b-44ae-9fa0-f75df0533189
+    - 8201bccb-327d-41f7-a135-1e0064dba73f
     - 8257ecb5-cb03-4dc1-90bd-1606effee5ca
     - 83ca207c-2531-4fd2-a3d4-67f4b6c1a0e0
     - 853759e6-e674-47ee-ae6d-ae70621dee1b
@@ -153,12 +164,14 @@ default_content:
     - c45369ff-7dac-4324-bbe0-44b4341593e0
     - c640601c-541c-46a9-9790-cf088af93ce0
     - c89123ee-a53f-4470-a384-085c596e157b
+    - cc248467-dc96-4296-a25f-a7861dfef450
     - ce3110d2-90f6-45dc-b202-ad8f3df9e5a2
     - d0ae89f0-5d25-4f44-a60f-4c7ace53e003
     - d5eb90b9-1b16-4752-95e1-669e60a55b95
     - d77c62b5-80c9-401f-92aa-066bb535911f
     - d8fcd842-1c45-48bd-a472-451d4d5ba60f
     - de0fe92e-107e-4db4-a041-b6d648ff642c
+    - e109e380-3add-4b10-a387-f07a9baee45a
     - e3aafe22-3b56-4bf9-afd8-3dda0ae16213
     - e5749f20-9623-42d9-a7d5-cb2e287aa6a5
     - e7734a03-c2d5-4fa3-92b8-a945b8388b38

@@ -5,9 +5,9 @@
  * LocalGovDrupal demo module file.
  */
 
-use Drupal\Core\Serialization\Yaml;
-use Drupal\node\Entity\Node;
+use Drupal\Component\Serialization\Yaml;
 use Drupal\menu_link_content\Entity\MenuLinkContent;
+use Drupal\node\Entity\Node;
 
 /**
  * Implements hook_modules_installed().
@@ -18,12 +18,14 @@ use Drupal\menu_link_content\Entity\MenuLinkContent;
  */
 function localgov_demo_modules_installed($modules, $is_syncing) {
   if (!$is_syncing &&
-    in_array('default_content', $modules) &&
-    in_array('localgov_demo', $modules)
+    in_array('default_content', $modules, TRUE) &&
+    in_array('localgov_demo', $modules, TRUE)
   ) {
 
     // Set all alert banners to be live by default.
-    $alert_banner_ids = \Drupal::entityQuery('localgov_alert_banner')->execute();
+    $alert_banner_ids = \Drupal::entityQuery('localgov_alert_banner')
+      ->accessCheck(FALSE)
+      ->execute();
     $alert_banner_entities = \Drupal::entityTypeManager()->getStorage('localgov_alert_banner')->loadMultiple($alert_banner_ids);
 
     foreach ($alert_banner_entities as $alert_banner) {
@@ -59,7 +61,10 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
         if ($field_name == 'localgov_newsroom') {
           // Load the (hopefully only) newsroom and set the news_articles to
           // reference that newsroom, so that they all show on /news.
-          $newsroom_nids = \Drupal::entityQuery('node')->condition('type', 'localgov_newsroom')->execute();
+          $newsroom_nids = \Drupal::entityQuery('node')
+            ->condition('type', 'localgov_newsroom')
+            ->accessCheck(FALSE)
+            ->execute();
           $newsroom_nodes = Node::loadMultiple($newsroom_nids);
           $newsroom_node_ids = array_keys($newsroom_nodes);
           $current_node->set('localgov_newsroom', ['target_id' => $newsroom_node_ids[0]]);
@@ -67,7 +72,7 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
         }
 
         // Update entity reference fields.
-        if (in_array($field_name, $fix_fields)) {
+        if (in_array($field_name, $fix_fields, TRUE)) {
           // Grab the uuid of the target node.
           $uuid_target_node = $field[0]['entity'];
           if ($uuid_target_node && $parent = $entity_repo->loadEntityByUuid('node', $uuid_target_node)) {
@@ -148,10 +153,45 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
       $menu_item->save();
     }
 
+    // Set up book for publication content.
+    $book_uuid = 'e109e380-3add-4b10-a387-f07a9baee45a';
+    $book_page_uuids = [
+      '453e22f7-2d21-4c92-a5aa-5208797d1265',
+      'cc248467-dc96-4296-a25f-a7861dfef450',
+      '2497eb15-c91a-4110-bf58-8adc410492ce',
+      '210e655a-5798-4de3-8e2c-ac89fadb6910',
+    ];
+    $book_node = $entity_repo->loadEntityByUuid('node', $book_uuid);
+    $book_node->book = [
+      'bid' => $book_node->id(),
+      'pid' => 0,
+      'has_children' => 1,
+      'weight' => 0,
+      'depth' => 1,
+    ];
+    $book_node->save();
+    foreach ($book_page_uuids as $i => $page_uuid) {
+      $page_node = $entity_repo->loadEntityByUuid('node', $page_uuid);
+      $page_node->book = [
+        'bid' => $book_node->id(),
+        'pid' => $book_node->id(),
+        'has_children' => 0,
+        'weight' => $i,
+        'depth' => 2,
+      ];
+      $page_node->save();
+    }
+
     // Regenerate all path aliases.
     // This needs to happen after entity reference fixes.
-    $nids = \Drupal::entityTypeManager()->getStorage('node')->getQuery()->execute();
-    $nodes = \Drupal::entityTypeManager()->getStorage('node')->loadMultiple($nids);
+    $nids = \Drupal::entityTypeManager()
+      ->getStorage('node')
+      ->getQuery()
+      ->accessCheck(FALSE)
+      ->execute();
+    $nodes = \Drupal::entityTypeManager()
+      ->getStorage('node')
+      ->loadMultiple($nids);
     foreach ($nodes as $node) {
       \Drupal::service('pathauto.generator')->updateEntityAlias($node, 'update');
     }

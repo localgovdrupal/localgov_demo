@@ -48,6 +48,9 @@ default:
   revision_translation_affected:
     -
       value: true
+  moderation_state:
+    -
+      value: published
   path:
     -
       alias: /localgov-drupal-demo
@@ -196,7 +199,7 @@ default:
                   parent_delta: 0
           localgov_link:
             -
-              uri: 'https://localgovdrupal.org/'
+              uri: 'https://docs.localgovdrupal.org/'
               title: 'Read the docs'
               options: {  }
           localgov_opens_in_a_new_window:
@@ -405,10 +408,11 @@ default:
             -
               value:
                 layout_paragraphs:
-                  region: ''
-                  parent_uuid: ''
+                  region: 'top'
+                  parent_uuid: e8192108-3bd2-4fec-951c-74d814e8779b
                   layout: ''
                   config: {  }
+                  parent_delta: 4
           localgov_heading_level:
             -
               value: h3
@@ -783,6 +787,35 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
+          uuid: ee68b6ac-d8d9-428e-a87c-a8591ec92749
+          bundle: localgov_link_and_summary
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1720786880
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 2717d62f-f001-46b7-a19f-3dc8799406fa
+                  region: first
+          localgov_link:
+            -
+              uri: 'internal:/publications/publications-cover-page-demo-content'
+              title: Publications
+              options: {  }
+          localgov_summary:
+            -
+              value: 'Publications are intended to support councils to publish publications in accessible HTML rather than in PDF files.'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
           uuid: 0083bee9-fe64-41a6-bb2c-7ce6d6be828a
           bundle: localgov_link_and_summary
           default_langcode: en
@@ -1027,7 +1060,7 @@ default:
               format: wysiwyg
           localgov_button:
             -
-              uri: 'https://localgovdrupal.org/'
+              uri: 'https://docs.localgovdrupal.org/'
               title: 'Go to the documentation (opens new tab)'
               options: {  }
           localgov_colour_theme:
