@@ -10,7 +10,10 @@ use Drupal\menu_link_content\Entity\MenuLinkContent;
 /**
  * Implements hook_install().
  */
-function localgov_demo_install() {
+function localgov_demo_install($is_syncing) {
+  if ($is_syncing) {
+    return;
+  }
 
   // Enable area geo bundle in directory venue content type..
   $localgov_directories_venue_config = \Drupal::service('config.factory')->getEditable('field.field.node.localgov_directories_venue.localgov_location');
