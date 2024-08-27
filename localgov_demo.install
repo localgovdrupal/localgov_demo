@@ -37,11 +37,6 @@ function localgov_demo_install() {
     $services_home_block->save();
   }
 
-  // Set weight of localgov_alert_banner block to float up above the banner.
-  $alert_banner_block = \Drupal::configFactory()->getEditable('block.block.localgov_alert_banner');
-  $alert_banner_block->set('weight', '-10');
-  $alert_banner_block->save();
-
   // Create a link to Docs.
   $news_menu_item = MenuLinkContent::create([
     'title' => 'Docs',
