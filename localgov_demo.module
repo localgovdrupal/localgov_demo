@@ -196,4 +196,11 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
       \Drupal::service('pathauto.generator')->updateEntityAlias($node, 'update');
     }
   }
+
+  if (!$is_syncing && in_array('localgov_workflows_notifications', $modules, TRUE)) {
+    // Disable LocalGov workflow notifications emails.
+    $config = \Drupal::configFactory()->getEditable('localgov_workflows_notifications.settings');
+    $config->set('email_enabled', FALSE);
+    $config->save();
+  }
 }

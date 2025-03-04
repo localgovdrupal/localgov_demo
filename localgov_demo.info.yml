@@ -26,8 +26,9 @@ dependencies:
   - localgov_services:localgov_services_sublanding
   - localgov_step_by_step:localgov_step_by_step
   - localgov_subsites:localgov_subsites
-  - localgov_workflows:localgov_workflows
   - localgov_workflows:localgov_review_date
+  - localgov_workflows:localgov_workflows
+  - localgov_workflows:localgov_workflows_notifications
 
 default_content:
   localgov_alert_banner:
