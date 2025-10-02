@@ -20,7 +20,7 @@ function localgov_demo_install($is_syncing) {
 
     // Set demo front page.
     $system_site = \Drupal::configFactory()->getEditable('system.site');
-    $system_site->set('page.front', '/node/97');
+    $system_site->set('page.front', '/localgov-drupal-demo');
     $system_site->save();
     drupal_flush_all_caches();
 
