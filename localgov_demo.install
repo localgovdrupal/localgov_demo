@@ -39,20 +39,38 @@ function localgov_demo_install($is_syncing) {
     }
   }
 
-  // Create a link to Docs.
-  $news_menu_item = MenuLinkContent::create([
-    'title' => 'Docs',
-    'link' => ['uri' => 'https://localgovdrupal.org/'],
-    'menu_name' => 'main',
-    'expanded' => FALSE,
-  ]);
-  $news_menu_item->save();
-  // Create a link to GitHub.
-  $events_menu_item = MenuLinkContent::create([
-    'title' => 'GitHub',
-    'link' => ['uri' => 'https://github.com/localgovdrupal/'],
-    'menu_name' => 'main',
-    'expanded' => FALSE,
-  ]);
-  $events_menu_item->save();
+  // Create main menu links.
+  $main_links = [
+    ['title' => 'News', 'uri' => 'internal:/news'],
+    ['title' => 'Events', 'uri' => 'internal:/events'],
+  ];
+
+  foreach ($main_links as $item) {
+    $menu_item = MenuLinkContent::create([
+      'title' => $item['title'],
+      'link' => ['uri' => $item['uri']],
+      'menu_name' => 'main',
+      'expanded' => FALSE,
+    ]);
+    $menu_item->save();
+  }
+
+  // Create footer menu links.
+  $footer_links = [
+    ['title' => 'Docs', 'uri' => 'https://localgovdrupal.org/', 'weight' => 1],
+    ['title' => 'GitHub', 'uri' => 'https://github.com/localgovdrupal/', 'weight' => 2],
+    ['title' => 'LinkedIn', 'uri' => 'https://www.linkedin.com/company/localgovdrupal/', 'weight' => 3],
+    ['title' => 'Bluesky', 'uri' => 'https://bsky.app/profile/localgovdrupal.bsky.social', 'weight' => 4],
+  ];
+
+  foreach ($footer_links as $item) {
+    $menu_item = MenuLinkContent::create([
+      'title' => $item['title'],
+      'link' => ['uri' => $item['uri']],
+      'menu_name' => 'footer',
+      'expanded' => FALSE,
+      'weight' => isset($item['weight']) ? (int) $item['weight'] : 0,
+    ]);
+    $menu_item->save();
+  }
 }
