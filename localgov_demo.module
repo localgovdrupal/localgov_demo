@@ -196,7 +196,6 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
       \Drupal::service('pathauto.generator')->updateEntityAlias($node, 'update');
     }
 
-
     // Set demo front page - runs after default content import.
     $system_site = \Drupal::configFactory()->getEditable('system.site');
     $home = \Drupal::entityTypeManager()->getStorage('node')->loadByProperties(['title' => 'Localgov Drupal Demo']);
