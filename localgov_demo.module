@@ -195,6 +195,16 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
     foreach ($nodes as $node) {
       \Drupal::service('pathauto.generator')->updateEntityAlias($node, 'update');
     }
+
+
+    // Set demo front page - runs after default content import.
+    $system_site = \Drupal::configFactory()->getEditable('system.site');
+    $home = \Drupal::entityTypeManager()->getStorage('node')->loadByProperties(['title' => 'Localgov Drupal Demo']);
+    if ($home) {
+      $home = reset($home);
+      $system_site->set('page.front', '/node/' . $home->id());
+      $system_site->save();
+    }
   }
 
   if (!$is_syncing && in_array('localgov_workflows_notifications', $modules, TRUE)) {
