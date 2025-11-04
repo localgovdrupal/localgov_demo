@@ -18,12 +18,6 @@ function localgov_demo_install($is_syncing) {
     $localgov_directories_venue_config->set('settings.handler_settings.target_bundles.area', 'area');
     $localgov_directories_venue_config->save();
 
-    // Set demo front page.
-    $system_site = \Drupal::configFactory()->getEditable('system.site');
-    $system_site->set('page.front', '/localgov-drupal-demo');
-    $system_site->save();
-    drupal_flush_all_caches();
-
     // Disable unwanted blocks from localgov_base and localgov_scarfolk.
     $blocks_to_disable = [
       'block.block.views_block__services_block_service_list_base',
