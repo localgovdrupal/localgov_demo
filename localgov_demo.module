@@ -147,7 +147,7 @@ function localgov_demo_modules_installed($modules, $is_syncing) {
       $menu_item = MenuLinkContent::create([
         'title' => $services_link['title'],
         'link' => ['uri' => 'internal:/node/' . $target_node->id()],
-        'menu_name' => 'localgov_services_menu',
+        'menu_name' => 'localgov-services-menu',
         'expanded' => FALSE,
       ]);
       $menu_item->save();
